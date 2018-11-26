@@ -26,24 +26,6 @@ function createSection(section) {
     $('#viewport').append(addSectionHTML(section));
 }
 
-function addSectionSM(section, controller, progress) {
-    //alert('hello!!! ' + section.pageId);
-
-    var sectionScrollMagic = new ScrollMagic.Scene({
-            triggerElement: '#' + section.pageId,
-        })
-        .addTo(controller)
-        //.addIndicators() // add indicators (requires plugin)
-        //.setPin('#' + section.pageId) //everything added to scene needs to go before
-        .on('update', function (event) {
-
-            $('.progress-bar').css('width', progress + '%')
-            console.log(event.target.controller().info("scrollPos"))
-        })
-    /////// if max = something (400px) - how to access max//////
-
-    sectionScrollMagic.update();
-}
 
 //notable figures html
 function loadHeadersHTML(notableFiguresParam) {

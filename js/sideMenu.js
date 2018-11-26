@@ -22,6 +22,7 @@ function aboutMerrionSection() {
         }
 
         setTimeout(function () {
+
             var controller = new ScrollMagic.Controller({
                 globalSceneOptions: {
                     triggerHook: 'onLeave',
@@ -34,12 +35,39 @@ function aboutMerrionSection() {
                 progress += progressAddition;
                 //console.log(addSectionSM(currentSection, controller, progress));
 
-                addSectionSM(currentSection, controller, progress)
+                addSectionSM(currentSection, controller, sections.length)
             }
         }, 500);
 
     })
 }
+
+function addSectionSM(section, controller, length) {
+    //alert('hello!!! ' + section.pageId);
+
+    var sectionScrollMagic = new ScrollMagic.Scene({
+            triggerElement: '#' + section.pageId,
+        })
+        .addTo(controller)
+        .addIndicators() // add indicators (requires plugin)
+        //.setPin('#' + section.pageId) //everything added to scene needs to go before
+        .on('update', function (event) {
+            var p = event.target.controller().info('scrollPos');
+            var size = event.target.controller().info('size');
+            var info = event.target.controller().info();
+
+            var total = (size * (length - 1));
+            var one = total / 100;
+            var current = (p / one).toFixed(0);
+
+            $('.progress-bar').css('width', current + '%')
+            //console.log(event.target.controller().info("scrollPos"))
+        })
+    /////// if max = something (400px) - how to access max//////
+
+    sectionScrollMagic.update();
+}
+
 
 function createAboutMerrionSection() {
     addToHistory(createAboutMerrionSection);
