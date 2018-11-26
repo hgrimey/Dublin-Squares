@@ -1,0 +1,228 @@
+body,
+html {
+    height: 100%
+}
+
+/*
+button.title-name {
+    color: whitesmoke;
+    font-family: sans-serif;
+    position: fixed;
+    padding-top: 6px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 30px;
+    margin: 10px;
+}
+*/
+
+#buttonGroup {
+    width: 100%;
+}
+
+button#name.title-name {
+    margin: 5px;
+    width: 18%;
+    background-color: lightgrey;
+    color: white;
+    padding: 10px;
+    float: left;
+}
+
+#buttonGroup:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*
+.title-name.two {
+    padding-left: 395px;
+}
+
+.title-name.three {
+    padding-left: 595px;
+}
+
+.title-name.four {
+    padding-left: 795px;
+}
+*/
+
+#notableFigureContainer {
+    width: 100%;
+    height: 100%;
+}
+
+#notableFigureToggle {
+    width: 100%;
+    height: 100%;
+}
+
+img.sticky {
+    position: -webkit-sticky;
+    /*safari*/
+    position: fixed;
+    /*sticky*/
+    top: 1;
+    float: left;
+    padding-left: 200px;
+    padding-top: 35px;
+    width: 500px;
+    height: 700px;
+}
+
+.image {
+    float: left;
+    padding-top: 28px;
+    padding-right: 500px;
+}
+
+.text {
+    float: right;
+    padding-left: 80px;
+    padding-right: 110px;
+    padding-top: 70px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+.p {
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.side-content {
+
+    position: fixed;
+}
+
+#menuwrapper ul,
+#menuwrapper ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height:
+}
+
+#sidemenu {
+    background: #719AA1;
+    float: left;
+    position: fixed;
+    width: 60px;
+    height: 100vh;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+#menuwrapper ul li {
+    background-color: #719AA1;
+    width: 60px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#menuwrapper ul li:hover {}
+
+#menuwrapper ul li a {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menuwrapper ul li a.tableBtn {
+    color: #719AA1;
+}
+
+
+#menuwrapper ul li a.selected {
+    color: #ddd;
+}
+
+#menuwrapper ul li a:hover {
+    color: #555555;
+    transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+}
+
+#menuwrapper ul li a:hover:after {
+    content: "  ";
+    display: inline-block;
+    border-bottom: 0.8em solid transparent;
+    border-left: 0.8em solid transparent;
+    border-right: 0.8em solid white;
+    border-top: 0.8em solid transparent;
+    height: 0px;
+    margin-top: -2px;
+    position: absolute;
+    left: 33px;
+    width: 1px;
+    transition: border-right 1s ease;
+    -o-transition: border-right 1s ease;
+    -webkit-transition: border-right 1s ease;
+    -moz-transition: border-right 1s ease;
+}
+
+#menuwrapper ul li a:hover:after {
+    border-right: none;
+}
+
+#menuwrapper ul li a.noflyout:hover:after {
+    border-right: 0.8em solid transparent;
+    transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+}
+
+#menuwrapper ul li ul {
+    position: absolute;
+    display: block;
+    visibility: hidden;
+    height: 100%;
+    background-color: transaprent;
+    width: 0px;
+    color: #fff;
+
+}
+
+#menuwrapper ul li ul li {
+    color: #fff;
+    background: transparent;
+    padding: 15px;
+}
+
+#menuwrapper ul li ul li button {
+    background-color: white;
+}
+
+#menuwrapper ul li:hover ul {
+    left: 60px;
+    top: 0px;
+    display: block;
+    visibility: visible;
+    width: 400px;
+    background-color: white;
+    transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+}

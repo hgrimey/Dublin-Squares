@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#splash.ui-page {
+    background-color: #719AA1;
+    color: white;
+}
+
+.ui-page {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#home.ui-page img {
+    background-size: 100%;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+.boxD {
+    animation-name: myDanimation;
+    animation-duration: 2.29s;
+    animation-delay: 0.31s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    background: #719AA1;
+    width: 50px;
+    height: 50px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    left: 42.5%;
+    margin-right: -58%;
+    transform: translate(-90%, -100%);
+}
+
+@keyframes myDanimation {
+    0% {
+        transform: translate(-90%, -100%);
+    }
+    100% {
+        transform: translate(-90%, 720%);
+    }
+}
+
+.box {
+    animation-name: myAnimation;
+    animation-duration: 2.4s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    background: white;
+    width: 264px;
+    height: 264px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -100%);
+
+}
+
+@keyframes myAnimation {
+    0% {
+        transform: translate(-50%, -100%);
+    }
+    100% {
+        transform: translate(-50%, 58%);
+    }
+}
+
+
+.text-animation {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.text-animation li {
+    display: inline-block;
+    margin-right: 5px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    opacity: 1;
+    transition: all 1.73s ease;
+}
+
+.text-animation li:last-child {
+    margin-right: 0;
+}
+
+.text-animation.hidden {
+    opacity: 1;
+}
+
+.text-animation.hidden li:nth-child(1) {
+    transform: translateX(-200px) translateY(-200px);
+}
+
+.text-animation.hidden li:nth-child(2) {
+    transform: translateX(20px) translateY(100px);
+}
+
+.text-animation.hidden li:nth-child(3) {
+    transform: translateX(-150px) translateY(80px);
+}
+
+.text-animation.hidden li:nth-child(4) {
+    transform: translateX(10px) translateY(-200px);
+}
+
+.text-animation.hidden li:nth-child(5) {
+    transform: translateX(-300px) translateY(200px);
+}
+
+.text-animation.hidden li:nth-child(6) {
+    transform: translateX(20px) translateY(-20px);
+}
+
+.text-animation.hidden li:nth-child(7) {
+    transform: translateX(30px) translateY(200px);
+}
+
+.text-animation.hidden li:nth-child(8) {
+    transform: translateX(-200px) translateY(-200px);
+}
+
+.text-animation.hidden li:nth-child(9) {
+    transform: translateX(20px) translateY(100px);
+}
+
+.text-animation.hidden li:nth-child(10) {
+    transform: translateX(-150px) translateY(-80px);
+}
+
+.text-animation.hidden li:nth-child(11) {
+    transform: translateX(10px) translateY(-300px);
+}
+
+.text-animation.hidden li:nth-child(12) {
+    transform: translateX(-200px) translateY(200px);
+}
+
+.text-animation.hidden li:nth-child(13) {
+    transform: translateX(-200px) translateY(-20px);
+}
+
+.text-animation.hidden li:nth-child(14) {
+    transform: translateX(-100px) translateY(-250px);
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 18%;
+    padding: 5px;
+    margin-left: 4.5px;
+    margin-bottom: 3px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 6px 8px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+.popover-content {
+    width: 100%;
+}
+
+.popover-content li {
+    overflow: hidden;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr,
+td {
+    height: 2px;
+}
+
+th,
+td {
+    padding: 0;
+    margin: 0;
+}
+
+th,
+td.active {
+    padding: 5px;
+    background-color: #ccc;
+}
+
+a.tableBtn {
+    height: 100%;
+}
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+#menuwrapper ul,
+#menuwrapper ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidemenu {
+    background: #719AA1;
+    float: left;
+    position: fixed;
+    width: 60px;
+    height: 100vh;
+}
+
+#menuwrapper ul li {
+    background-color: #719AA1;
+    width: 60px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#menuwrapper ul li:hover {}
+
+#menuwrapper ul li a {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menuwrapper ul li a.tableBtn {
+    color: #719AA1;
+}
+
+
+#menuwrapper ul li a.selected {
+    color: #ddd;
+}
+
+#menuwrapper ul li a:hover {
+    color: #555555;
+    transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+}
+
+#menuwrapper ul li a:hover:after {
+    content: "  ";
+    display: inline-block;
+    border-bottom: 0.8em solid transparent;
+    border-left: 0.8em solid transparent;
+    border-right: 0.8em solid white;
+    border-top: 0.8em solid transparent;
+    height: 0px;
+    margin-top: -2px;
+    position: absolute;
+    left: 33px;
+    width: 1px;
+    transition: border-right 1s ease;
+    -o-transition: border-right 1s ease;
+    -webkit-transition: border-right 1s ease;
+    -moz-transition: border-right 1s ease;
+}
+
+#menuwrapper ul li a:hover:after {
+    border-right: none;
+}
+
+#menuwrapper ul li a.noflyout:hover:after {
+    border-right: 0.8em solid transparent;
+    transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+}
+
+#menuwrapper ul li ul {
+    position: absolute;
+    display: block;
+    visibility: hidden;
+    height: 100%;
+    background-color: transaprent;
+    width: 0px;
+    color: #fff;
+
+}
+
+#menuwrapper ul li ul li {
+    color: #fff;
+    background: transparent;
+    padding: 15px;
+}
+
+#menuwrapper ul li ul li button {
+    background-color: white;
+}
+
+#menuwrapper ul li:hover ul {
+    left: 60px;
+    top: 0px;
+    display: block;
+    visibility: visible;
+    width: 400px;
+    background-color: white;
+    transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+}
+
+img.house9 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}

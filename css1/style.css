@@ -1,0 +1,233 @@
+body {
+    font: 14px/2 Georgia, serif;
+}
+
+#page-wrap {
+    max-width: 1500px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+ul#mySideNav {
+    background-color: aquamarine;
+    height: 100vh;
+    width: 3vw;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    line-height: 1.2;
+}
+
+p,
+ul,
+h1 {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 0 1rem 0;
+}
+
+.content-text {
+    padding-left: 25%;
+}
+
+smenu-links {
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    margin-left: .5%;
+    margin-right: 3%;
+    position: relative;
+    overflow-wrap: break-word;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.side-content {
+
+    position: fixed;
+}
+
+.side-content.scroll {
+    position: absolute;
+    top: auto !important;
+    bottom: 0;
+}
+
+.sidenav {
+    position: static;
+}
+
+.sidebar {
+    float: left;
+    height: 100%;
+    width: 60px;
+    background: #719AA1;
+    overflow: hidden;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    height: 200px;
+    width: 100%;
+    font-size: 40px;
+    padding-top: 50px;
+    line-height: 80px;
+    text-align: center;
+    display: block;
+}
+
+body {
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    background-color: black;
+    color: black;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
+
+.intro {
+    background: #999;
+    padding: 100px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.timeline {
+    float: left;
+    padding-left: 20%;
+    color: white;
+}
+
+.timeline ul {
+    background: #999;
+
+}
+
+.timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #999;
+}
+
+.timeline ul li::after {
+    content: "";
+    position: absolute;
+    left: -12px;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: inherit;
+}
+
+.timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background: #999;
+}
+
+.timeline ul li div::before {
+    content: "";
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+    left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #999 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+    left: 45px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #999 transparent transparent;
+}
+
+time {
+    display: block;
+    background-color: #999;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.timeline ul li::after {
+    transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+    background: #999;
+}
+
+
+
+.timeline ul li.in-view div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+    color: black;
+}
+
+@media screen and (max-width:900px) {
+    .timeline ul li div {
+        width: 250px;
+    }
+
+
+    @media screen and (max-width: 600px) {
+        .timeline ul li {
+            margin-left: 20px;
+        }
+        .timeline ul li div {
+            width: calc(100vw - 91px);
+        }
