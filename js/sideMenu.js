@@ -49,13 +49,13 @@ function createAboutMerrionSection() {
 function createMerrionHistorySection() {
     addToHistory(createMerrionHistorySection);
     $('#mapViewport').html(historyOfMerrionSection());
-    
+
     //
     //maybe set timeout?
-    //setTimeout( function() {
-      initComparisons();  
-    //},500);
-    
+    setTimeout(function () {
+        initComparisons();
+    }, 500);
+
 }
 
 function createMerrionArchitecturalFeaturesSection() {
@@ -84,7 +84,7 @@ function historyOfMerrionSection() {
     html += '<img src="img/test/img_forest.jpg" width="300" height="200">';
     html += '</div>';
     html += '</div>';
-    
+
     return html;
 }
 
