@@ -1,5 +1,5 @@
 function aboutMerrionSection() {
-    debugger;
+    //debugger;
     addToHistory(aboutMerrionSection);
     var viewport = '<div id="viewport"></div>';
     $('#mapViewport').html(viewport);
@@ -50,6 +50,13 @@ function createMerrionHistorySection() {
     addToHistory(createMerrionHistorySection);
 
     $('#mapViewport').html(historyOfMerrionSection());
+    
+    //
+    //maybe set timeout?
+    //setTimeout( function() {
+      initComparisons();  
+    //},500);
+    
 }
 
 function createMerrionArchitecturalFeaturesSection() {
@@ -70,8 +77,15 @@ function historyOfMerrionSection() {
     var html = '';
     // html += '<div id="history">';
     //html += '<div id="" class="" ><h3>MERRION SQUARE HISTORY</h3></div></div>';
-    html += '<div class="img-comp-container"><div class="img-comp-img"><img src="img/dublinArchival.jpg" width="300" height="200"></div>'
-    html += '<div class="img-comp-img img-comp-overlay"><img src="img/Dublin.png" width="300" height="200"></div></div>'
+    html += '<div class="img-comp-container">';
+    html += '<div class="img-comp-img">';
+    html += '<img src="img/test/img_snow.jpg" width="300" height="200">';
+    html += '</div>';
+    html += '<div class="img-comp-img img-comp-overlay">';
+    html += '<img src="img/test/img_forest.jpg" width="300" height="200">';
+    html += '</div>';
+    html += '</div>';
+    
     return html;
 }
 
