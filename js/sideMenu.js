@@ -48,7 +48,6 @@ function createAboutMerrionSection() {
 
 function createMerrionHistorySection() {
     addToHistory(createMerrionHistorySection);
-
     $('#mapViewport').html(historyOfMerrionSection());
 }
 
@@ -97,16 +96,7 @@ function loadArchitecturalFeaturesContainer(features) {
     html += '</div>'
     return html;
 }
-/*
-function loadMenuButtons(buttons, callback) {
-    var data = {
-        menuID: id
-    }
-    $.getJSON('http://localhost:8888/php1/sideMenu.php', data).then(function (buttons) {
-        callback(buttons);
-    })
-}
-*/
+
 function generateSideMenuHTML(buttonArray) {
     var html = '';
     html += '<div>'
@@ -186,13 +176,7 @@ function architecturalSection(id, callback) {
     });
 }
 
-function loadMenuButtons(callback) {
 
-    $.getJSON('http://localhost:8888/php1/housesInMenu.php', function (buttons) {
-        callback(buttons);
-        console.log(buttons);
-    })
-}
 
 function renderHouseMenuItem(menuItems) {
     var html = '';
@@ -208,6 +192,7 @@ function renderHouseMenuItem(menuItems) {
 }
 
 function loadMenu() {
+    console.log('menu buttons loaded');
     loadMenuButtons(function (buttons) {
         renderHouseMenuItem(buttons);
         console.log(renderHouseMenuItem(buttons));
@@ -416,6 +401,7 @@ function initializeSideMenu() {
     $('html').on('click', '.aboutMerrion', function (e) {
         e.preventDefault();
         $('.progress').hide();
+        console.log('history');
         createAboutMerrionSection();
     });
 
