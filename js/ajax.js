@@ -1,8 +1,17 @@
+console.log('HELLO')
+
 //var baseURL = 'http://localhost:8888/php1/';
 
 var hostingURL = 'http://dublinsquares.codeprimer.net/php/'
-console.log('HELLO')
+
+var newHostingURL = 'http://d1519085-109992.blacknighthosting.com/php/';
+
+
 var baseURL = hostingURL;
+
+//baseURL = newHostingURL;
+
+
 
 function getImageUrl(path) {
     return path;
