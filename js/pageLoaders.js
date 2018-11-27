@@ -5,24 +5,20 @@ function addToHistory(func, id) {
         func: func,
         id: id
     };
-    console.log('current history stack', historyStack);
-    console.log('adding to history', historyItem);
     historyStack.push(historyItem);
-    console.log('new history stack', historyStack);
+    console.log('in addToHistory, new history stack', historyStack);
 
 }
 
 function goBack() {
+    console.log('in goBack', historyStack, 'popping twice');
     var currentPage = historyStack.pop();
-    console.log('this is my current page', currentPage);
     var previousPage = historyStack.pop();
-    console.log('this is my previous page', previousPage);
 
     if (previousPage === undefined) {
         loadLandingPage();
     } else {
         var loadFunction = previousPage.func;
-        console.log('loading my previous page');
         loadFunction(previousPage.id);
     }
 
@@ -163,8 +159,10 @@ function loadMapAndMiniMapPage(id) {
     $('.progress').hide();
     console.log('next map page loaded');
 
+    console.log('** IN loadMapANdMiniPage **');
     loadMapPageJSON(id, function (map) {
         $('#mapViewport').html(mapAndModalHTML(map));
+
         $('#mapViewport').css('left', '55px');
         d3.xml(map.imageURL).mimeType("image/svg+xml").get(function (error, xml) {
 
@@ -330,10 +328,16 @@ function attachImageMapAreas(data) {
     }
 }
 
-function loadMapPage(id) {
+function loadMapPage(id, shouldAddToHistory) {
     console.log('next map page loaded');
     //console.log(addToHistory(loadMapPage, id));
-    addToHistory(loadMapPage, id);
+
+    // !== false allows all values other than false to be added to history 
+    // if we don't pass a value (UNDEFINED) then we add to history 
+    if (shouldAddToHistory !== false) {
+        addToHistory(loadMapPage, id);
+    }
+
     $('#menuwrapper').show();
     $('#progress').hide();
     $('.progress').hide();
@@ -426,14 +430,14 @@ function loadMapPage(id) {
                     //alert('left');
                     loadMapPageJSON(id, function (map) {
                         console.log('left id is ' + map.leftID);
-                        loadMapPage(map.leftID);
+                        loadMapPage(map.leftID, false);
                     })
                 })
                 d3.select('#right').on("click", function (d, i) {
                     //e.preventDefault();
                     //alert('right');
                     loadMapPageJSON(id, function (map) {
-                        loadMapPage(map.rightID);
+                        loadMapPage(map.rightID, false);
                     })
                 })
             })

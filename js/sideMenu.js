@@ -252,13 +252,15 @@ function initializeSideMenu() {
 
     $('#menuwrapper').html(generateSideMenuHTML());
 
-    $('html').on('click', '.backButton', function (e) {
+    $('#menuwrapper').off();
+
+    $('#menuwrapper').on('click', '.backButton', function (e) {
         e.preventDefault();
         goBack();
         console.log('Back Button clicked!!');
     });
 
-    $('html').on('click', '.witnessLetter', function (e) {
+    $('#menuwrapper').on('click', '.witnessLetter', function (e) {
         e.preventDefault();
         $('#progress').show();
         $('.progress').show();
@@ -267,7 +269,7 @@ function initializeSideMenu() {
 
     });
 
-    $('html').on('click', '#westBtn', function (e) {
+    $('#menuwrapper').on('click', '#westBtn', function (e) {
         e.preventDefault();
 
         $('#menuwrapper ul li ul li button#westBtn').addClass('active');
@@ -304,7 +306,7 @@ function initializeSideMenu() {
             $('#menuButtons').html(html);
         })
     });
-    $('html').on('click', '#eastBtn', function (e) {
+    $('#menuwrapper').on('click', '#eastBtn', function (e) {
         e.preventDefault();
         $('#menuwrapper ul li ul li button#eastBtn').addClass('active');
         $('#menuwrapper ul li ul li button#northBtn').removeClass('active');
@@ -339,7 +341,7 @@ function initializeSideMenu() {
             console.log('east button clicked');
         });
     });
-    $('html').on('click', '#southBtn', function (e) {
+    $('#menuwrapper').on('click', '#southBtn', function (e) {
         e.preventDefault();
         $('#menuwrapper ul li ul li button#southBtn').addClass('active');
         $('#menuwrapper ul li ul li button#northBtn').removeClass('active');
@@ -375,7 +377,7 @@ function initializeSideMenu() {
         });
         console.log('south button clicked');
     });
-    $('html').on('click', '#northBtn', function (e) {
+    $('#menuwrapper').on('click', '#northBtn', function (e) {
         e.preventDefault();
         $('#menuwrapper ul li ul li button#northBtn').addClass('active');
         $('#menuwrapper ul li ul li button#westBtn').removeClass('active');
@@ -411,7 +413,7 @@ function initializeSideMenu() {
         });
     });
 
-    $('html').on('click', '.tableBtn', function (e) {
+    $('#menuwrapper').on('click', '.tableBtn', function (e) {
         e.preventDefault();
         var houseNumber = $(this).data('house');
         var destination = $(this).data('destination');
@@ -422,7 +424,7 @@ function initializeSideMenu() {
         });
     });
 
-    $('html').on('click', '.notableFigures', function (e) {
+    $('#menuwrapper').on('click', '.notableFigures', function (e) {
         e.preventDefault();
         $('#progress').hide();
         $('.progress').hide();
@@ -431,7 +433,7 @@ function initializeSideMenu() {
         notableFigures();
     });
     //notable figures name click event
-    $('html').on('click', '#name', function (e) {
+    $('#menuwrapper').on('click', '#name', function (e) {
         e.preventDefault();
         var containerID = $(this).data("container");
         console.log(containerID);
@@ -440,20 +442,20 @@ function initializeSideMenu() {
         });
     });
 
-    $('html').on('click', '.aboutMerrion', function (e) {
+    $('#menuwrapper').on('click', '.aboutMerrion', function (e) {
         e.preventDefault();
         $('.progress').hide();
         console.log('history');
         createAboutMerrionSection();
     });
 
-    $('html').on('click', '#historyMerrion', function (e) {
+    $('#menuwrapper').on('click', '#historyMerrion', function (e) {
         e.preventDefault();
         initComparisons();
         createMerrionHistorySection();
     });
 
-    $('html').on('click', '#architecturalFeatures', function (e) {
+    $('#menuwrapper').on('click', '#architecturalFeatures', function (e) {
         e.preventDefault();
         architecturalFeaturesJSON(function (features) {
             $('#mapViewport').html(architecturalFeaturesMerrionHTML(features));
@@ -461,7 +463,7 @@ function initializeSideMenu() {
         //createMerrionArchitecturalFeaturesSection();
     });
 
-    $('html').on('click', '.intExt', function (e) {
+    $('#menuwrapper').on('click', '.intExt', function (e) {
         e.preventDefault();
         var features = $(this).data('features');
         console.log(features);
@@ -478,7 +480,7 @@ function initializeSideMenu() {
         $('#architectural_features').append('<div id="archText"></div>');
     });
 
-    $('html').on('click', '#aboutMerrion', function (e) {
+    $('#menuwrapper').on('click', '#aboutMerrion', function (e) {
         e.preventDefault();
         //////////////////////////$('.progress').show(); caused whole file to show errors in brackets/////////////
         $('.progress').show();

@@ -7,9 +7,9 @@ var hostingURL = 'http://dublinsquares.codeprimer.net/php/'
 var newHostingURL = 'http://d1519085-109992.blacknighthosting.com/php/';
 
 
-var baseURL = hostingURL;
+//var baseURL = hostingURL;
 
-//baseURL = newHostingURL;
+baseURL = newHostingURL;
 
 
 
