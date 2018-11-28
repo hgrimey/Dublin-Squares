@@ -678,6 +678,53 @@
         //loading the dublin city landing page map from the database
         $(document).ready(function() {
             loadLandingPage();
+
+
+            //click event for buttons in notable figure section
+            $('html').on('click', '#name', function(e) {
+                e.preventDefault();
+                alert('Name clicked');
+                var containerID = $(this).data("container");
+                console.log(containerID);
+                loadNotableFiguresJSON(containerID, function(thing) {
+                    $('#notableFigureToggle').html(loadNotableFiguresContainer(thing));
+                });
+            });
+
+            //click event for About Merrion Square section in the About Merrion Square Menu 
+            $('html').on('click', '#aboutMerrion', function(e) {
+                e.preventDefault();
+                //////////////////////////$('.progress').show(); caused whole file to show errors in brackets/////////////
+                $('.progress').show();
+                aboutMerrionSection();
+            });
+
+            $('html').on('click', '#architecturalFeatures', function(e) {
+                e.preventDefault();
+                architecturalFeaturesJSON(function(features) {
+                    $('#mapViewport').html(architecturalFeaturesMerrionHTML(features));
+                })
+                //createMerrionArchitecturalFeaturesSection();
+            });
+
+            $('html').on('click', '.intExt', function(e) {
+                e.preventDefault();
+                var features = $(this).data('features');
+                console.log(features);
+                //$('#architectural_features').html(loadArchitecturalFeaturesContainer());
+
+                //        architecturalFeaturesJSON(id, function (features) {
+                //            console.log('IT WORKED');
+                //            $('#architectural_features').html(loadArchitecturalFeaturesContainer(features));
+                //        });
+                //architecturalSection(features);
+                loadArchitecturalFeaturesContainer();
+
+                $('#architectural_features').html('<div id="hello">' + architecturalSection(features) + '</div>');
+                $('#architectural_features').append('<div id="archText"></div>');
+            });
+
+
         });
 
     </script>

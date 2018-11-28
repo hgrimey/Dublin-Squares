@@ -118,9 +118,9 @@ function architecturalFeaturesMerrionHTML(features) {
     var html = '';
     html += '<div id="architecture">';
     html += '<div id="" class="" ><h3>MERRION SQUARE ARCHITECTURAL FEATURES</h3></div>'
-    html += '<div><a class="intExt" class="" data-features="5">Exterior</a></div>\r\n'
+    html += '<div><button class="intExt" class="" data-features="5">Exterior</button></div>\r\n'
     //    html += '<div id="intExt" class="" data-features="' + features.ID + '">Interior</div>\r\n'
-    html += '<div><a class="intExt" class="" data-features="17">Interior</a></div>\r\n'
+    html += '<div><button class="intExt" class="" data-features="17">Interior</button></div>\r\n'
     html += '</div>';
     html += '<div id="architectural_features"></div>';
     return html;
@@ -137,7 +137,7 @@ function loadArchitecturalFeaturesContainer(features) {
     return html;
 }
 
-function generateSideMenuHTML(buttonArray) {
+function generateMerrionSideMenuHTML(buttonArray) {
     var html = '';
     html += '<div>'
     html += '<ul id="sidemenu">\r\n'
@@ -248,7 +248,7 @@ function elsieLetterPage() {
 
 function initializeSideMenu() {
 
-    $('#menuwrapper').html(generateSideMenuHTML());
+    $('#menuwrapper').html(generateMerrionSideMenuHTML());
 
     $('#menuwrapper').off();
 
@@ -369,7 +369,6 @@ function initializeSideMenu() {
             $('#menuButtons').html(html);
         })
     });
-
     $('#menuwrapper').on('click', '#northBtn', function (e) {
         e.preventDefault();
         $('#menuwrapper ul li ul li button#northBtn').addClass('active');
@@ -419,19 +418,20 @@ function initializeSideMenu() {
         e.preventDefault();
         $('#progress').hide();
         $('.progress').hide();
-        console.log('Notable Figure button clicked!!');
+        //alert('notable figs clicked');
 
         notableFigures();
     });
-    //notable figures name click event
-    $('#menuwrapper').on('click', '#name', function (e) {
-        e.preventDefault();
-        var containerID = $(this).data("container");
-        console.log(containerID);
-        loadNotableFiguresJSON(containerID, function (thing) {
-            $('#notableFigureToggle').html(loadNotableFiguresContainer(thing));
-        });
-    });
+    //notable figures name click event - had to move from navbar as click event wasn't being recognised within function
+    //    $('#name').on('click', function (e) {
+    //        e.preventDefault();
+    //        alert('Name clicked');
+    //        var containerID = $(this).data("container");
+    //        console.log(containerID);
+    //        loadNotableFiguresJSON(containerID, function (thing) {
+    //            $('#notableFigureToggle').html(loadNotableFiguresContainer(thing));
+    //        });
+    //    });
 
     $('#menuwrapper').on('click', '.aboutMerrion', function (e) {
         e.preventDefault();
@@ -446,35 +446,34 @@ function initializeSideMenu() {
         createMerrionHistorySection();
     });
 
-    $('#menuwrapper').on('click', '#architecturalFeatures', function (e) {
-        e.preventDefault();
-        architecturalFeaturesJSON(function (features) {
-            $('#mapViewport').html(architecturalFeaturesMerrionHTML(features));
-        })
-        //createMerrionArchitecturalFeaturesSection();
-    });
-
-    $('#menuwrapper').on('click', '.intExt', function (e) {
-        e.preventDefault();
-        var features = $(this).data('features');
-        console.log(features);
-        //$('#architectural_features').html(loadArchitecturalFeaturesContainer());
-
-        //        architecturalFeaturesJSON(id, function (features) {
-        //            console.log('IT WORKED');
-        //            $('#architectural_features').html(loadArchitecturalFeaturesContainer(features));
-        //        });
-        architecturalSection(features);
-        loadArchitecturalFeaturesContainer();
-
-        $('#architectural_features').html('<div id="hello">' + architecturalSection(features) + '</div>');
-        $('#architectural_features').append('<div id="archText"></div>');
-    });
-
-    $('#menuwrapper').on('click', '#aboutMerrion', function (e) {
-        e.preventDefault();
-        //////////////////////////$('.progress').show(); caused whole file to show errors in brackets/////////////
-        $('.progress').show();
-        aboutMerrionSection();
-    });
+    //    $('#menuwrapper').on('click', '#architecturalFeatures', function (e) {
+    //        e.preventDefault();
+    //        architecturalFeaturesJSON(function (features) {
+    //            $('#mapViewport').html(architecturalFeaturesMerrionHTML(features));
+    //        })
+    //        //createMerrionArchitecturalFeaturesSection();
+    //    });
+    //
+    //    $('#menuwrapper').on('click', '.intExt', function (e) {
+    //        e.preventDefault();
+    //        var features = $(this).data('features');
+    //        console.log(features);
+    //        //$('#architectural_features').html(loadArchitecturalFeaturesContainer());
+    //
+    //        //        architecturalFeaturesJSON(id, function (features) {
+    //        //            console.log('IT WORKED');
+    //        //            $('#architectural_features').html(loadArchitecturalFeaturesContainer(features));
+    //        //        });
+    //        architecturalSection(features);
+    //        loadArchitecturalFeaturesContainer();
+    //
+    //        $('#architectural_features').html('<div id="hello">' + architecturalSection(features) + '</div>');
+    //        $('#architectural_features').append('<div id="archText"></div>');
+    //    });
+    //    $('#menuwrapper').on('click', '#aboutMerrion', function (e) {
+    //        e.preventDefault();
+    //        //////////////////////////$('.progress').show(); caused whole file to show errors in brackets/////////////
+    //        $('.progress').show();
+    //        aboutMerrionSection();
+    //    });
 }
