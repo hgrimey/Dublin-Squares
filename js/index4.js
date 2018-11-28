@@ -4,7 +4,7 @@ function addSectionHTML(page) {
     //$('.SideTab').hide();
     var html = '';
     //html += '<div id="viewport">'
-    html += '<section class="' + page.sectionClass + '" id="' + page.pageId + '" style="background-repeat:no-repeat; background-size: cover; background-image: url(' + getImageUrl(page.pageImgURL) + ')">'
+    html += '<section class="' + page.sectionClass + '" id="' + page.pageId + '" style="background-image: url(' + getImageUrl(page.pageImgURL) + ')">'
     html += '<h1>' + page.pageHeader + '</h1>'
     html += '<button class="sectionButton" onclick="sectionButtonClick(' + '&#39;sidetab-' + page.pageId + '&#39;)"> More Info </button>';
     html += '<div class="SideTab" id="sidetab-' + page.pageId + '"><p class="aboutMerrionText">' + page.pageText + '</p></div>';
@@ -46,7 +46,7 @@ function loadHeadersHTML(notableFiguresParam) {
 function loadNotableFiguresContainer(notableFig) {
     var html = '';
     html += '<div class="image">'
-    html += '<img class="sticky" src="' + getImageUrl(notableFig.notableFigImgURL) + '" width="200px" height="300px">'
+    html += '<img class="sticky" src="' + getImageUrl(notableFig.notableFigImgURL) + '">'
     html += '</div>'
     html += '<div class="text">'
     html += '<p style="width: 375px">' + notableFig.notableFigText + '</p>'
@@ -81,7 +81,7 @@ function mapAndModalHTML(map) {
 
     html += '<div id="map"></div><div id="minimap"></div>'
     html += '<div id="leftButton" style="display:none"><button>Left</button></div>'
-    html += '<div id="rightButton" style="display:none"><button>Right</button></div>'
+    html += '<div id="rightButton" style = "display:none"><button>Right</button></div>'
     html += '<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">';
     html += '<div class="modal-dialog modal-dialog-centered" role="document">';
     html += '<div class="modal-content" >';
