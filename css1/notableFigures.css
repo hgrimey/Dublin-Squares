@@ -23,18 +23,34 @@ button.title-name {
 
 button#name.title-name {
     margin: 5px;
-    width: 18%;
-    background-color: orangered;
-    color: white;
-    padding: 2px;
-    float: left;
+    width: 10%;
+    background-color: #F0F0F0;
+    border: none;
+    border-radius: 2px;
+    color: #719AA1;
+    padding: 5px; 
+    float: centre;
     font-family: SF_D_Reg;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+button#name.title-name:active {
+    background-color: #719AA1;
+    color: #F0F0F0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 5px 20px 0 rgba(0,0,0,0.2);
+}
+
+button#name.title-name:focus {
+    background-color: #719AA1;
+    color: #F0F0F0;
 }
 
 #buttonGroup:after {
     content: "";
     clear: both;
-    display: table;
+    display: table;  
 }
 
 /*importing custom font from file*/
