@@ -77,8 +77,7 @@ function createMerrionHistorySection() {
     addToHistory(createMerrionHistorySection);
     $('#mapViewport').html(historyOfMerrionSection());
 
-    //
-    //maybe set timeout?
+    ////the images (comparision) on the events page will load - wasn't working without the timeout function
     setTimeout(function () {
         initComparisons();
     }, 500);

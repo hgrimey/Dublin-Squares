@@ -1,3 +1,4 @@
+//Witness Section (animated letter)
 //a typewriter effect is used to have the text appear on screen but once it is complete the TextComplete variable has all the links for the words
 //section 1 text
 var sec1Text = 'My Dearest Mother We are living in stirring times. I am writing this to be posted if there is any post office left and will keep it till I know if it might go. We arrived safe to time on Sunday but had a very rough crossing and Daisy and brother and aunt met us at Kingstown with the motor. All was peace and quiet. Well, I didn’t get up till 11.30 as I felt rather sick with the boat and when Daisy was dressing she drew my attention to a body of men marching down the square with rifles and she said ‘Here’s the dirty devils of volunteers’. Well, we dressed and went out about 12.30 to 1 and went up Grafton Street towards the theatre before going to the Shelbourne for lunch.';
@@ -151,6 +152,7 @@ function setUpElsiePage() {
             intervalReferences.sec2 = interval;
 
         })
+        //when a word is pressed the popover effect is triggered
         .on('update', function () {
             $('[data-toggle="popover"]').popover('hide')
         })
