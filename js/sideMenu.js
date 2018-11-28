@@ -106,10 +106,10 @@ function historyOfMerrionSection() {
     //html += '<div id="" class="" ><h3>MERRION SQUARE HISTORY</h3></div></div>';
     html += '<div class="img-comp-container">';
     html += '<div class="img-comp-img">';
-    html += '<img src="img/test/img_snow.jpg" width="300" height="200">';
+    html += '<img src="img/test/img_snow.jpg" width="1366" height="1024">';
     html += '</div>';
     html += '<div class="img-comp-img img-comp-overlay">';
-    html += '<img src="img/test/img_forest.jpg" width="300" height="200">';
+    html += '<img src="img/test/img_forest.jpg" width="1366" height="1024">';
     html += '</div>';
     html += '</div>';
 
