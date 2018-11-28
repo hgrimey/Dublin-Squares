@@ -440,11 +440,11 @@ function initializeSideMenu() {
         createAboutMerrionSection();
     });
 
-    $('#menuwrapper').on('click', '#historyMerrion', function (e) {
-        e.preventDefault();
-        initComparisons();
-        createMerrionHistorySection();
-    });
+    //    $('#menuwrapper').on('click', '#historyMerrion', function (e) {
+    //        e.preventDefault();
+    //        initComparisons();
+    //        createMerrionHistorySection();
+    //    });
 
     //    $('#menuwrapper').on('click', '#architecturalFeatures', function (e) {
     //        e.preventDefault();

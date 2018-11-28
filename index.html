@@ -573,8 +573,12 @@
         height: 300px;
     }
 
-    p#notableFiguresText {
+    div.text p {
         width: 375px;
+    }
+
+    p {
+        font-family: SF_D_Light;
     }
 
 </style>
@@ -730,6 +734,11 @@
                 $('#architectural_features').append('<div id="archText"></div>');
             });
 
+            $('html').on('click', '#historyMerrion', function(e) {
+                e.preventDefault();
+                initComparisons();
+                createMerrionHistorySection();
+            });
 
         });
 
