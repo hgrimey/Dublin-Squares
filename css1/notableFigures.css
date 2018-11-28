@@ -16,6 +16,7 @@ button.title-name {
 }
 */
 
+/* - - - - - - - Notable Figures Section - - - - - - - */
 #buttonGroup {
     width: 100%;
 }
@@ -23,10 +24,11 @@ button.title-name {
 button#name.title-name {
     margin: 5px;
     width: 18%;
-    background-color: lightgrey;
+    background-color: orangered;
     color: white;
-    padding: 5px;
+    padding: 2px;
     float: left;
+    font-family: SF_D_Reg;
 }
 
 #buttonGroup:after {
@@ -34,6 +36,14 @@ button#name.title-name {
     clear: both;
     display: table;
 }
+
+/*importing custom font from file*/
+
+    @font-face {
+        font-family: SF_D_Reg;
+        src: url('SF-Pro-Display-Regular.otf');
+    }
+
 
 /*
 .title-name.two {

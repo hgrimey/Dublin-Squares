@@ -11,6 +11,7 @@ function loadHeadersHTML(notableFiguresParam) {
     return html;
 }
 
+//images from the database
 function loadNotableFiguresContainer(notableFig) {
     var html = '';
     html += '<div class="image">'
@@ -22,6 +23,7 @@ function loadNotableFiguresContainer(notableFig) {
     return html;
 }
 
+//when the user clicks on the name the info appears
 $(document).ready(function () {
     console.log('hello');
     loadHeadersJSON(function (thing) {
