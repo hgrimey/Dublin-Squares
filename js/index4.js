@@ -49,7 +49,7 @@ function loadNotableFiguresContainer(notableFig) {
     html += '<img class="sticky" src="' + getImageUrl(notableFig.notableFigImgURL) + '">'
     html += '</div>'
     html += '<div class="text">'
-    html += '<p style="width: 375px">' + notableFig.notableFigText + '</p>'
+    html += '<p>' + notableFig.notableFigText + '</p>'
     html += '</div>'
     return html;
 }
