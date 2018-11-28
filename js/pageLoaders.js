@@ -348,7 +348,7 @@ function loadMapPage(id, shouldAddToHistory) {
         //$('#mapViewport').html(mapAndModalHTML(map));
         if (map.name) {
             //$('#terrace').show();
-            $('#map').append('<div id="terrace"><p>' + map.name + '</p></div>');
+            $('#map').append('<div id="terrace"><p id="terraces">' + map.name + '</p></div>');
             console.log(map.name);
         }
         /*

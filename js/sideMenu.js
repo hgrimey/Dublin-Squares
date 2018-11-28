@@ -68,7 +68,6 @@ function addSectionSM(section, controller, length) {
     sectionScrollMagic.update();
 }
 
-
 function createAboutMerrionSection() {
     addToHistory(createAboutMerrionSection);
     $('#mapViewport').html(aboutMerrionHTML());
@@ -299,7 +298,6 @@ function initializeSideMenu() {
                     html += itemHTML;
 
                     console.log(html);
-
                 }
             }
             html += '</tr></table>';
@@ -312,6 +310,7 @@ function initializeSideMenu() {
         $('#menuwrapper ul li ul li button#northBtn').removeClass('active');
         $('#menuwrapper ul li ul li button#southBtn').removeClass('active');
         $('#menuwrapper ul li ul li button#westBtn').removeClass('active');
+        console.log('east button clicked');
         var terrace = $(this).data('terrace');
         console.log(terrace);
         var html = '';
@@ -332,14 +331,11 @@ function initializeSideMenu() {
                     html += itemHTML;
 
                     console.log(html);
-
                 }
             }
             html += '</tr></table>';
             $('#menuButtons').html(html);
-            //$('#menuButtons').html('north button clicked!!');
-            console.log('east button clicked');
-        });
+        })
     });
     $('#menuwrapper').on('click', '#southBtn', function (e) {
         e.preventDefault();
@@ -347,6 +343,7 @@ function initializeSideMenu() {
         $('#menuwrapper ul li ul li button#northBtn').removeClass('active');
         $('#menuwrapper ul li ul li button#westBtn').removeClass('active');
         $('#menuwrapper ul li ul li button#eastBtn').removeClass('active');
+        console.log('south button clicked');
         var terrace = $(this).data('terrace');
         console.log(terrace);
         var html = '';
@@ -367,22 +364,20 @@ function initializeSideMenu() {
                     html += itemHTML;
 
                     console.log(html);
-
                 }
             }
             html += '</tr></table>';
             $('#menuButtons').html(html);
-            //$('#menuButtons').html('north button clicked!!');
-            console.log('south button clicked');
-        });
-        console.log('south button clicked');
+        })
     });
+
     $('#menuwrapper').on('click', '#northBtn', function (e) {
         e.preventDefault();
         $('#menuwrapper ul li ul li button#northBtn').addClass('active');
         $('#menuwrapper ul li ul li button#westBtn').removeClass('active');
         $('#menuwrapper ul li ul li button#southBtn').removeClass('active');
         $('#menuwrapper ul li ul li button#eastBtn').removeClass('active');
+        console.log('north button clicked');
         var terrace = $(this).data('terrace');
         console.log(terrace);
         var html = '';
@@ -403,14 +398,11 @@ function initializeSideMenu() {
                     html += itemHTML;
 
                     console.log(html);
-
                 }
             }
             html += '</tr></table>';
             $('#menuButtons').html(html);
-            //$('#menuButtons').html('north button clicked!!');
-            console.log('north button clicked');
-        });
+        })
     });
 
     $('#menuwrapper').on('click', '.tableBtn', function (e) {

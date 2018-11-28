@@ -125,9 +125,9 @@ function architecturalFeaturesJSON(callback) {
     })
 }
 
-function loadMenuButtons(buttons, callback) {
+function loadMenuButtons(callback) {
 
-    $.getJSON(baseURL + 'housesInMenu.php', data).then(function (buttons) {
+    $.getJSON(baseURL + 'housesInMenu.php').then(function (buttons) {
         callback(buttons);
     })
 }

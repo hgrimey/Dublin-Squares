@@ -84,9 +84,9 @@ function mapAndModalHTML(map) {
     html += '<div id="rightButton" style="display:none"><button>Right</button></div>'
     html += '<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">';
     html += '<div class="modal-dialog modal-dialog-centered" role="document">';
-    html += '<div class="modal-content" style="background-color: #719AA1; color: white; position: relative; margin: 0 auto;">';
+    html += '<div class="modal-content" >';
     html += '<div class="modal-header">';
-    html += '<h3 class="modal-title" id="exampleModalCenterTitle" style="margin: 0; padding: 10px; padding-left: 4px; text-align: center; font-size: 18px; font-weight: 550;"></h3>';
+    html += '<h3 class="modal-title" id="exampleModalCenterTitle" ></h3>';
     html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close">';
     html += '<span aria-hidden="true">&times;</span></button></div>';
     html += '<div class="modal-body"></div>';
