@@ -15,10 +15,10 @@ function loadHeadersHTML(notableFiguresParam) {
 function loadNotableFiguresContainer(notableFig) {
     var html = '';
     html += '<div class="image">'
-    html += '<img class="sticky" src="' + notableFig.notableFigImgURL + '" width="200px" height="300px">'
+    html += '<img class="sticky" src="' + notableFig.notableFigImgURL + '"/>'
     html += '</div>'
     html += '<div class="text">'
-    html += '<p style="width: 375px">' + notableFig.notableFigText + '</p>'
+    html += '<p id="notableFiguresText">' + notableFig.notableFigText + '</p>'
     html += '</div>'
     return html;
 }
