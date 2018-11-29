@@ -143,10 +143,19 @@ function loadLandingPage() {
                 show: false //only show when click on the svg element
             })
 
-            modalJSON(attachModals)
+            modalJSON(attachModals);
         });
 
     });
+    
+    //landing page modal ---- - - - - -  - - -  - - - - - - 
+    console.log (landingPageModal());
+    $('#mapViewport').append(landingPageModal());
+    
+    $('#landingPageModalCenter').modal({
+        show: true
+    })
+            
 }
 
 function loadMapAndMiniMapPage(id) {
