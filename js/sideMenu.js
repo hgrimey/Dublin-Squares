@@ -50,7 +50,7 @@ function addSectionSM(section, controller, length) {
         })
         .addTo(controller)
         .addIndicators() // add indicators (requires plugin)
-        //.setPin('#' + section.pageId) //everything added to scene needs to go before
+        .setPin('#' + section.pageId) //everything added to scene needs to go before
         .on('update', function (event) {
             var p = event.target.controller().info('scrollPos');
             var size = event.target.controller().info('size');
@@ -411,6 +411,7 @@ function initializeSideMenu() {
         console.log('Button destination ' + destination);
         loadHouse(destination, function (house) {
             $('#mapViewport').html(buildHouseHTML(house));
+            createHouseSVG();
         });
     });
 

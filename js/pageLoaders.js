@@ -161,6 +161,7 @@ function loadLandingPage() {
 function loadMapAndMiniMapPage(id) {
 
     initializeSideMenu();
+
     //console.log(addToHistory(loadMapAndMiniMapPage, id)); console.log was adding to history twice
     addToHistory(loadMapAndMiniMapPage, id);
     $('#menuwrapper').show();
@@ -173,6 +174,14 @@ function loadMapAndMiniMapPage(id) {
         $('#mapViewport').html(mapAndModalHTML(map));
 
         $('#mapViewport').css('left', '55px');
+
+        console.log(MerrionModal());
+        $('#mapViewport').append(MerrionModal());
+
+        $('#MerrionModalCenter').modal({
+            show: true
+        })
+
         d3.xml(map.imageURL).mimeType("image/svg+xml").get(function (error, xml) {
 
             if (error) throw error;
@@ -281,6 +290,7 @@ function loadMapAndMiniMapPage(id) {
             modalJSON(attachModals)
         });
     });
+
 }
 
 function attachModals(data) {

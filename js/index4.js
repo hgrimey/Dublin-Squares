@@ -94,14 +94,14 @@ function mapAndModalHTML(map) {
 
     html += '</div>';
     return html;
-    
-    
+
+
 }
 
 //landing page modal - dublin city map page
-function landingPageModal () {
+function landingPageModal() {
     var html = '';
-    
+
     html += '<div class="modal fade" id="landingPageModalCenter" tabindex="-1" role="dialog" aria-labelledby="landingPageModalCenterTitle" aria-hidden="true">';
     html += '<div class="modal-dialog modal-dialog-centered" role="document">';
     html += '<div class="modal-content" >';
@@ -111,12 +111,27 @@ function landingPageModal () {
     html += '<span aria-hidden="true">&times;</span></button></div>';
     html += '<div class="modal-body">blah blah blah blah blah blah blah blah blah blah blah blah</div>';
     html += '</div></div>';
-    
+
     return html;
-    
+
 }
 
+function MerrionModal() {
+    var html = '';
 
+    html += '<div class="modal fade" id="MerrionModalCenter" tabindex="-1" role="dialog" aria-labelledby="MerrionModalCenterTitle" aria-hidden="true">';
+    html += '<div class="modal-dialog modal-dialog-centered" style="max-width: 1000px; max-height: 1000px" role="document">';
+    html += '<div class="modal-content" >';
+    html += '<div class="modal-header">';
+    html += '<h3 class="modal-title" id="MerrionModalCenterTitle" >Welcome to Merrion Square</h3>';
+    html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close">';
+    html += '<span aria-hidden="true">&times;</span></button></div>';
+    html += '<div class="modal-body"><img id="merrionOnboarding" src="img/useCase1.gif"/></div>';
+    html += '</div></div>';
+
+    return html;
+
+}
 
 //house page html
 function findImage(imageArray, imageLocation) {
@@ -161,17 +176,17 @@ function buildHouseHTML(house) {
     var titleImage = findImage(images, 'titleImage');
 
     if (titleImage != null) {
-        html += '<div class="imgHouse" data-img-url="' + getImageUrl(titleImage.houseImageURL)  + '"></div>\r\n';
+        html += '<div class="imgHouse" data-img-url="' + getImageUrl(titleImage.houseImageURL) + '"></div>\r\n';
         //<img class="titleImage" src="' + getImageUrl(titleImage.houseImageURL) + '"/></div><div id="callToAction"></div>\r\n'
     }
 
     html += '<h2 id="91one"></h2>\r\n'
     html += '<div class="houseInfo">' + house.houseInfo + '</div>\r\n'
-    html += '<h2 id="' + '91two' + '">House</h2>\r\n'
-    html += '<p><a href="#91top">Top</a></p>\r\n'
+    //html += '<h2 id="' + '91two' + '"></h2>\r\n'
+    //html += '<p><a href="#91top"></a></p>\r\n'
     //html += '<div class="houseInfo">' + house.houseInfo + '</div>\r\n'
-    html += '<h2 id="91three">Family</h2>\r\n'
-    html += '<p><a href="#91top">Top</a></p>\r\n'
+    //html += '<h2 id="91three"></h2>\r\n'
+    //html += '<p><a href="#91top"></a></p>\r\n'
 
     var secondImage = findImage(images, 'secondImage');
 
@@ -180,8 +195,8 @@ function buildHouseHTML(house) {
     }
 
     html += '<div class="houseFamily">' + house.family + '</div>\r\n'
-    html += '<h2 id="91four">Stories</h2>\r\n'
-    html += '<p><a href="#91top">Top</a></p>\r\n'
+    //html += '<h2 id="91four"></h2>\r\n'
+    // html += '<p><a href="#91top"></a></p>\r\n'
 
     var thirdImage = findImage(images, 'thirdImage');
 
@@ -218,38 +233,44 @@ function loadHouse(id, callback) {
 }
 
 function createHouseSVG() {
-    
+
     var url = $('#mapViewport .imgHouse').data('img-url');
     console.log(url);
-    d3.xml(url).mimeType('image/svg+xml').get(function(error,xml) {
-        if(error) throw error;
-        
+    d3.xml(url).mimeType('image/svg+xml').get(function (error, xml) {
+        if (error) throw error;
+
         //$('#mapViewport .imgHouse').html( )
-        document.querySelector('#mapViewport .imgHouse').appendChild( xml.documentElement.cloneNode(true));
-        
+        document.querySelector('#mapViewport .imgHouse').appendChild(xml.documentElement.cloneNode(true));
+
         //svg is attached to DOM
-        
+
         var houseSVG = $('.imgHouse svg')
-        
+
         var windowContainer = houseSVG.find('#windows');
-        
+
         var windows = windowContainer.children();
-        
-        var random = _.random(0, windows.length-1);
-        
-        windows.each( function(index) {
-            if(index === random) {
-                
-                var window = $( this );
+
+        var random = _.random(0, windows.length - 1);
+
+        windows.each(function (index) {
+            if (index === random) {
+
+                var window = $(this);
                 var toToggle = window.find('.lightOn');
                 //toToggle.toggleClass('lightsOn');
-                
-                setTimeout( function() {
-                    toToggle.css('fill', 'yellow');
-                },500);                
+
+                setTimeout(function () {
+                    toToggle.css('fill', '#FFD052');
+                }, 1000);
+
+
+
+                //                setTimeout(function () {
+                //                    toToggle.css('fill', 'lightblue');
+                //                }, 2000);
             }
-        } )
-        
+        })
+
     })
 }
 
