@@ -94,7 +94,29 @@ function mapAndModalHTML(map) {
 
     html += '</div>';
     return html;
+    
+    
 }
+
+//landing page modal - dublin city map page
+function landingPageModal () {
+    var html = '';
+    
+    html += '<div class="modal fade" id="landingPageModalCenter" tabindex="-1" role="dialog" aria-labelledby="landingPageModalCenterTitle" aria-hidden="true">';
+    html += '<div class="modal-dialog modal-dialog-centered" role="document">';
+    html += '<div class="modal-content" >';
+    html += '<div class="modal-header">';
+    html += '<h3 class="modal-title" id="landingPageModalCenterTitle" >welcome to Dublin Squares</h3>';
+    html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close">';
+    html += '<span aria-hidden="true">&times;</span></button></div>';
+    html += '<div class="modal-body">blah blah blah blah blah blah blah blah blah blah blah blah</div>';
+    html += '</div></div>';
+    
+    return html;
+    
+}
+
+
 
 //house page html
 function findImage(imageArray, imageLocation) {
