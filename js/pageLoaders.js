@@ -147,15 +147,15 @@ function loadLandingPage() {
         });
 
     });
-    
+
     //landing page modal ---- - - - - -  - - -  - - - - - - 
-    console.log (landingPageModal());
+    console.log(landingPageModal());
     $('#mapViewport').append(landingPageModal());
-    
+
     $('#landingPageModalCenter').modal({
         show: true
     })
-            
+
 }
 
 function loadMapAndMiniMapPage(id) {
@@ -377,7 +377,6 @@ function loadMapPage(id, shouldAddToHistory) {
             })
         }
 */
-
 
         $('#mapViewport').css('left', '55px');
 
