@@ -161,7 +161,8 @@ function buildHouseHTML(house) {
     var titleImage = findImage(images, 'titleImage');
 
     if (titleImage != null) {
-        html += '<div class="imgHouse"><img class="titleImage" src="' + getImageUrl(titleImage.houseImageURL) + '"/></div><div id="callToAction"></div>\r\n'
+        html += '<div class="imgHouse" data-img-url="' + getImageUrl(titleImage.houseImageURL)  + '"></div>\r\n';
+        //<img class="titleImage" src="' + getImageUrl(titleImage.houseImageURL) + '"/></div><div id="callToAction"></div>\r\n'
     }
 
     html += '<h2 id="91one"></h2>\r\n'
@@ -216,6 +217,41 @@ function loadHouse(id, callback) {
     });
 }
 
+function createHouseSVG() {
+    
+    var url = $('#mapViewport .imgHouse').data('img-url');
+    console.log(url);
+    d3.xml(url).mimeType('image/svg+xml').get(function(error,xml) {
+        if(error) throw error;
+        
+        //$('#mapViewport .imgHouse').html( )
+        document.querySelector('#mapViewport .imgHouse').appendChild( xml.documentElement.cloneNode(true));
+        
+        //svg is attached to DOM
+        
+        var houseSVG = $('.imgHouse svg')
+        
+        var windowContainer = houseSVG.find('#windows');
+        
+        var windows = windowContainer.children();
+        
+        var random = _.random(0, windows.length-1);
+        
+        windows.each( function(index) {
+            if(index === random) {
+                
+                var window = $( this );
+                var toToggle = window.find('.lightOn');
+                //toToggle.toggleClass('lightsOn');
+                
+                setTimeout( function() {
+                    toToggle.css('fill', 'yellow');
+                },500);                
+            }
+        } )
+        
+    })
+}
 
 
 
