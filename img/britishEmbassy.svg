@@ -26,7 +26,7 @@
 				
 					<rect x="39.6" y="51.5" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="36.7"/>
 				
-					<rect x="43.3" y="54.6" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="33.6"/>
+					<rect class="lightOn" x="43.3" y="54.6" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="33.6"/>
 				
 					<rect x="35.1" y="86.5" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.8" height="6.1"/>
 			</g>
@@ -41,7 +41,7 @@
 				
 					<rect x="120" y="51.5" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="36.7"/>
 				
-					<rect x="123.8" y="54.6" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="33.6"/>
+					<rect class="lightOn" x="123.8" y="54.6" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="33.6"/>
 				
 					<rect x="115.5" y="86.5" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.8" height="6.1"/>
 			</g>
@@ -56,7 +56,7 @@
 				
 					<rect x="198.8" y="51.5" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="36.7"/>
 				
-					<rect x="202.6" y="54.6" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="33.6"/>
+					<rect class="lightOn" x="202.6" y="54.6" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="33.6"/>
 				
 					<rect x="194.4" y="86.5" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.8" height="6.1"/>
 			</g>
@@ -74,7 +74,7 @@
 					
 						<rect x="39.6" y="123.7" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="66.1"/>
 					
-						<rect x="43.3" y="126.8" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="61.1"/>
+						<rect class="lightOn" x="43.3" y="126.8" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="61.1"/>
 					
 						<rect x="35.1" y="186.7" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.8" height="6.1"/>
 				</g>
@@ -93,7 +93,7 @@
 					
 						<rect x="120" y="123.7" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="66.1"/>
 					
-						<rect x="123.8" y="126.8" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="61.1"/>
+						<rect class="lightOn" x="123.8" y="126.8" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="61.1"/>
 					
 						<rect x="115.5" y="186.7" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.8" height="6.1"/>
 				</g>
@@ -117,7 +117,7 @@
 					
 						<rect x="198.8" y="123.7" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="66.1"/>
 					
-						<rect x="202.6" y="126.8" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="61.1"/>
+						<rect class="lightOn" x="202.6" y="126.8" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="61.1"/>
 					
 						<rect x="194.4" y="186.7" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.8" height="6.1"/>
 				</g>
@@ -138,7 +138,7 @@
 					
 						<rect x="39.1" y="231.2" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="98"/>
 					
-						<rect x="42.9" y="234.3" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="94.9"/>
+						<rect class="lightOn" x="42.9" y="234.3" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="94.9"/>
 					
 						<rect x="34.6" y="328.5" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.8" height="6.1"/>
 				</g>
@@ -155,7 +155,7 @@
 					
 						<rect x="120" y="231.3" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="98"/>
 					
-						<rect x="123.8" y="234.4" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="94.9"/>
+						<rect class="lightOn" x="123.8" y="234.4" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="94.9"/>
 					
 						<rect x="115.5" y="328.6" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.8" height="6.1"/>
 				</g>
@@ -177,7 +177,7 @@
 					
 						<rect x="198.8" y="231.3" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="98"/>
 					
-						<rect x="202.6" y="234.4" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="94.9"/>
+						<rect class="lightOn" x="202.6" y="234.4" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="94.9"/>
 					
 						<rect x="194.4" y="328.6" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.8" height="6.1"/>
 				</g>
@@ -200,7 +200,7 @@
 					
 						<rect x="39.1" y="372.4" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="66.1"/>
 					
-						<rect x="42.9" y="375.4" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="61.1"/>
+						<rect class="lightOn" x="42.9" y="375.4" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="61.1"/>
 					
 						<rect x="34.6" y="435.4" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.8" height="6.1"/>
 				</g>
@@ -219,7 +219,7 @@
 					
 						<rect x="117.9" y="372.4" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="66.1"/>
 					
-						<rect x="121.7" y="375.4" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="61.1"/>
+						<rect class="lightOn" x="121.7" y="375.4" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.4" height="61.1"/>
 					
 						<rect x="113.5" y="435.4" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.8" height="6.1"/>
 				</g>

@@ -425,6 +425,8 @@ function loadMapPage(id, shouldAddToHistory) {
                                 console.log('I am a house');
                                 loadHouse(currentMapItem.destination, function (house) {
                                     $('#mapViewport').html(buildHouseHTML(house));
+                                    //d3 animation stuff here!
+                                    createHouseSVG();
                                 });
 
                             }
