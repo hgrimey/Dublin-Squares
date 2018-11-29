@@ -139,7 +139,7 @@ function buildHouseHTML(house) {
     var titleImage = findImage(images, 'titleImage');
 
     if (titleImage != null) {
-        html += '<div class="imgHouse"><img src="' + getImageUrl(titleImage.houseImageURL) + '"/></div>\r\n'
+        html += '<div class="imgHouse"><img class="titleImage" src="' + getImageUrl(titleImage.houseImageURL) + '"/></div><div id="callToAction"></div>\r\n'
     }
 
     html += '<h2 id="91one"></h2>\r\n'
