@@ -1,6 +1,8 @@
 function aboutMerrionSection() {
+
+
     //debugger;
-    addToHistory(aboutMerrionSection);
+    //addToHistory(aboutMerrionSection);
     var viewport = '<div id="viewport"></div>';
     $('#mapViewport').html(viewport);
     //$('#menuwrapper').hide();
@@ -14,12 +16,16 @@ function aboutMerrionSection() {
         var progress = 0;
         var progressAddition = 100 / sections.length;
 
+        var html = '<div id="superContainer" class="scrollContainer"><div>';
 
         for (var x = 0; x < sections.length; x++) {
             var currentSection = sections[x];
             console.log(currentSection);
-            createSection(currentSection);
+            html += createSection(currentSection);
         }
+        html += '</div></div>';
+
+        $('#viewport').append(html);
 
         setTimeout(function () {
 
@@ -27,6 +33,24 @@ function aboutMerrionSection() {
                 globalSceneOptions: {
                     triggerHook: 'onLeave',
                 }
+            });
+
+            var myScroll = new IScroll('#superContainer', {
+                scrollX: false,
+                scrollY: true,
+                scrollbars: true,
+                useTransform: false,
+                useTransition: false,
+                probeType: 3,
+                click: true
+            })
+
+            controller.scrollPos(function () {
+                return -myScroll.y;
+            });
+            myScroll.on('scroll', function () {
+                console.log('scroll detected')
+                controller.update();
             });
 
             for (var x = 0; x < sections.length; x++) {
@@ -37,6 +61,7 @@ function aboutMerrionSection() {
 
                 addSectionSM(currentSection, controller, sections.length)
             }
+
         }, 500);
 
     })
@@ -69,7 +94,7 @@ function addSectionSM(section, controller, length) {
 }
 
 function createAboutMerrionSection() {
-    addToHistory(createAboutMerrionSection);
+    addToHistory(loadMapAndMiniMapPage, 3);
     $('#mapViewport').html(aboutMerrionHTML());
 }
 
@@ -144,7 +169,7 @@ function generateMerrionSideMenuHTML(buttonArray) {
     var html = '';
     html += '<div>'
     html += '<ul id="sidemenu">\r\n'
-    html += '<li><a  class="backButton" href="#">Back</a></li>\r\n'
+    html += '<li><a class="backButton" href="#"><img src="img/back_icon.svg"/></a></li>\r\n'
     html += '<li><a href="#">Terrace</a>\r\n'
     html += '<ul>\r\n'
     html += '<li id="container1">Terraces\r\n'
@@ -155,11 +180,11 @@ function generateMerrionSideMenuHTML(buttonArray) {
     html += '<button id="westBtn" class="terraceBtn" data-inline="true" data-terrace="W">West</button>'
     html += '</div><div id="menuButtons"></div>'
     html += '</li></ul></li>\r\n'
-    html += '<li><a class="aboutMerrion" href="#">About</a>\r\n'
+    html += '<li><a class="aboutMerrion" href="#"><img src="img/about_icon.svg"/></a>\r\n'
     html += '</li>\r\n'
-    html += '<li><a class="witnessLetter" href="#">Letter</a>\r\n'
+    html += '<li><a class="witnessLetter" href="#"><img src="img/letter_icon.svg"/></a>\r\n'
     html += '</li>\r\n'
-    html += '<li><a class="notableFigures" href="#">NF</a></li>\r\n'
+    html += '<li><a class="notableFigures" href="#"><img src="img/nf_icon.svg"/></a></li>\r\n'
     html += '</ul>\r\n'
     html += '</div>'
     return html;
@@ -206,20 +231,26 @@ function architecturalSection(id, callback) {
             var hotspots = houseHotspots.children();
             console.log(hotspots);
 
+
+
             //            for (var x = 0; x < hotspots.length; x++) {
             //                var currentHotspot = hotspots[x];
-
+            //
             //                console.log(currentHotspot);
-            //                    (function (hotspots) {
-            //                        d3.select(hotspots)
-            //                            .on("click", function (d, i) {
             //
-            //                                console.log('Current hotspot' + hotspots);
-            //                                //alert(currentItem.SVGelementId)
+            //                var what = $('g currentHotspot');
+            //                console.log(what);
             //
-            //                            })
-            //                    })(hotspots)
-            //                }
+            //                (function (currentHotspot) {
+            //                    d3.select(currentHotspot)
+            //                        .on("click", function (d, i) {
+            //
+            //                            alert('Current hotspot' + currentHotspot);
+            //                            //alert(currentItem.SVGelementId)
+            //
+            //                        })
+            //                })(currentHotspot)
+            //            }
 
             modalJSON(function (data) {
                 for (var x = 0; x < data.length; x++) {
@@ -230,9 +261,10 @@ function architecturalSection(id, callback) {
                         d3.select('#' + currentItem.SVGelementId)
                             .on("click", function (d, i) {
 
-                                //console.log('Current item' + currentItem);
-                                //alert(currentItem.SVGelementId)
+
+                                alert(currentItem.SVGelementId)
                                 $('#archText').html(currentItem.modalText);
+                                //$('g#' + currentItem.SVGelementId).html('what');
                             })
                     })(currentItem)
                     //anonymous self executing function / closure
@@ -267,7 +299,7 @@ function loadMenu() {
 }
 
 function elsieLetterPage() {
-    addToHistory(elsieLetterPage);
+    //addToHistory(elsieLetterPage);
     $('#mapViewport').html('<div id="viewport"><section class="panel one"><img id="elsiePhoto" src="img/elsiePhoto.png"/><div class="introTextBlock "><p id="introText "> On Wednesday, 27th May 2015, Dublin City Council\'s Public Library Service took possession of a copy of a rare eye-witness account of the outbreak of the 1916 Easter Rising. The account was in the form of a letter written by Elsie McDermid, a popular opera singer of the era, to her mother in England on the occasion of Elsie\'s visit to Dublin. <br> <br> She was in Dublin to perform in Gilbert and Sullivan shows at Dublin’s Gaiety Theatre with the D\'Oyly Carte Opera Company. However, the performances were cancelled as a result of the dramatic outbreak of the Easter Rising on Monday 24th April 1916.</p><img id="scrollUp" src="img/useCase1.gif"/></div></section><section class="panel one" id="sec1"><div class="sectionTextBlock"><p id="sec1Text"></p></div></section><section class="panel two" id="sec2"><div class="sectionTextBlock"><p id="sec2Text"></p></div></section><section class="panel three" id="sec3"><div class="sectionTextBlock"><p id="sec3Text"></p></div></section><section class="panel four" id="sec4"><div class="sectionTextBlock"><p id="sec4Text"></p></div></section><section class="panel five" id="sec5"><div class="sectionTextBlock"><p id="sec5Text"></p></div></section><section class="panel six" id="sec6"><div class="sectionTextBlock"><p id="sec6Text"></p></div></section><section class="panel seven" id="sec7"><div class="sectionTextBlock"><p id="sec7Text"></p></div></section></div>');
     setUpElsiePage();
 }
