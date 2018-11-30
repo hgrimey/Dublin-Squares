@@ -89,7 +89,6 @@
         text-align: center;
         background-color: #719AA1;
         color: #F0F0F0;
-        ;
     }
 
     .modal-body {
@@ -99,6 +98,34 @@
         background-color: #719AA1;
         font-family: SF_D_Light, sans-serif;
         font-size: 15px;
+        color: #F0F0F0;
+    }
+    
+    .welcome-modal-body {
+        position: relative;
+        flex: 1 1 auto;
+        padding: 1rem;
+        background-color: #E45C5F;
+        font-family: SF_D_Light, sans-serif;
+        font-size: 15px;
+        color: #F0F0F0;
+        text-align: center;
+    }
+    
+    .welcome-modal-header {
+        display: flex;
+        align-items: flex-start;
+        padding: 1rem;
+        border-bottom: 0px solid #E45C5F;
+        font-family: SF_D_Medium, sans-serif;
+        font-size: 12px;
+        text-align: center;
+        background-color: #E45C5F;
+        color: #F0F0F0;
+    }
+    
+    .welcome-modal-title {
+        background-color: #E45C5F;
         color: #F0F0F0;
     }
 
@@ -440,17 +467,18 @@
     }
 
     img#elsiePhoto {
-        padding-left: 95px;
-        padding-top: 10px;
-        height: 70vh;
+        position: absolute;
+        padding-left: 180px;
+        padding-top: 30px;
+        height: 60vh;
+        max-width: 80%;
+        z-index: 9;
     }
 
     img#scrollUp {
         padding-top: 1px;
-        height: 6vh;
+        height: 2vh;
     }
-
-
 
     .one {
         background-color: black;
@@ -480,15 +508,15 @@
         background-color: black;
     }
 
-    .introTextBlock {
+    .introTextBlock p {
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        padding-top: 205px;
-        width: 90vw;
+        padding-top: 1125px;
+        width: 65vw;
         color: #F0F0F0;
         font-family: SF_D_Reg;
-        font-size: 13px;
+        font-size: 12px;
         text-align: center;
         /* make the text centre*/
         -moz-transform: translateY(-50%);
@@ -598,6 +626,11 @@
     @font-face {
         font-family: SF_D_Light;
         src: url('SF-Pro-Display-Light.otf');
+    }
+    
+    @font-face {
+        font-family: SF_D_Medium;
+        src: url('SF-Pro-Display-Medium.otf');
     }
 
     /* - - - - - - - - - - - - - - - - - - - - - - - - - - */
