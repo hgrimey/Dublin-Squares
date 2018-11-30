@@ -17,29 +17,33 @@ button.title-name {
 */
 
 /* - - - - - - - Notable Figures Section - - - - - - - */
+
 #buttonGroup {
     width: 100%;
+    /*    margin-left: 60px;*/
 }
 
 button#name.title-name {
     margin: 5px;
-    width: 10%;
+    width: 22.5vw;
     background-color: #F0F0F0;
     border: none;
     border-radius: 2px;
     color: #719AA1;
-    padding: 5px; 
-    float: centre;
+    padding: 3px;
+
+    float: right;
     font-family: SF_D_Reg;
     font-size: 10px;
     text-align: center;
     text-decoration: none;
 }
 
+
 button#name.title-name:active {
     background-color: #719AA1;
     color: #F0F0F0;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 5px 20px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 button#name.title-name:focus {
@@ -50,15 +54,17 @@ button#name.title-name:focus {
 #buttonGroup:after {
     content: "";
     clear: both;
-    display: table;  
+    display: table;
 }
+
+/* ---------------------------------------- */
 
 /*importing custom font from file*/
 
-    @font-face {
-        font-family: SF_D_Reg;
-        src: url('SF-Pro-Display-Regular.otf');
-    }
+@font-face {
+    font-family: SF_D_Reg;
+    src: url('SF-Pro-Display-Regular.otf');
+}
 
 
 /*

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.0" id="architecturalExterior" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" viewBox="0 0 379.9 527.8" enable-background="new 0 0 379.9 527.8" xml:space="preserve">
+<svg version="1.0" id="architecturalExterior" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 379.9 527.8" enable-background="new 0 0 379.9 527.8" xml:space="preserve">
 <g id="path">
 	<polygon fill="#808285" points="80.3,414.6 49.5,475 345.5,475 313.7,414.6 	"/>
 	<rect x="49.5" y="475" fill="#6D6E71" width="296" height="2.1"/>
@@ -559,7 +558,7 @@
 	</g>
 </g>
 <g id="hotspots">
-	<g id="chimneyHotspot">
+	<g class="animateHotspot" id="chimneyHotspot">
 		
 			<image overflow="visible" opacity="0.5" width="116" height="116" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHUAAAB5CAYAAAAHxm7HAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAOcpJREFUeNrsfdmvbOlV31p7qOHU
@@ -828,7 +827,7 @@ gdYGLCgf75FmHGfW2oeSCXt14rQPNJbZFTHrd4u3CB5uRwF43EH8vgD1VoC+G87bo9uj26Pbo9uj
 			<circle fill="#729AA1" cx="111.3" cy="62.7" r="9.2"/>
 		</g>
 	</g>
-	<g id="windowHotspot">
+	<g class="animateHotspot" id="windowHotspot">
 		
 			<image overflow="visible" opacity="0.5" width="116" height="116" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAOm9JREFUeNrsfWuMJNd13jm3qrp7
@@ -1100,7 +1099,7 @@ sHsEgP8XD4/5vkvfojyFtOzy5a99NJZo5svwX7ePXQXo3Qjqdw3I1wP8zYqKe8e9495x77h33Dvu
 			<circle fill="#729AA1" cx="247.4" cy="172.8" r="9.2"/>
 		</g>
 	</g>
-	<g id="balconyHotspot">
+	<g class="animateHotspot" id="balconyHotspot">
 		
 			<image overflow="visible" opacity="0.5" width="116" height="117" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAOvJJREFUeNrsfVmsZdlZ3v+vPZzp
@@ -1374,7 +1373,7 @@ Cv3U06e1j8rdzNp7GuTLifRF4FUsN+nT8xdZDD97PFPwFi8RTLnsB+i9BOr37CU0C7ji9dmv7GjP
 			<circle fill="#729AA1" cx="168.5" cy="299.8" r="9.2"/>
 		</g>
 	</g>
-	<g id="fanwindowHotspot">
+	<g class="animateHotspot" id="fanwindowHotspot">
 		
 			<image overflow="visible" opacity="0.5" width="116" height="116" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAOkJJREFUeNrsfVusbedV3hj/vKy1
@@ -1645,7 +1644,7 @@ DnO4rBnaDz93ZqF1w/0ytuq+HvVwcG95H3gLAqRu/zdxSWDicjVA7ydQv61AvhngbzdC9+Dy4PLg
 			<circle fill="#729AA1" cx="286.6" cy="337.7" r="9.2"/>
 		</g>
 	</g>
-	<g id="doorHotspot">
+	<g class="animateHotspot" id="doorHotspot">
 		
 			<image overflow="visible" opacity="0.5" width="116" height="116" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAOvZJREFUeNrsfWmsZudd3///nO1d
@@ -1919,7 +1918,7 @@ l+f+7f7t/u3+7f7t/u3+7f7t/u1O3P6/AAMAJkvwkuG2HCwAAAAASUVORK5CYII=" transform="mat
 			<circle fill="#729AA1" cx="253.1" cy="412.3" r="9.2"/>
 		</g>
 	</g>
-	<g id="exteriorDecHotspot">
+	<g class="animateHotspot" id="exteriorDecHotspot">
 		
 			<image overflow="visible" opacity="0.5" width="116" height="116" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAOfVJREFUeNrsfVmMZOd13jl3q6qu
@@ -2189,7 +2188,7 @@ xQMD/r7tAAAAAElFTkSuQmCC" transform="matrix(0.24 0 0 0.24 287.7047 418.86)">
 			<circle fill="#729AA1" cx="300.6" cy="431.8" r="9.2"/>
 		</g>
 	</g>
-	<g id="lampHotspot">
+	<g class="animateHotspot" id="lampHotspot">
 		
 			<image overflow="visible" opacity="0.5" width="116" height="116" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAOmBJREFUeNrsfWmsHNl13jm3qrr7
