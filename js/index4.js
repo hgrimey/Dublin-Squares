@@ -293,11 +293,8 @@ function createHouseSVG() {
                     toToggle.css('fill', '#FFD052');
                 }, 1000);
 
+                //setInterval for on and off not working
 
-
-                //                setTimeout(function () {
-                //                    toToggle.css('fill', 'lightblue');
-                //                }, 2000);
             }
         })
 

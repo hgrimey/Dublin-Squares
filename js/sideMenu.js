@@ -198,6 +198,29 @@ function architecturalSection(id, callback) {
 
             let map = d3.select('#architectural_features').select('svg');
 
+            var exteriorSVG = $('svg#architecturalExterior');
+
+            var houseHotspots = exteriorSVG.find('#hotspots');
+            console.log(houseHotspots);
+
+            var hotspots = houseHotspots.children();
+            console.log(hotspots);
+
+            //            for (var x = 0; x < hotspots.length; x++) {
+            //                var currentHotspot = hotspots[x];
+
+            //                console.log(currentHotspot);
+            //                    (function (hotspots) {
+            //                        d3.select(hotspots)
+            //                            .on("click", function (d, i) {
+            //
+            //                                console.log('Current hotspot' + hotspots);
+            //                                //alert(currentItem.SVGelementId)
+            //
+            //                            })
+            //                    })(hotspots)
+            //                }
+
             modalJSON(function (data) {
                 for (var x = 0; x < data.length; x++) {
                     var currentItem = data[x];
@@ -206,6 +229,7 @@ function architecturalSection(id, callback) {
                     (function (currentItem) {
                         d3.select('#' + currentItem.SVGelementId)
                             .on("click", function (d, i) {
+
                                 //console.log('Current item' + currentItem);
                                 //alert(currentItem.SVGelementId)
                                 $('#archText').html(currentItem.modalText);
@@ -244,7 +268,7 @@ function loadMenu() {
 
 function elsieLetterPage() {
     addToHistory(elsieLetterPage);
-    $('#mapViewport').html('<div id="viewport"><section class="panel one"><img src="img/elsiePhoto.png"/><div class="introTextBlock "><p id="introText "> On Wednesday, 27th May 2015, Dublin City Council\'s Public Library Service took possession of a copy of a rare eye-witness account of the outbreak of the 1916 Easter Rising. The account was in the form of a letter written by Elsie McDermid, a popular opera singer of the era, to her mother in England on the occasion of Elsie\'s visit to Dublin. <br> <br> She was in Dublin to perform in Gilbert and Sullivan shows at Dublin’s Gaiety Theatre with the D\'Oyly Carte Opera Company. However, the performances were cancelled as a result of the dramatic outbreak of the Easter Rising on Monday 24th April 1916.</p></div><div class="scrollAnimation"></div></section><section class="panel one" id="sec1"><div class="sectionTextBlock"><p id="sec1Text"></p></div></section><section class="panel two" id="sec2"><div class="sectionTextBlock"><p id="sec2Text"></p></div></section><section class="panel three" id="sec3"><div class="sectionTextBlock"><p id="sec3Text"></p></div></section><section class="panel four" id="sec4"><div class="sectionTextBlock"><p id="sec4Text"></p></div></section><section class="panel five" id="sec5"><div class="sectionTextBlock"><p id="sec5Text"></p></div></section><section class="panel six" id="sec6"><div class="sectionTextBlock"><p id="sec6Text"></p></div></section><section class="panel seven" id="sec7"><div class="sectionTextBlock"><p id="sec7Text"></p></div></section></div>');
+    $('#mapViewport').html('<div id="viewport"><section class="panel one"><img id="elsiePhoto" src="img/elsiePhoto.png"/><div class="introTextBlock "><p id="introText "> On Wednesday, 27th May 2015, Dublin City Council\'s Public Library Service took possession of a copy of a rare eye-witness account of the outbreak of the 1916 Easter Rising. The account was in the form of a letter written by Elsie McDermid, a popular opera singer of the era, to her mother in England on the occasion of Elsie\'s visit to Dublin. <br> <br> She was in Dublin to perform in Gilbert and Sullivan shows at Dublin’s Gaiety Theatre with the D\'Oyly Carte Opera Company. However, the performances were cancelled as a result of the dramatic outbreak of the Easter Rising on Monday 24th April 1916.</p><img id="scrollUp" src="img/useCase1.gif"/></div></section><section class="panel one" id="sec1"><div class="sectionTextBlock"><p id="sec1Text"></p></div></section><section class="panel two" id="sec2"><div class="sectionTextBlock"><p id="sec2Text"></p></div></section><section class="panel three" id="sec3"><div class="sectionTextBlock"><p id="sec3Text"></p></div></section><section class="panel four" id="sec4"><div class="sectionTextBlock"><p id="sec4Text"></p></div></section><section class="panel five" id="sec5"><div class="sectionTextBlock"><p id="sec5Text"></p></div></section><section class="panel six" id="sec6"><div class="sectionTextBlock"><p id="sec6Text"></p></div></section><section class="panel seven" id="sec7"><div class="sectionTextBlock"><p id="sec7Text"></p></div></section></div>');
     setUpElsiePage();
 }
 

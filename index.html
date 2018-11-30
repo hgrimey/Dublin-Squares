@@ -177,14 +177,15 @@
     }
 
     /* - - - - - - - - -    Flyout Terrace - Grid Layout    - - - - - - - - - */
+
     #menuwrapper ul li a.tableBtn {
         color: #719AA1;
         font-family: SF_D_Reg;
         font-size: 14px;
         text-align: center;
     }
-    
-     #menuwrapper ul li a.tableBtn:active {
+
+    #menuwrapper ul li a.tableBtn:active {
         color: #719AA1;
         background-color: #F0F0F0;
         font-family: SF_D_Reg;
@@ -347,41 +348,57 @@
 
     svg#architecturalExterior {
         height: 90vh;
-        padding-left: 30px;
+        width: 50vw;
+        padding-left: 2px;
         float: left;
     }
 
     /* Architecture Text*/
     #archText {
         /*        padding-left: 500px;*/
-        padding-top: 300px;
+
         padding-right: 90px;
-        width: 500px;
+        width: 425px;
         float: right;
         color: #719AA1;
         font-family: SF_D_Reg;
         font-size: 14px;
     }
-    
-    /* Hotspot Annimation */
-    #stairsHotspot {
-        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
-    }
-    
+
     #stairsHotspot:active {
         -webkit-animation: pulse 1s cubic-bezier(0.10, 0, 0, 1);
-        -moz-animation: pulse 1s  cubic-bezier(0.10, 0, 0, 1);
+        -moz-animation: pulse 1s cubic-bezier(0.10, 0, 0, 1);
         -ms-animation: pulse 1s cubic-bezier(0.10, 0, 0, 1);
         animation: pulse 1s cubic-bezier(0.10, 0, 0, 1);
     }
 
-    @-webkit-keyframes pulse {to {box-shadow: 0 0 0 12px rgba(45, 45, 45, 0);}}
-    @-moz-keyframes pulse {to {box-shadow: 0 0 0 12px rgba(45, 45, 45, 0);}}
-    @-ms-keyframes pulse {to {box-shadow: 0 0 0 12px rgba(45, 45, 45, 0);}}
-    @keyframes pulse {to {box-shadow: 0 0 0 12px rgba(45, 45, 45, 0);}}
+    @-webkit-keyframes pulse {
+        to {
+            box-shadow: 0 0 0 12px rgba(45, 45, 45, 0);
+        }
     }
-    
-/*
+
+    @-moz-keyframes pulse {
+        to {
+            box-shadow: 0 0 0 12px rgba(45, 45, 45, 0);
+        }
+    }
+
+    @-ms-keyframes pulse {
+        to {
+            box-shadow: 0 0 0 12px rgba(45, 45, 45, 0);
+        }
+    }
+
+    @keyframes pulse {
+        to {
+            box-shadow: 0 0 0 12px rgba(45, 45, 45, 0);
+        }
+    }
+
+    }
+
+    /*
     svg.sticky {
         width: 200px;
         height: 300px;
@@ -418,6 +435,19 @@
         width: 100vw;
     }
 
+    img#elsiePhoto {
+        padding-left: 95px;
+        padding-top: 10px;
+        height: 70vh;
+    }
+
+    img#scrollUp {
+        padding-top: 1px;
+        height: 6vh;
+    }
+
+
+
     .one {
         background-color: black;
     }
@@ -450,13 +480,12 @@
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        top: 70%;
-        width: 60vw;
+        padding-top: 205px;
+        width: 90vw;
         color: #F0F0F0;
         font-family: SF_D_Reg;
         font-size: 13px;
         text-align: center;
-
         /* make the text centre*/
         -moz-transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
@@ -478,6 +507,48 @@
         transform: translateY(-50%);
     }
 
+    /* - - - - - - - Notable Figures Section - - - - - - - */
+
+    #buttonGroup {
+        width: 100%;
+        /*    margin-left: 60px;*/
+    }
+
+    button#name.title-name {
+        margin: 5px;
+        width: 22.5vw;
+        background-color: #F0F0F0;
+        border: none;
+        border-radius: 2px;
+        color: #719AA1;
+        padding: 3px;
+
+        float: right;
+        font-family: SF_D_Reg;
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+
+    button#name.title-name:active {
+        background-color: #719AA1;
+        color: #F0F0F0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    button#name.title-name:focus {
+        background-color: #719AA1;
+        color: #F0F0F0;
+    }
+
+    #buttonGroup:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    /* ---------------------------------------- */
 
     /*text*/
 
@@ -587,7 +658,7 @@
         font-size: 14px;
         text-align: center;
         text-decoration: none;
-        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 5px 20px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
     }
 
     table {
@@ -596,7 +667,7 @@
         padding: 15px;
         text-align: left;
     }
- 
+
     /* - - - - - - Comparsion Slider Window - - - - - - */
 
     * {
@@ -691,13 +762,20 @@
     }
 
     /*  - - - - - - - - - Terrace View - - - - - - - - - */
+
     p#terraces {
+
+        width: 140px;
+        text-align: center;
+
+
         width: 90px;
         text-align: right;
         color: lightgrey opacity 1;
         font-family: SF_D_Reg;
-        font-size: 11px;     
-        
+        font-size: 11px;
+
+
     }
 
     section {
@@ -720,6 +798,60 @@
         height: 80vh;
     }
 
+    <<<<<<< HEAD @-webkit-keyframes circleBounce {
+        0% {
+            -webkit-transform: scale(0.9);
+            opacity: 0;
+        }
+        25% {
+            opacity: 0.5;
+        }
+        50% {
+            opacity: 1;
+        }
+        75% {
+            opacity: 0.5;
+        }
+        100% {
+            -webkit-transform: scale(1.0);
+            opacity: 0;
+        }
+    }
+
+    .scrollAnimation {
+        position: relative;
+        top: 100px;
+        left: calc(50% - 3px);
+        width: 6px;
+        height: 6px;
+        border: 3px solid red;
+        border-top: none;
+        border-left: none;
+
+        -webkit-transform: rotate(45deg);
+        -webkit-transform-origin: 50% 50%;
+    }
+
+/*
+    .scrollAnimation:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: calc(50% - 23px);
+        //circle=1+50+1=52px/ left: calc(50% - 23px);
+        //arrow=3+3=6px/ width: 50px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, .8);
+        border: 1px solid red;
+        border-radius: 50%;
+*/
+
+        -webkit-animation: circleBounce 1.2s linear infinite;
+    }
+
+    .scrollAnimation:hover:after {
+        background-color: rgba(255, 0, 0, .15);
+    }
 
 </style>
 
@@ -870,7 +1002,7 @@
                 //architecturalSection(features);
                 loadArchitecturalFeaturesContainer();
 
-                $('#architectural_features').html('<div id="hello">' + architecturalSection(features) + '</div>');
+                $('#architectural_features').html('<div id="hello" style="display:none">' + architecturalSection(features) + '</div>');
                 $('#architectural_features').append('<div id="archText"></div>');
             });
 
