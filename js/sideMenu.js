@@ -98,26 +98,28 @@ function aboutMerrionHTML() {
     return html;
 }
 
+//image slider in the event section
 function historyOfMerrionSection() {
     var html = '';
     // html += '<div id="history">';
     //html += '<div id="" class="" ><h3>MERRION SQUARE HISTORY</h3></div></div>';
     html += '<div class="img-comp-container">';
     html += '<div class="img-comp-img">';
-    html += '<img src="img/test/img_snow.jpg" width="300" height="200">';
+    html += '<img src="img/test/gpo.jpg" width="300" height="200">';
     html += '</div>';
     html += '<div class="img-comp-img img-comp-overlay">';
-    html += '<img src="img/test/img_forest.jpg" width="300" height="200">';
+    html += '<img src="img/test/Dublin.png" width="300" height="200">';
     html += '</div>';
     html += '</div>';
 
     return html;
 }
 
+//georgian dublin - with architectural feature buttons
 function architecturalFeaturesMerrionHTML(features) {
     var html = '';
     html += '<div id="architecture">';
-    html += '<div id="" class="" ><h3>MERRION SQUARE ARCHITECTURAL FEATURES</h3></div>'
+    html += '<div id="" class="georgianTitle"><h3>Georgian Dublin</h3></div>'
     html += '<div><button class="intExt" class="" data-features="5">Exterior</button></div>\r\n'
     //    html += '<div id="intExt" class="" data-features="' + features.ID + '">Interior</div>\r\n'
     html += '<div><button class="intExt" class="" data-features="17">Interior</button></div>\r\n'

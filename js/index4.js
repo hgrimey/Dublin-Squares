@@ -243,7 +243,7 @@ function buildHouseHTML(house) {
     if (fourthImage != null) {
         html += '<div class="imgHouse"><img src="' + getImageUrl(fourthImage.houseImageURL) + '"/></div>\r\n'
     }
-    debugger;
+    //debugger;
     html += buildTimeline(timeline);
 
     html += '</div>'
@@ -261,6 +261,7 @@ function loadHouse(id, callback) {
     });
 }
 
+//animated SVGs on each house page
 function createHouseSVG() {
 
     var url = $('#mapViewport .imgHouse').data('img-url');
