@@ -114,6 +114,7 @@ function createMerrionArchitecturalFeaturesSection() {
     $('#mapViewport').html(architecturalFeaturesMerrionHTML());
 }
 
+//chapter headings in the About section
 function aboutMerrionHTML() {
     var html = '';
     html += '<div id="aboutMenu">';
@@ -298,9 +299,13 @@ function loadMenu() {
     });
 }
 
+//Witness Account
 function elsieLetterPage() {
+
+
     //addToHistory(elsieLetterPage);
-    $('#mapViewport').html('<div id="viewport"><section class="panel one"><img id="elsiePhoto" src="img/elsiePhoto.png"/><div class="introTextBlock "><p id="introText "> On Wednesday, 27th May 2015, Dublin City Council\'s Public Library Service took possession of a copy of a rare eye-witness account of the outbreak of the 1916 Easter Rising. The account was in the form of a letter written by Elsie McDermid, a popular opera singer of the era, to her mother in England on the occasion of Elsie\'s visit to Dublin. <br> <br> She was in Dublin to perform in Gilbert and Sullivan shows at Dublin’s Gaiety Theatre with the D\'Oyly Carte Opera Company. However, the performances were cancelled as a result of the dramatic outbreak of the Easter Rising on Monday 24th April 1916.</p><img id="scrollUp" src="img/useCase1.gif"/></div></section><section class="panel one" id="sec1"><div class="sectionTextBlock"><p id="sec1Text"></p></div></section><section class="panel two" id="sec2"><div class="sectionTextBlock"><p id="sec2Text"></p></div></section><section class="panel three" id="sec3"><div class="sectionTextBlock"><p id="sec3Text"></p></div></section><section class="panel four" id="sec4"><div class="sectionTextBlock"><p id="sec4Text"></p></div></section><section class="panel five" id="sec5"><div class="sectionTextBlock"><p id="sec5Text"></p></div></section><section class="panel six" id="sec6"><div class="sectionTextBlock"><p id="sec6Text"></p></div></section><section class="panel seven" id="sec7"><div class="sectionTextBlock"><p id="sec7Text"></p></div></section></div>');
+    $('#mapViewport').html('<div id="viewport"><section class="panel one"><img id="elsiePhoto" src="img/elsiePhoto.png"/><div class="introTextBlock "><p id="introText "> On Wednesday, 27th May 2015, Dublin City Council\'s Public Library Service took possession of a copy of a rare eye-witness account of the outbreak of the 1916 Easter Rising. The account was in the form of a letter written by Elsie McDermid, a popular opera singer of the era, to her mother in England on the occasion of Elsie\'s visit to Dublin. <br> <br> She was in Dublin to perform in Gilbert and Sullivan shows at Dublin’s Gaiety Theatre with the D\'Oyly Carte Opera Company. However, the performances were cancelled as a result of the dramatic outbreak of the Easter Rising on Monday 24th April 1916.</p><img id="scrollUp" src="img/scrollAnimation.gif"/></div></section><section class="panel one" id="sec1"><div class="sectionTextBlock"><p id="sec1Text"></p></div></section><section class="panel two" id="sec2"><div class="sectionTextBlock"><p id="sec2Text"></p></div></section><section class="panel three" id="sec3"><div class="sectionTextBlock"><p id="sec3Text"></p></div></section><section class="panel four" id="sec4"><div class="sectionTextBlock"><p id="sec4Text"></p></div></section><section class="panel five" id="sec5"><div class="sectionTextBlock"><p id="sec5Text"></p></div></section><section class="panel six" id="sec6"><div class="sectionTextBlock"><p id="sec6Text"></p></div></section><section class="panel seven" id="sec7"><div class="sectionTextBlock"><p id="sec7Text"></p></div></section></div>');
+
     setUpElsiePage();
 }
 

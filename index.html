@@ -92,7 +92,6 @@
         text-align: center;
         background-color: #719AA1;
         color: #F0F0F0;
-        ;
     }
 
     .modal-body {
@@ -102,6 +101,36 @@
         background-color: #719AA1;
         font-family: SF_D_Light, sans-serif;
         font-size: 15px;
+        color: #F0F0F0;
+    }
+
+    /* Welcome onboarding modal */
+
+    .welcome-modal-body {
+        position: relative;
+        flex: 1 1 auto;
+        padding: 1rem;
+        background-color: #E45C5F;
+        font-family: SF_D_Light, sans-serif;
+        font-size: 15px;
+        color: #F0F0F0;
+        text-align: center;
+    }
+
+    .welcome-modal-header {
+        display: flex;
+        align-items: flex-start;
+        padding: 1rem;
+        border-bottom: 0px solid #E45C5F;
+        font-family: SF_D_Medium, sans-serif;
+        font-size: 12px;
+        text-align: center;
+        background-color: #E45C5F;
+        color: #F0F0F0;
+    }
+
+    .welcome-modal-title {
+        background-color: #E45C5F;
         color: #F0F0F0;
     }
 
@@ -274,6 +303,8 @@
         -moz-transition: background-color 0.5s ease;
     }
 
+    /* - - - - - - About Section Chapters - - - - - - - */
+
     #architecturalFeatures {
         height: 100vh;
         width: 33%;
@@ -298,15 +329,15 @@
         float: left;
     }
 
-    /* - - - - - - about section - - - - - - - */
+    /* - - - - - - about section - text - - - - - - - */
 
     .centeredText {
         position: absolute;
-        top: 90%;
+        top: 85%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-family: SF_D_Reg, sans-serif;
-        font-size: 20px;
+        font-family: SF_D_Medium, sans-serif;
+        font-size: 16px;
         color: #F0F0F0;
     }
 
@@ -347,7 +378,32 @@
     
 */
 
-    .button.intExt {}
+    /* exterior and interior buttons */
+
+    button.intExt {
+        margin: 10px;
+        width: 15vw;
+        border: none;
+        padding 3px;
+        color: #719AA1;
+        background-color: #F0F0F0;
+        border-radius: 2px;
+        font-family: SF_D_Medium;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    button.intExt:active {
+        background-color: #719AA1;
+        color: #F0F0F0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    button.intExt:focus {
+        background-color: #719AA1;
+        color: #F0F0F0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    }
 
     svg#architecturalExterior {
         height: 90vh;
@@ -356,16 +412,18 @@
         float: left;
     }
 
+    /* Architecture Text*/
+
     #archText {
         /*        padding-left: 500px;*/
+        padding-top: 300px;
         padding-top: 100px;
         padding-right: 90px;
         width: 425px;
         float: right;
-    }
-
-    #stairsHotspot {
-        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+        color: #719AA1;
+        font-family: SF_D_Reg;
+        font-size: 14px;
     }
 
     #stairsHotspot:active {
@@ -441,15 +499,15 @@
     img#elsiePhoto {
         padding-left: 95px;
         padding-top: 10px;
-        height: 70vh;
+        height: 50vh;
+        padding-left: 20%;
     }
 
     img#scrollUp {
         padding-top: 1px;
-        height: 6vh;
+        height: 2vh;
+        padding-left: 50%;
     }
-
-
 
     .one {
         background-color: black;
@@ -479,15 +537,16 @@
         background-color: black;
     }
 
-    .introTextBlock {
+    .introTextBlock p {
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        padding-top: 205px;
-        width: 90vw;
+        padding-top: 150px;
+        padding-bottom: -20px;
+        width: 65vw;
         color: #F0F0F0;
         font-family: SF_D_Reg;
-        font-size: 13px;
+        font-size: 12px;
         text-align: center;
         /* make the text centre*/
         -moz-transform: translateY(-50%);
@@ -597,6 +656,16 @@
     @font-face {
         font-family: SF_D_Light;
         src: url('SF-Pro-Display-Light.otf');
+    }
+
+    @font-face {
+        font-family: SF_D_Medium;
+        src: url('SF-Pro-Display-Medium.otf');
+    }
+
+    @font-face {
+        font-family: SF_D_Bold;
+        src: url(' SF-Pro-Text-Bold.otf');
     }
 
     /* - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -792,29 +861,81 @@
     }
 */
 
+    /*SVG house image*/
+
     .imgHouse svg {
-        height: 90vh;
-        width: 75vw;
+        height: 60vh;
+        width: 45vw;
     }
 
     img#merrionOnboarding {
         height: 80vh;
     }
 
+
     .scrollContainer {
         overflow-y: scroll;
         overflow-x: hidden;
         width: 100%;
 
+        /*
+ @-webkit-keyframes circleBounce {
+        0% {
+            -webkit-transform: scale(0.9);
+            opacity: 0;
+        }
+        25% {
+            opacity: 0.5;
+        }
+        50% {
+            opacity: 1;
+        }
+        75% {
+            opacity: 0.5;
+        }
+        100% {
+            -webkit-transform: scale(1.0);
+            opacity: 0;
+        }
     }
+
+    .scrollAnimation {
+        position: relative;
+        top: 100px;
+        left: calc(50% - 3px);
+        width: 6px;
+        height: 6px;
+        border: 3px solid red;
+        border-top: none;
+        border-left: none;
+
+
+    }
+
 
     #superContainer {
         height: 100%;
+
+    .scrollAnimation:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: calc(50% - 23px);
+        //circle=1+50+1=52px/ left: calc(50% - 23px);
+        //arrow=3+3=6px/ width: 50px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, .8);
+        border: 1px solid red;
+        border-radius: 50%;
+
+        -webkit-animation: circleBounce 1.2s linear infinite;
+
     }
 
     .animateHotspot {
         fill: magenta;
     }
+*/
 
 </style>
 

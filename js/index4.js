@@ -105,11 +105,19 @@ function landingPageModal() {
     html += '<div class="modal fade" id="landingPageModalCenter" tabindex="-1" role="dialog" aria-labelledby="landingPageModalCenterTitle" aria-hidden="true">';
     html += '<div class="modal-dialog modal-dialog-centered" role="document">';
     html += '<div class="modal-content" >';
+
     html += '<div class="modal-header">';
     html += '<h3 class="modal-title" id="landingPageModalCenterTitle" >Welcome to Dublin Squares</h3>';
     html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close">';
     html += '<span aria-hidden="true">&times;</span></button></div>';
     html += '<div class="modal-body">Explore Dublin City by tapping on the interactive points on the map. <br> To discover the hidden details and history of a Georgian Square, simply tap on a Square. Currently, Merrion Square is the only available option but we are working to add content to the other Georgian Squares of Dublin. <br> Bain Sult! (Enjoy!)</div>';
+
+    html += '<div class="welcome-modal-header">';
+    html += '<h3 class="welcome-modal-title" id="welcome-landingPageModalCenterTitle" >Welcome to Dublin Squares</h3>';
+    html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close">';
+    html += '<span aria-hidden="true">&times;</span></button></div>';
+    html += '<div class="welcome-modal-body">Explore Dublin City’s interactive points on the <br> map then discover the hidden details of the Squares. <br> Bain Sult! (Enjoy!)</div>';
+
     html += '</div></div>';
 
     return html;
