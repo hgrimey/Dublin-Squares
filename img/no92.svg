@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="house92" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 192.9 509.3" enable-background="new 0 0 192.9 509.3" xml:space="preserve">
+<g id="structure">
+	<rect id="bkgd" x="13.9" y="21.2" fill="#E35C5F" width="166.2" height="441.8"/>
+	<g id="brick">
+		<rect x="96.5" y="130.2" fill="#C54D53" width="16.3" height="6.7"/>
+		<rect x="144.1" y="203.4" fill="#C54D53" width="16.3" height="6.7"/>
+		<rect x="163.7" y="343" fill="#C54D53" width="16.3" height="6.7"/>
+		<rect x="78.7" y="321.5" fill="#C54D53" width="16.3" height="6.7"/>
+		<rect x="29.9" y="359" fill="#C54D53" width="16.3" height="6.7"/>
+		<rect x="73.8" y="46.6" fill="#C54D53" width="16.3" height="6.7"/>
+	</g>
+	
+		<rect id="roof" x="13.9" y="13.1" fill="#B5454B" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="166.1" height="8.1"/>
+</g>
+<g id="windows">
+	<g id="_x34_thWindows">
+		<g id="_x34_rightWindow">
+			<path fill="#B5454B" d="M151.2,88.1h-37.3c-0.3-4.7-0.6-4.9-0.6-5.1v-3.8c0-0.2,0.3-0.4,0.6-0.4h37.3c0.3,0,0.6,0.2,0.6,0.4V83
+				C151.8,83.3,151.5,83.4,151.2,88.1z"/>
+			
+				<rect x="113.3" y="43.6" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.5" height="36.3"/>
+			<rect class="lightOn" x="117" y="46.6" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31" height="33.2"/>
+			
+				<rect x="108.9" y="78.2" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.2" height="6.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="117" y1="61.7" x2="148" y2="61.7"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="138.5" y1="46.2" x2="138.5" y2="77.8"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="127.5" y1="46.2" x2="127.5" y2="77.8"/>
+		</g>
+		<g id="_x34_leftWindow">
+			<path fill="#B5454B" d="M73.2,88.1H35.9c-0.3-4.7-0.6-4.9-0.6-5.1v-3.8c0-0.2,0.3-0.4,0.6-0.4h37.3c0.3,0,0.6,0.2,0.6,0.4V83
+				C73.8,83.3,73.5,83.4,73.2,88.1z"/>
+			
+				<rect x="35.3" y="43.6" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.5" height="36.3"/>
+			<rect class="lightOn" x="39.1" y="46.6" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31" height="33.2"/>
+			
+				<rect x="30.9" y="78.2" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.2" height="6.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="39.1" y1="61.7" x2="70.1" y2="61.7"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="60.6" y1="46.6" x2="60.6" y2="78.2"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="49.5" y1="46.6" x2="49.5" y2="78.2"/>
+		</g>
+	</g>
+	<g id="_x33_rdWindows">
+		<g id="_x33_rightWindow">
+			<path fill="#B5454B" d="M150.7,187.1h-37.3c-0.3-4.7-0.6-4.9-0.6-5.1v-3.8c0-0.2,0.3-0.4,0.6-0.4h37.3c0.3,0,0.6,0.2,0.6,0.4v3.8
+				C151.3,182.2,151,182.4,150.7,187.1z"/>
+			
+				<rect x="112.8" y="114.9" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.5" height="65.3"/>
+			<polygon class="lightOn" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" points="147.6,178.4 116.6,178.4 
+				116.6,117.9 130.6,117.9 147.6,117.9 			"/>
+			
+				<rect x="108.4" y="177.2" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.2" height="6.1"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="116.6" y1="148.1" x2="147.6" y2="148.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="116.6" y1="164" x2="147.6" y2="164"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="116.6" y1="131.3" x2="147.6" y2="131.3"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="138" y1="117.9" x2="138" y2="177.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="127" y1="117.9" x2="127" y2="177.1"/>
+		</g>
+		<g id="_x33_leftWindow">
+			<path fill="#B5454B" d="M72.8,187.1H35.4c-0.3-4.7-0.6-4.9-0.6-5.1v-3.8c0-0.2,0.3-0.4,0.6-0.4h37.3c0.3,0,0.6,0.2,0.6,0.4v3.8
+				C73.3,182.2,73.1,182.4,72.8,187.1z"/>
+			
+				<rect x="34.9" y="114.9" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.5" height="65.3"/>
+			
+				<rect class="lightOn" x="38.6" y="117.9" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31" height="60.4"/>
+			
+				<rect x="30.5" y="177.2" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.2" height="6.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="38.6" y1="148.2" x2="69.6" y2="148.2"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="38.6" y1="164.1" x2="69.6" y2="164.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="38.6" y1="131.4" x2="69.6" y2="131.4"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="60.1" y1="117.9" x2="60.1" y2="177.2"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="49.1" y1="117.9" x2="49.1" y2="177.2"/>
+		</g>
+	</g>
+	<g id="_x32_ndWindows">
+		<path fill="#B5454B" d="M72.8,327.3H35.4c-0.3-4.7-0.6-4.9-0.6-5.1v-3.8c0-0.2,0.3-0.4,0.6-0.4h37.3c0.3,0,0.6,0.2,0.6,0.4v3.8
+			C73.3,322.4,73.1,322.6,72.8,327.3z"/>
+		
+			<rect x="34.9" y="221.1" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.5" height="96.9"/>
+		<rect class="lightOn" x="38.6" y="224.2" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31" height="93.9"/>
+		
+			<rect x="30.5" y="317.4" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.2" height="6.1"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="38.6" y1="272.1" x2="69.6" y2="272.1"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="38.6" y1="294.6" x2="69.6" y2="294.6"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="38.6" y1="245.6" x2="69.6" y2="245.6"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="60.1" y1="224.4" x2="60.1" y2="317.8"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="48.4" y1="224.4" x2="48.4" y2="317.8"/>
+		<g id="_x32_rightWindow">
+			<path fill="#B5454B" d="M151.7,327.3h-37.3c-0.3-4.7-0.6-4.9-0.6-5.1v-3.8c0-0.2,0.3-0.4,0.6-0.4h37.3c0.3,0,0.6,0.2,0.6,0.4v3.8
+				C152.2,322.4,152,322.6,151.7,327.3z"/>
+			
+				<rect x="113.8" y="221.1" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.5" height="96.9"/>
+			
+				<rect class="lightOn" x="117.5" y="224.2" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31" height="93.9"/>
+			
+				<rect x="109.4" y="317.4" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.2" height="6.1"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="117.5" y1="271.5" x2="148.5" y2="271.5"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="117.5" y1="294.1" x2="148.5" y2="294.1"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="117.5" y1="245.1" x2="148.5" y2="245.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="139" y1="223.9" x2="139" y2="317.3"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="127.3" y1="223.9" x2="127.3" y2="317.3"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="117.5" y1="271.5" x2="148.5" y2="271.5"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="117.5" y1="294.1" x2="148.5" y2="294.1"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="117.5" y1="245.1" x2="148.5" y2="245.1"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="127.3" y1="223.9" x2="127.3" y2="317.3"/>
+		</g>
+	</g>
+	<g id="_x31_Window">
+		<path fill="#B5454B" d="M84.1,449.1H46.8c-0.3-4.7-0.6-4.9-0.6-5.1v-3.8c0-0.2,0.3-0.4,0.6-0.4h37.3c0.3,0,0.6,0.2,0.6,0.4v3.8
+			C84.6,444.2,84.4,444.4,84.1,449.1z"/>
+		<rect x="46.2" y="358" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.5" height="81.8"/>
+		<rect class="lightOn" x="49.9" y="361" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31" height="81.1"/>
+		
+			<rect x="41.8" y="439.1" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.2" height="6.1"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="49.9" y1="400.8" x2="80.9" y2="400.8"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="49.9" y1="421" x2="80.9" y2="421"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="49.9" y1="378.6" x2="80.9" y2="378.6"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="71.4" y1="360.9" x2="71.4" y2="439.1"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="59.7" y1="360.9" x2="59.7" y2="439.1"/>
+	</g>
+</g>
+<g id="balcony">
+	<g id="right_8_">
+		<g>
+			<g id="balcony_14_">
+				
+					<rect x="110.3" y="297.2" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="46.3" height="20.1"/>
+			</g>
+		</g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="133.5" y1="317.3" x2="133.5" y2="297.2"/>
+			<circle fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" cx="133.5" cy="307.4" r="1.3"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="121.1" y1="317.3" x2="121.1" y2="297.2"/>
+			<circle fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" cx="121.1" cy="307.2" r="1.3"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="145.5" y1="317.3" x2="145.5" y2="297.2"/>
+			<circle fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" cx="145.5" cy="307.2" r="1.3"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="138.9" y1="317.3" x2="138.9" y2="297.2"/>
+			
+				<rect x="138" y="299.8" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 24.557 611.4971)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="1.8" height="1.8"/>
+			
+				<rect x="138.1" y="312.9" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 15.4569 633.9559)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="1.8" height="1.8"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="127.3" y1="317.3" x2="127.3" y2="297.2"/>
+			
+				<rect x="126.4" y="299.8" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 4.6612 603.256)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="1.8" height="1.8"/>
+			
+				<rect x="126.5" y="312.9" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -4.4389 625.7148)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="1.8" height="1.8"/>
+		</g>
+	</g>
+	<g id="left_8_">
+		<g>
+			<g id="balcony_13_">
+				
+					<rect x="31.4" y="297.3" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="46.3" height="20.1"/>
+			</g>
+		</g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="54.6" y1="317.4" x2="54.6" y2="297.3"/>
+			<circle fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" cx="54.6" cy="307.5" r="1.3"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="42.2" y1="317.4" x2="42.2" y2="297.3"/>
+			<circle fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" cx="42.2" cy="307.3" r="1.3"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="66.6" y1="317.4" x2="66.6" y2="297.3"/>
+			<circle fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" cx="66.6" cy="307.3" r="1.3"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="60" y1="317.4" x2="60" y2="297.3"/>
+			
+				<rect x="59.1" y="299.9" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -110.1946 555.869)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="1.8" height="1.8"/>
+			
+				<rect x="59.2" y="313" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -119.2947 578.3278)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="1.8" height="1.8"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="48.4" y1="317.4" x2="48.4" y2="297.3"/>
+			
+				<rect x="47.5" y="299.9" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -130.0902 547.6279)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="1.8" height="1.8"/>
+			
+				<rect x="47.6" y="313" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -139.1903 570.0867)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="1.8" height="1.8"/>
+		</g>
+	</g>
+</g>
+<g id="bottomArea">
+	<g id="stairs">
+		<rect x="99.4" y="462.2" fill="#A09F9F" width="80.7" height="34.5"/>
+		<rect x="99.4" y="469.6" fill="#58595B" width="80.7" height="3"/>
+		<rect x="99.4" y="479.4" fill="#58595B" width="80.7" height="3"/>
+		<rect x="99" y="489.7" fill="#58595B" width="81" height="3"/>
+	</g>
+	<g>
+		<rect x="13.9" y="462.2" fill="#E0DCD2" width="87.1" height="22.1"/>
+		
+			<rect x="46.5" y="472.9" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="37.2" height="12.6"/>
+		<rect x="49.6" y="475.8" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31" height="12.3"/>
+		
+			<rect x="13.8" y="484.2" fill="#686868" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="86.6" height="12.4"/>
+		<g>
+			<polygon fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" points="95.4,480.9 13.8,480.9 13.8,450.6 
+				16.1,450.6 95.4,450.6 			"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="49.7" y1="480.9" x2="49.7" y2="450.6"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="59.5" y1="480.9" x2="59.5" y2="450.6"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="39.8" y1="480.9" x2="39.8" y2="450.6"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="30" y1="480.9" x2="30" y2="450.6"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="21.3" y1="480.9" x2="21.3" y2="450.6"/>
+			<polyline fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" points="68.4,480.9 68.4,462.4 68.4,450.6 
+							"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="78.3" y1="480.9" x2="78.3" y2="450.6"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="87.4" y1="480.9" x2="87.4" y2="450.6"/>
+		</g>
+	</g>
+</g>
+<g id="door">
+	<g id="doorFrame">
+		<rect x="108.2" y="383.8" fill="#BAB9B6" width="63.2" height="78.4"/>
+		<rect x="112.6" y="390" fill="#A09F9F" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="6.7" height="72.2"/>
+		
+			<rect x="160.1" y="390.3" fill="#A09F9F" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="6.8" height="71.9"/>
+		
+			<rect x="136.3" y="359.9" transform="matrix(1.309004e-11 -1 1 1.309004e-11 -247.2752 526.7042)" fill="#A09F9F" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="6.8" height="54.3"/>
+		<rect x="122" y="390.8" fill="#1A71AB" width="35.6" height="71.9"/>
+		
+			<rect x="126.9" y="449.7" transform="matrix(-1 -6.387901e-12 6.387901e-12 -1 279.4503 906.7323)" fill="#196396" width="25.6" height="7.4"/>
+		
+			<rect x="145.1" y="433.3" transform="matrix(-1 -4.872883e-13 4.872883e-13 -1 297.7539 879.974)" fill="#196396" width="7.5" height="13.4"/>
+		
+			<rect x="136" y="433.3" transform="matrix(-1 -1.462064e-12 1.462064e-12 -1 279.3802 879.974)" fill="#196396" width="7.5" height="13.4"/>
+		
+			<rect x="126.9" y="433.3" transform="matrix(-1 -1.462064e-12 1.462064e-12 -1 261.2867 879.974)" fill="#196396" width="7.5" height="13.4"/>
+		
+			<rect x="145.1" y="408.5" transform="matrix(-1 2.485289e-11 -2.485289e-11 -1 297.6138 838.5129)" fill="#196396" width="7.5" height="21.4"/>
+		
+			<rect x="135.9" y="408.5" transform="matrix(-1 2.582766e-11 -2.582766e-11 -1 279.2402 838.5129)" fill="#196396" width="7.5" height="21.4"/>
+		
+			<rect x="126.8" y="408.5" transform="matrix(-1 2.582766e-11 -2.582766e-11 -1 261.1467 838.5129)" fill="#196396" width="7.5" height="21.4"/>
+		
+			<rect x="126.8" y="396.7" transform="matrix(-1 -5.237710e-12 5.237710e-12 -1 279.3802 801.3697)" fill="#196396" width="25.7" height="8"/>
+	</g>
+	<g id="fanlight">
+		<path fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M171,383.7c0-16.9-14-30.6-31.2-30.6
+			s-31.2,13.7-31.2,30.6H171z"/>
+		<path fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M166.9,383.8c0-14.7-12.2-26.6-27.2-26.6
+			s-27.2,11.9-27.2,26.6H166.9z"/>
+		<path fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M144.8,383.7c0-2.8-2.3-5.1-5.2-5.1
+			s-5.2,2.3-5.2,5.1H144.8z"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="139.6" y1="378.7" x2="139.6" y2="357.2"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="135.9" y1="380.2" x2="120.6" y2="364.9"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="134.5" y1="382.3" x2="114.4" y2="374.2"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="137.5" y1="379.1" x2="129.7" y2="359"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="143.4" y1="380.2" x2="158.6" y2="364.9"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="144.8" y1="382.3" x2="164.8" y2="374.2"/>
+		<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="141.7" y1="379.1" x2="149.2" y2="358.8"/>
+	</g>
+</g>
+</svg>

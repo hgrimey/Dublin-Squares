@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="oscarWilde" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 355.9 505.3" enable-background="new 0 0 355.9 505.3" xml:space="preserve">
+<g id="structure">
+	<path fill="#686868" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M60.8,236c0,0,6.4-21.7,49.5-31.2
+		c43.1-9.5,0,31.2,0,31.2H60.8z"/>
+	<polygon id="bkgd" fill="#E35C5F" points="108.7,18.1 108.7,232.3 118.9,232.3 118.9,239.7 125.2,239.7 125.2,246.3 118.9,246.3 
+		118.9,342.3 336.5,342.3 336.5,18.1 	"/>
+	<rect x="118.9" y="338.5" fill="#BAB9B6" width="217.5" height="137.3"/>
+	<g id="brick">
+		<rect x="237.3" y="261.8" fill="#C54D53" width="16.1" height="6.6"/>
+		<rect x="181.9" y="118.2" fill="#C54D53" width="16.1" height="6.6"/>
+		<rect x="279.7" y="36.6" fill="#C54D53" width="16.1" height="6.6"/>
+		<rect x="320.3" y="144.1" fill="#C54D53" width="16.1" height="6.6"/>
+		<rect x="108.7" y="50" fill="#C54D53" width="16.1" height="6.6"/>
+		<rect x="130.5" y="206.4" fill="#C54D53" width="16.1" height="6.6"/>
+		<rect x="187" y="292" fill="#C54D53" width="16.1" height="6.6"/>
+		<rect x="119.5" y="351" fill="#A09F9F" width="16.1" height="2.6"/>
+		<rect x="168.2" y="368.5" fill="#A09F9F" width="16.1" height="2.6"/>
+		<rect x="248.3" y="394.7" fill="#A09F9F" width="16.1" height="2.6"/>
+		<rect x="264.9" y="364.5" fill="#A09F9F" width="16.1" height="2.6"/>
+		<rect x="320.3" y="426" fill="#A09F9F" width="16.1" height="2.6"/>
+		<ellipse fill="#A09F9F" cx="195.1" cy="402.5" rx="10.2" ry="11.9"/>
+		<circle fill="#A09F9F" cx="130.8" cy="403.8" r="7.8"/>
+		<rect x="124.6" y="414.2" fill="#A09F9F" width="12.4" height="8.2"/>
+	</g>
+	
+		<rect id="roof" x="103.6" y="10.1" fill="#B5464C" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="239.5" height="8"/>
+	<rect x="119.5" y="338.5" fill="#A09F9F" width="217.5" height="3.7"/>
+</g>
+<g id="doorStructure">
+	
+		<rect x="35.4" y="247.2" fill="#BAB9B6" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="83.5" height="228.6"/>
+	
+		<rect x="109.1" y="475.8" fill="#686868" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="227.3" height="16.8"/>
+	
+		<rect x="10.1" y="475.8" fill="#686868" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="25.3" height="16.8"/>
+	<rect x="43.1" y="372.7" fill="#686868" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="11.5" height="3.1"/>
+	<rect x="94.7" y="372.7" fill="#686868" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="11.5" height="3.1"/>
+	<rect x="35.8" y="246.2" fill="#686868" width="82.7" height="3.3"/>
+	<rect x="35.4" y="232.3" fill="#BAB9B6" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="83.5" height="7.5"/>
+	<polyline fill="#686868" points="118.5,238.1 118.5,241.4 35.8,241.4 35.8,238.1 	"/>
+	<rect x="30.9" y="239.7" fill="#BAB9B6" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="94.4" height="7.5"/>
+	<g>
+		<rect x="35.9" y="476.3" fill="#A09F9F" width="72.9" height="6.2"/>
+		<rect x="35.9" y="482.5" fill="#A09F9F" width="72.9" height="6.2"/>
+		<rect x="35.9" y="486.9" fill="#A09F9F" width="72.9" height="6.2"/>
+		<rect x="35.9" y="486.8" fill="#686868" width="72.9" height="1"/>
+		<rect x="35.9" y="480.7" fill="#686868" width="72.9" height="1"/>
+	</g>
+	<g id="door_1_">
+		<rect x="57.1" y="400.1" fill="#364E5D" width="35.2" height="75.7"/>
+		<rect x="63.8" y="406.8" fill="#2F3C46" width="7.4" height="7.9"/>
+		<rect x="78.2" y="406.8" fill="#2F3C46" width="7.4" height="7.9"/>
+		<rect x="63.8" y="421.6" fill="#2F3C46" width="7.4" height="14.3"/>
+		<rect x="78.2" y="421.6" fill="#2F3C46" width="7.4" height="14.3"/>
+		
+			<rect x="78.2" y="461.9" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 163.834 931.6664)" fill="#2F3C46" width="7.4" height="7.9"/>
+		
+			<rect x="63.8" y="461.9" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 134.888 931.6664)" fill="#2F3C46" width="7.4" height="7.9"/>
+		
+			<rect x="78.2" y="440.6" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 163.834 895.4941)" fill="#2F3C46" width="7.4" height="14.3"/>
+		
+			<rect x="63.8" y="440.6" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 134.888 895.4941)" fill="#2F3C46" width="7.4" height="14.3"/>
+	</g>
+	<g id="doorDeco">
+		<polygon fill="#A09F9F" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" points="37.2,367.3 76.5,346.5 112.2,367.3 
+					"/>
+		<polygon fill="#686868" points="112.5,367.4 36.2,367.4 41.5,365.8 108.1,365.8 		"/>
+		<rect x="23.2" y="367.3" fill="#A09F9F" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="103" height="5"/>
+	</g>
+	<g id="foorFrame">
+		<path fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M92.3,396c0-14.6-6.3-20.6-17.5-20.6
+			c-9.7,0-19,6-17.5,20.6H92.3z"/>
+		
+			<rect x="43.1" y="372.3" fill="#A09F9F" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="11.6" height="103.6"/>
+		
+			<rect x="94.7" y="372.3" fill="#A09F9F" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="11.6" height="103.6"/>
+	</g>
+</g>
+<g id="windows">
+	<g id="roundWindows">
+		<g id="roundWindow1">
+			<path fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M49.6,273.4v61.3h25.1v-61.3
+				c0,0,0-13.6-12.6-13.6C49.5,259.8,49.6,273.4,49.6,273.4z"/>
+			<path fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M55.1,292.9v-20.7c0,0,0-7.5,6.1-7.5
+				c4,0,8,1,8,7c0,5.8,0,21.1,0,21.1H55.1z"/>
+			
+				<rect class="lightOn" x="55.1" y="297" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="14.1" height="32.7"/>
+		</g>
+		<g id="roundWindow2">
+			<path fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M78.5,273.2v61.3h25.1v-61.3
+				c0,0,0-13.6-12.6-13.6C78.4,259.6,78.5,273.2,78.5,273.2z"/>
+			<path fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M84,292.7V272c0,0,0-7.5,6.1-7.5
+				c4,0,8,1,8,7c0,5.8,0,21.1,0,21.1H84z"/>
+			
+				<rect class="lightOn" x="84" y="296.8" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="14.1" height="32.7"/>
+		</g>
+	</g>
+	<g id="_x31_stWindows">
+		<g id="_x31_leftWindow">
+			<g>
+				<path fill="#A09F9F" d="M179.9,455H143c-0.3-7.4-0.6-7.5-0.6-7.5v-1.1c0-0.1,0.3-0.1,0.6-0.1h36.9c0.3,0,0.6,0.1,0.6,0.1v1.1
+					C180.4,447.5,180.2,447.6,179.9,455z"/>
+				
+					<rect x="142.4" y="382.4" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38" height="65.8"/>
+				
+					<rect class="lightOn" x="146.1" y="385.9" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="30.6" height="59.6"/>
+				
+					<rect x="138.1" y="445.2" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="47.7" height="6"/>
+			</g>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="146.1" y1="417.7" x2="176.8" y2="417.7"/>
+		</g>
+		<g id="_x31_middleWindow">
+			<g>
+				<path fill="#A09F9F" d="M246.9,454.6H210c-0.3-7.4-0.6-7.5-0.6-7.5V446c0-0.1,0.3-0.1,0.6-0.1h36.9c0.3,0,0.6,0.1,0.6,0.1v1.1
+					C247.4,447.2,247.2,447.2,246.9,454.6z"/>
+				
+					<rect x="209.4" y="382" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38" height="65.8"/>
+				
+					<rect class="lightOn" x="213.1" y="385.5" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="30.6" height="59.6"/>
+				
+					<rect x="205.1" y="444.8" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="47.7" height="6"/>
+			</g>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="213.1" y1="417.3" x2="243.8" y2="417.3"/>
+		</g>
+		<g id="_x31_rightWindow">
+			<g>
+				<path fill="#A09F9F" d="M312.5,454.6h-36.9c-0.3-7.4-0.6-7.5-0.6-7.5V446c0-0.1,0.3-0.1,0.6-0.1h36.9c0.3,0,0.6,0.1,0.6,0.1v1.1
+					C313.1,447.2,312.8,447.2,312.5,454.6z"/>
+				
+					<rect x="275.1" y="382" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38" height="65.8"/>
+				
+					<rect class="lightOn" x="278.8" y="385.5" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="30.6" height="59.6"/>
+				
+					<rect x="270.7" y="444.8" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="47.7" height="6"/>
+			</g>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="278.8" y1="417.3" x2="309.4" y2="417.3"/>
+		</g>
+	</g>
+	<g id="_x32_ndWindows">
+		<g id="_x32_leftWindow">
+			<g>
+				
+					<rect x="150.1" y="253.1" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38" height="82.1"/>
+				
+					<rect class="lightOn" x="153.8" y="257.5" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="30.6" height="74.3"/>
+			</g>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="153.8" y1="295.3" x2="184.5" y2="295.3"/>
+		</g>
+		<g id="_x32_rightWindow">
+			<g>
+				
+					<rect x="253.9" y="253.1" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38" height="82.1"/>
+				
+					<rect class="lightOn" x="257.6" y="257.5" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="30.6" height="74.3"/>
+			</g>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="257.6" y1="295.3" x2="288.3" y2="295.3"/>
+		</g>
+	</g>
+	<g id="_x33_rdWindows">
+		<g id="_x33_leftWindow">
+			<g>
+				<path fill="#B5454B" d="M188,194.3h-36.9c-0.3-7.4-0.6-7.5-0.6-7.5v-1.1c0-0.1,0.3-0.1,0.6-0.1H188c0.3,0,0.6,0.1,0.6,0.1v1.1
+					C188.6,186.8,188.4,186.9,188,194.3z"/>
+				
+					<rect x="150.6" y="130.3" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38" height="56.6"/>
+				
+					<rect class="lightOn" x="154.3" y="133.3" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="30.6" height="51.2"/>
+				
+					<rect x="146.2" y="184.4" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="47.7" height="6"/>
+			</g>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="154.3" y1="159.4" x2="184.9" y2="159.4"/>
+		</g>
+		<g id="_x33_rightWindow">
+			<g>
+				<path fill="#B5454B" d="M290.9,194.3H254c-0.3-7.4-0.6-7.5-0.6-7.5v-1.1c0-0.1,0.3-0.1,0.6-0.1h36.9c0.3,0,0.6,0.1,0.6,0.1v1.1
+					C291.5,186.8,291.2,186.9,290.9,194.3z"/>
+				
+					<rect x="253.5" y="130.3" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38" height="56.6"/>
+				
+					<rect class="lightOn" x="257.2" y="133.3" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="30.6" height="51.2"/>
+				
+					<rect x="249.1" y="184.4" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="47.7" height="6"/>
+			</g>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="257.2" y1="159.4" x2="287.8" y2="159.4"/>
+		</g>
+	</g>
+	<g id="_x34_thWindows">
+		<g id="_x34_leftWindow">
+			<g>
+				<path fill="#B5454B" d="M188,91.1h-36.9c-0.3-4.7-0.6-4.8-0.6-5v-3.7c0-0.2,0.3-0.4,0.6-0.4H188c0.3,0,0.6,0.2,0.6,0.4V86
+					C188.6,86.2,188.4,86.4,188,91.1z"/>
+				<rect x="150.6" y="47" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38" height="35.8"/>
+				
+					<rect class="lightOn" x="154.3" y="50" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="30.6" height="32.8"/>
+				
+					<rect x="146.2" y="81.2" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="47.7" height="6"/>
+			</g>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="154.3" y1="64.9" x2="184.9" y2="64.9"/>
+		</g>
+		<g id="_x34_rightWindow">
+			<g>
+				<path fill="#B5454B" d="M291.4,91.1h-36.9c-0.3-4.7-0.6-4.8-0.6-5v-3.7c0-0.2,0.3-0.4,0.6-0.4h36.9c0.3,0,0.6,0.2,0.6,0.4V86
+					C292,86.2,291.7,86.4,291.4,91.1z"/>
+				<rect x="253.9" y="47" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38" height="35.8"/>
+				
+					<rect class="lightOn" x="257.6" y="50" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="30.6" height="32.8"/>
+				
+					<rect x="249.6" y="81.2" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="47.7" height="6"/>
+			</g>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="257.6" y1="64.9" x2="288.3" y2="64.9"/>
+		</g>
+	</g>
+</g>
+<g id="fence">
+	<polygon fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" points="336.5,470.2 108.7,470.2 108.7,432.7 
+		115.2,432.7 336.5,432.7 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="116.2" y1="470.2" x2="116.2" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="126.1" y1="470.2" x2="126.1" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="134.6" y1="470.2" x2="134.6" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="144.4" y1="470.2" x2="144.4" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="154.7" y1="470.2" x2="154.7" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="163.2" y1="470.2" x2="163.2" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="173.1" y1="470.2" x2="173.1" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="183" y1="470.2" x2="183" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="191.5" y1="470.2" x2="191.5" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="201.3" y1="470.2" x2="201.3" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="211.4" y1="470.2" x2="211.4" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="219.9" y1="470.2" x2="219.9" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="229.8" y1="470.2" x2="229.8" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="239.4" y1="470.2" x2="239.4" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="247.9" y1="470.2" x2="247.9" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="257.8" y1="470.2" x2="257.8" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="267.8" y1="470.2" x2="267.8" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="276.3" y1="470.2" x2="276.3" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="286.2" y1="470.2" x2="286.2" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="296.5" y1="470.2" x2="296.5" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="305" y1="470.2" x2="305" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="314.8" y1="470.2" x2="314.8" y2="432.7"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="326.5" y1="470.2" x2="326.5" y2="432.7"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" points="35.4,470.2 14.6,470.2 14.6,432.7 
+		15.2,432.7 35.4,432.7 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="25" y1="470.2" x2="25" y2="432.7"/>
+</g>
+<g id="balcony_31_">
+	<rect x="17.4" y="309.9" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="317.2" height="28.6"/>
+	<g id="balconyDesign">
+		<g id="balconyDeco">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M25.7,328.6c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.9-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M35.3,328.6c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.9-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_1_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M48.2,328.7c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.9-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M57.7,328.7c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.9-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_3_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M71,328.7c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.8-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M80.6,328.7c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6s5.2-12.9-0.9-12.9
+				c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_2_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M93.4,328.8c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.8-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M103,328.8c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.9-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_5_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M115.5,328.7c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				s-5.2-12.9,0.9-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M125.1,328.7c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.9-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_4_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M137.9,328.8c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.9-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M147.5,328.8c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.9-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_10_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M160.3,328.8c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.9-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M169.9,328.8c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.9-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_9_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M183.2,328.8c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.9-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M192.8,328.8c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.8-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_8_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M205.6,328.9c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.9-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M215.2,328.9c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.9-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_7_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M227.7,328.8c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.9-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M237.3,328.8c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.8-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_6_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M250.1,328.9c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.9-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M259.7,328.9c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.9-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_15_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M272.5,328.9c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.9-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M282.1,328.9c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.9-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_14_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M295.4,328.9c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.8-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M305,328.9c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.9-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+		<g id="balconyDeco_13_">
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M317.8,329c-1.8-3.8-4.2-1.7-4.7,1.2c-0.4,2.3,0.4,7.3,4.8,7.3c2.3,0,4-2.4,4.3-6.5c0.1-1.8-0.3-5.7-5.3-6.6
+				c-5-1-5.2-12.9,0.9-12.9c4.7,0,5.1,7.4,4.1,9.6c-1.2,2.8-6,1.6-4.3-2.9"/>
+			
+				<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M327.4,329c1.8-3.8,4.2-1.7,4.7,1.2c0.4,2.3-0.4,7.3-4.8,7.3c-2.3,0-4-2.4-4.3-6.5c-0.1-1.8,0.3-5.7,5.3-6.6
+				c5-1,5.2-12.9-0.9-12.9c-4.7,0-5.1,7.4-4.1,9.6c1.2,2.8,6,1.6,4.3-2.9"/>
+		</g>
+	</g>
+</g>
+</svg>

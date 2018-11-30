@@ -175,8 +175,10 @@ function loadMapAndMiniMapPage(id) {
 
         $('#mapViewport').css('left', '55px');
 
-        console.log(MerrionModal());
-        $('#mapViewport').append(MerrionModal());
+        //        console.log(merrionModal());
+        //        $('#mapViewport').append(merrionModal(););
+
+        $('#mapViewport').append(merrionModalOnce());
 
         $('#MerrionModalCenter').modal({
             show: true

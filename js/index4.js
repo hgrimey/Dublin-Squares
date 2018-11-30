@@ -116,7 +116,35 @@ function landingPageModal() {
 
 }
 
-function MerrionModal() {
+// TO LOAD FUNCTION ONCE AND ONCE ONLY - loads html but won't append it to mapViewport div?? 
+//var merrionModal = (function () {
+//    var executed = false;
+//    return function () {
+//        if (!executed) {
+//            executed = true;
+//
+//            if (executed) {
+//                var html = '';
+//
+//                html += '<div class="modal fade" id="MerrionModalCenter" tabindex="-1" role="dialog" aria-labelledby="MerrionModalCenterTitle" aria-hidden="true">';
+//                html += '<div class="modal-dialog modal-dialog-centered" style="max-width: 1000px; max-height: 1000px" role="document">';
+//                html += '<div class="modal-content" >';
+//                html += '<div class="modal-header">';
+//                html += '<h3 class="modal-title" id="MerrionModalCenterTitle" >Welcome to Merrion Square</h3>';
+//                html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close">';
+//                html += '<span aria-hidden="true">&times;</span></button></div>';
+//                html += '<div class="modal-body"><img id="merrionOnboarding" src="img/useCase1.gif"/></div>';
+//                html += '</div></div>';
+//
+//                return html;
+//            }
+//        }
+//    }
+//})();
+// adapted from stackoverflow eg
+
+
+function merrionModal() {
     var html = '';
 
     html += '<div class="modal fade" id="MerrionModalCenter" tabindex="-1" role="dialog" aria-labelledby="MerrionModalCenterTitle" aria-hidden="true">';
@@ -130,8 +158,9 @@ function MerrionModal() {
     html += '</div></div>';
 
     return html;
-
 }
+
+var merrionModalOnce = _.once(merrionModal);
 
 //house page html
 function findImage(imageArray, imageLocation) {

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="danielOC" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 270.9 504.3" enable-background="new 0 0 270.9 504.3" xml:space="preserve">
+<g id="structure">
+	
+		<rect id="bkgd" x="10.4" y="13.6" transform="matrix(-1 -4.488067e-11 4.488067e-11 -1 271.0642 472.2784)" fill="#E35C5F" width="250.3" height="445"/>
+	<g id="brick">
+		
+			<rect x="179.7" y="233" transform="matrix(-1 -4.505564e-11 4.505564e-11 -1 376.0038 472.7249)" fill="#C54D53" width="16.5" height="6.7"/>
+		
+			<rect x="244.2" y="105.3" transform="matrix(-1 -4.494550e-11 4.494550e-11 -1 504.8622 217.3322)" fill="#C54D53" width="16.5" height="6.7"/>
+		
+			<rect x="89.2" y="31.6" transform="matrix(-1 -4.494550e-11 4.494550e-11 -1 194.8333 69.9414)" fill="#C54D53" width="16.5" height="6.7"/>
+		
+			<rect x="76.5" y="141.3" transform="matrix(-1 -4.489044e-11 4.489044e-11 -1 169.4865 289.2878)" fill="#C54D53" width="16.5" height="6.7"/>
+		
+			<rect x="111.4" y="212.4" transform="matrix(-1 -4.505564e-11 4.505564e-11 -1 239.264 431.5961)" fill="#C54D53" width="16.5" height="6.7"/>
+		
+			<rect x="75.5" y="310.7" transform="matrix(-1 -4.472523e-11 4.472523e-11 -1 167.4283 628.0872)" fill="#C54D53" width="16.5" height="6.7"/>
+		
+			<rect x="102.7" y="384.3" transform="matrix(-1 -4.472523e-11 4.472523e-11 -1 221.9727 775.388)" fill="#C54D53" width="16.5" height="6.7"/>
+		
+			<rect x="181" y="418.7" transform="matrix(-1 -4.472523e-11 4.472523e-11 -1 378.5451 844.2155)" fill="#C54D53" width="16.5" height="6.7"/>
+		
+			<rect x="163.2" y="349.2" transform="matrix(-1 -4.494550e-11 4.494550e-11 -1 342.9794 705.1087)" fill="#C54D53" width="16.5" height="6.7"/>
+		
+			<rect x="234.2" y="333.3" transform="matrix(-1 -4.472523e-11 4.472523e-11 -1 484.8239 673.3651)" fill="#C54D53" width="16.5" height="6.7"/>
+	</g>
+	
+		<rect id="roof" x="6.5" y="9.6" transform="matrix(-1 -4.490065e-11 4.490065e-11 -1 270.6024 27.2733)" fill="#B5454B" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="257.5" height="8.2"/>
+	<circle fill="#C54D53" cx="177.1" cy="392.1" r="8.2"/>
+</g>
+<g id="windows">
+	<g id="_x34_thWindows">
+		<g id="_x34_rightWindow">
+			<path fill="#B5454B" d="M197.3,95.4h37.7c0.3-4.8,0.6-4.9,0.6-5.2v-3.8c0-0.2-0.3-0.4-0.6-0.4h-37.7c-0.3,0-0.6,0.2-0.6,0.4v3.8
+				C196.8,90.5,197,90.6,197.3,95.4z"/>
+			
+				<rect x="196.8" y="50.4" transform="matrix(-1 -4.488599e-11 4.488599e-11 -1 432.3989 137.3866)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="36.6"/>
+			
+				<rect class="lightOn" x="200.5" y="53.5" transform="matrix(-1 -4.486779e-11 4.486779e-11 -1 432.3989 140.4667)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="33.6"/>
+			
+				<rect x="191.4" y="85.4" transform="matrix(-1 -4.489798e-11 4.489798e-11 -1 431.4433 176.8861)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.7" height="6.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="231.9" y1="68.7" x2="200.5" y2="68.7"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="221.8" y1="53.5" x2="221.8" y2="85.4"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="210.7" y1="53.5" x2="210.7" y2="85.4"/>
+		</g>
+		<g id="_x34_middleWindow">
+			<path fill="#B5454B" d="M117,95.4h37.7c0.3-4.8,0.6-4.9,0.6-5.2v-3.8c0-0.2-0.3-0.4-0.6-0.4H117c-0.3,0-0.6,0.2-0.6,0.4v3.8
+				C116.4,90.5,116.7,90.6,117,95.4z"/>
+			
+				<rect x="116.4" y="50.4" transform="matrix(-1 -4.490953e-11 4.490953e-11 -1 271.6667 137.3866)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="36.6"/>
+			
+				<rect class="lightOn" x="120.2" y="53.5" transform="matrix(-1 -4.486779e-11 4.486779e-11 -1 271.6667 140.4667)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="33.6"/>
+			
+				<rect x="111" y="85.4" transform="matrix(-1 -4.487933e-11 4.487933e-11 -1 270.711 176.8861)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.7" height="6.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="151.5" y1="68.7" x2="120.2" y2="68.7"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="141.5" y1="53.5" x2="141.5" y2="85.4"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="130.4" y1="53.5" x2="130.4" y2="85.4"/>
+		</g>
+		<g id="_x34_leftWindow">
+			<path fill="#B5454B" d="M38.2,95.4h37.7c0.3-4.8,0.6-4.9,0.6-5.2v-3.8c0-0.2-0.3-0.4-0.6-0.4H38.2c-0.3,0-0.6,0.2-0.6,0.4v3.8
+				C37.6,90.5,37.9,90.6,38.2,95.4z"/>
+			
+				<rect x="37.6" y="50.4" transform="matrix(-1 -4.490953e-11 4.490953e-11 -1 114.111 137.3866)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="36.6"/>
+			
+				<rect class="lightOn" x="41.4" y="53.5" transform="matrix(-1 -4.486779e-11 4.486779e-11 -1 114.111 140.4667)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="33.6"/>
+			
+				<rect x="32.2" y="85.4" transform="matrix(-1 -4.491664e-11 4.491664e-11 -1 113.1553 176.8861)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.7" height="6.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="72.7" y1="68.7" x2="41.4" y2="68.7"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="62.7" y1="53.5" x2="62.7" y2="85.4"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="51.6" y1="53.5" x2="51.6" y2="85.4"/>
+		</g>
+	</g>
+	<g id="_x33_rdWindows">
+		<g id="_x33_rightWindow">
+			<path fill="#B5454B" d="M197.3,195.5h37.7c0.3-4.8,0.6-4.9,0.6-5.2v-3.8c0-0.2-0.3-0.4-0.6-0.4h-37.7c-0.3,0-0.6,0.2-0.6,0.4v3.8
+				C196.8,190.6,197,190.8,197.3,195.5z"/>
+			
+				<rect x="196.8" y="122.5" transform="matrix(-1 -4.483936e-11 4.483936e-11 -1 432.3989 311.1099)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="66"/>
+			
+				<rect class="lightOn" x="200.5" y="125.6" transform="matrix(-1 -4.483848e-11 4.483848e-11 -1 432.3989 312.3177)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="61.1"/>
+			
+				<rect x="191.4" y="185.5" transform="matrix(-1 -4.495394e-11 4.495394e-11 -1 431.4433 377.1347)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.7" height="6.1"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="231.9" y1="156.1" x2="200.5" y2="156.1"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="221.8" y1="125.6" x2="221.8" y2="185.5"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="210.7" y1="125.6" x2="210.7" y2="185.5"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="231.9" y1="141.3" x2="200.5" y2="141.3"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="231.9" y1="170.2" x2="200.5" y2="170.2"/>
+		</g>
+		<g id="_x33_middleWindow">
+			<path fill="#B5454B" d="M117,195.5h37.7c0.3-4.8,0.6-4.9,0.6-5.2v-3.8c0-0.2-0.3-0.4-0.6-0.4H117c-0.3,0-0.6,0.2-0.6,0.4v3.8
+				C116.4,190.6,116.7,190.8,117,195.5z"/>
+			
+				<rect x="116.4" y="122.5" transform="matrix(-1 -4.490953e-11 4.490953e-11 -1 271.6667 311.1099)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="66"/>
+			
+				<rect class="lightOn" x="120.2" y="125.6" transform="matrix(-1 -4.492596e-11 4.492596e-11 -1 271.6667 312.3177)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="61.1"/>
+			
+				<rect x="111" y="185.5" transform="matrix(-1 -4.486068e-11 4.486068e-11 -1 270.711 377.1347)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.7" height="6.1"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="151.5" y1="156.1" x2="120.2" y2="156.1"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="141.5" y1="125.6" x2="141.5" y2="185.5"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="130.4" y1="125.6" x2="130.4" y2="185.5"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="151.5" y1="141.3" x2="120.2" y2="141.3"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="151.5" y1="170.2" x2="120.2" y2="170.2"/>
+		</g>
+		<g id="_x33_leftWindow">
+			<path fill="#B5454B" d="M38.2,195.5h37.7c0.3-4.8,0.6-4.9,0.6-5.2v-3.8c0-0.2-0.3-0.4-0.6-0.4H38.2c-0.3,0-0.6,0.2-0.6,0.4v3.8
+				C37.6,190.6,37.9,190.8,38.2,195.5z"/>
+			
+				<rect x="37.6" y="122.5" transform="matrix(-1 -4.490953e-11 4.490953e-11 -1 114.111 311.1099)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="66"/>
+			
+				<rect class="lightOn" x="41.4" y="125.6" transform="matrix(-1 -4.483848e-11 4.483848e-11 -1 114.111 312.3177)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="61.1"/>
+			
+				<rect x="32.2" y="185.5" transform="matrix(-1 -4.489798e-11 4.489798e-11 -1 113.1553 377.1347)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.7" height="6.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="72.7" y1="156.1" x2="41.4" y2="156.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="62.7" y1="125.6" x2="62.7" y2="185.5"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="51.6" y1="125.6" x2="51.6" y2="185.5"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="72.7" y1="141.3" x2="41.4" y2="141.3"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="72.7" y1="170.2" x2="41.4" y2="170.2"/>
+		</g>
+	</g>
+	<g id="_x32_ndWindows">
+		<g id="_x32_rightWindow">
+			
+				<rect x="197.2" y="229.9" transform="matrix(-1 -4.483936e-11 4.483936e-11 -1 433.3546 557.7747)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="98"/>
+			
+				<rect class="lightOn" x="201" y="233" transform="matrix(-1 -4.492596e-11 4.492596e-11 -1 433.3546 560.8549)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="94.9"/>
+			
+				<rect x="191.8" y="327.2" transform="matrix(-1 -4.493529e-11 4.493529e-11 -1 432.3989 660.4808)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.7" height="6.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="222.3" y1="233" x2="222.3" y2="327.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="211.2" y1="233" x2="211.2" y2="327.1"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="232.3" y1="280.2" x2="201" y2="280.2"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="232.3" y1="256.5" x2="201" y2="256.5"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="232.3" y1="303.8" x2="201" y2="303.8"/>
+		</g>
+		<g id="_x32_middleWindow">
+			
+				<rect x="116.4" y="230" transform="matrix(-1 -4.483936e-11 4.483936e-11 -1 271.6667 557.9524)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="98"/>
+			
+				<rect class="lightOn" x="120.2" y="233.1" transform="matrix(-1 -4.504187e-11 4.504187e-11 -1 271.6667 561.0326)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="94.9"/>
+			
+				<rect x="111" y="327.3" transform="matrix(-1 -4.486068e-11 4.486068e-11 -1 270.711 660.6585)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.7" height="6.1"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="141.5" y1="233.1" x2="141.5" y2="327.2"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="130.4" y1="233.1" x2="130.4" y2="327.2"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="151.5" y1="280.2" x2="120.2" y2="280.2"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="151.5" y1="256.6" x2="120.2" y2="256.6"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="151.5" y1="303.9" x2="120.2" y2="303.9"/>
+		</g>
+		<g id="_x32_leftWindow">
+			<g>
+				
+					<rect x="37.6" y="230" transform="matrix(-1 -4.493262e-11 4.493262e-11 -1 114.111 557.9524)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="98"/>
+				
+					<rect class="lightOn" x="41.4" y="233.1" transform="matrix(-1 -4.480961e-11 4.480961e-11 -1 114.111 561.0326)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="94.9"/>
+				
+					<rect x="32.2" y="327.3" transform="matrix(-1 -4.486068e-11 4.486068e-11 -1 113.1553 660.6585)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.7" height="6.1"/>
+			</g>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="62.7" y1="233.1" x2="62.7" y2="327.2"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="51.6" y1="233.1" x2="51.6" y2="327.2"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="72.7" y1="280.2" x2="41.4" y2="280.2"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="72.7" y1="256.6" x2="41.4" y2="256.6"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="72.7" y1="303.9" x2="41.4" y2="303.9"/>
+		</g>
+	</g>
+	<g id="_x31_stWindows">
+		<g id="_x31_rightWindow">
+			<g>
+				<g>
+					<path fill="#B5454B" d="M197.8,444h37.7c0.3-4.8,0.6-4.9,0.6-5.2V435c0-0.2-0.3-0.4-0.6-0.4h-37.7c-0.3,0-0.6,0.2-0.6,0.4v3.8
+						C197.2,439,197.5,439.2,197.8,444z"/>
+					
+						<rect x="197.2" y="371" transform="matrix(-1 -4.493262e-11 4.493262e-11 -1 433.3546 807.9921)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="66"/>
+					
+						<rect class="lightOn" x="201" y="374.1" transform="matrix(-1 -4.480961e-11 4.480961e-11 -1 433.3546 809.1999)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="61.1"/>
+					
+						<rect x="191.8" y="433.9" transform="matrix(-1 -4.486068e-11 4.486068e-11 -1 432.3989 874.0168)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.7" height="6.1"/>
+				</g>
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="232.3" y1="404.6" x2="201" y2="404.6"/>
+				
+					<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="222.3" y1="374.1" x2="222.3" y2="433.9"/>
+				
+					<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="211.2" y1="374.1" x2="211.2" y2="433.9"/>
+			</g>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="232.3" y1="389.7" x2="201" y2="389.7"/>
+			<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="232.3" y1="418.6" x2="201" y2="418.6"/>
+		</g>
+		<g id="_x31_leftWindow">
+			<path fill="#B5454B" d="M119,444h37.7c0.3-4.8,0.6-4.9,0.6-5.2V435c0-0.2-0.3-0.4-0.6-0.4H119c-0.3,0-0.6,0.2-0.6,0.4v3.8
+				C118.5,439,118.7,439.2,119,444z"/>
+			
+				<rect x="118.5" y="371" transform="matrix(-1 -4.493262e-11 4.493262e-11 -1 275.7989 807.9921)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="38.9" height="66"/>
+			
+				<rect class="lightOn" x="122.2" y="374.1" transform="matrix(-1 -4.480961e-11 4.480961e-11 -1 275.7989 809.1999)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="61.1"/>
+			
+				<rect x="113.1" y="433.9" transform="matrix(-1 -4.486068e-11 4.486068e-11 -1 274.8432 874.0168)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="48.7" height="6.1"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="153.6" y1="404.6" x2="122.2" y2="404.6"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="143.5" y1="374.1" x2="143.5" y2="433.9"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="132.4" y1="374.1" x2="132.4" y2="433.9"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="153.6" y1="389.7" x2="122.2" y2="389.7"/>
+			
+				<line fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="153.6" y1="418.6" x2="122.2" y2="418.6"/>
+		</g>
+	</g>
+</g>
+<g id="bottomArea">
+	
+		<rect x="10.4" y="458.6" transform="matrix(-1 -4.489532e-11 4.489532e-11 -1 271.0642 935.2503)" fill="#E0DCD2" width="250.3" height="18"/>
+	<g id="stairs">
+		
+			<rect x="10.4" y="458.6" transform="matrix(-1 -4.491220e-11 4.491220e-11 -1 102.2323 950.8768)" fill="#A09F9F" width="81.5" height="33.6"/>
+		
+			<rect x="10.4" y="466.3" transform="matrix(-1 -4.487045e-11 4.487045e-11 -1 102.2372 935.6006)" fill="#58595B" width="81.5" height="2.9"/>
+		
+			<rect x="10.4" y="475.8" transform="matrix(-1 -4.486779e-11 4.486779e-11 -1 102.2323 954.4947)" fill="#58595B" width="81.5" height="2.9"/>
+		
+			<rect x="10.4" y="485.8" transform="matrix(-1 -4.491220e-11 4.491220e-11 -1 102.2323 974.4114)" fill="#58595B" width="81.5" height="2.9"/>
+	</g>
+	<g id="basementWindow2">
+		
+			<rect x="197.4" y="464.4" transform="matrix(-1 -4.486157e-11 4.486157e-11 -1 432.3989 941.5517)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="37.5" height="12.8"/>
+		
+			<rect x="200.5" y="467.4" transform="matrix(-1 -4.492596e-11 4.492596e-11 -1 432.3989 947.2172)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="12.5"/>
+		
+			<rect x="197.4" y="464.4" transform="matrix(-1 -4.486157e-11 4.486157e-11 -1 432.3989 941.5517)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="37.5" height="12.8"/>
+		
+			<rect x="200.5" y="467.4" transform="matrix(-1 -4.492596e-11 4.492596e-11 -1 432.3989 947.2172)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="12.5"/>
+	</g>
+	<g id="basmentWindow1">
+		
+			<rect x="119.1" y="464.4" transform="matrix(-1 -4.495838e-11 4.495838e-11 -1 275.7989 941.7325)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="37.5" height="12.9"/>
+		
+			<rect x="122.2" y="467.4" transform="matrix(-1 -4.492596e-11 4.492596e-11 -1 275.7989 947.4783)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="12.6"/>
+		
+			<rect x="119.1" y="464.4" transform="matrix(-1 -4.495838e-11 4.495838e-11 -1 275.7989 941.7325)" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="37.5" height="12.9"/>
+		
+			<rect x="122.2" y="467.4" transform="matrix(-1 -4.492596e-11 4.492596e-11 -1 275.7989 947.4783)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="31.3" height="12.6"/>
+	</g>
+	
+		<rect x="92.3" y="476.6" transform="matrix(-1 -4.490953e-11 4.490953e-11 -1 356.5052 968.8684)" fill="#686868" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="171.8" height="15.6"/>
+	<g id="fence">
+		<polygon fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" points="95.9,473.9 260.6,473.9 260.6,443.3 
+			255.9,443.3 95.9,443.3 		"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="252.7" y1="473.9" x2="252.7" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="242.3" y1="473.9" x2="242.3" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="233.3" y1="473.9" x2="233.3" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="222.9" y1="473.9" x2="222.9" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="212" y1="473.9" x2="212" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="203" y1="473.9" x2="203" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="192.6" y1="473.9" x2="192.6" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="182.1" y1="474" x2="182.1" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="173.1" y1="474" x2="173.1" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="162.7" y1="474" x2="162.7" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="152" y1="474" x2="152" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="143.1" y1="474" x2="143.1" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="132.7" y1="474" x2="132.7" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="122.4" y1="473.9" x2="122.4" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="113.5" y1="473.9" x2="113.5" y2="443.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="103" y1="473.9" x2="103" y2="443.3"/>
+	</g>
+</g>
+<g id="door">
+	<g id="doorFrame_2_">
+		<g>
+			
+				<rect id="doorBkgd_2_" x="21.4" y="379.7" transform="matrix(-1 -4.496637e-11 4.496637e-11 -1 112.7822 838.3851)" fill="#BAB9B6" width="70.1" height="78.9"/>
+			<g id="greenDOor_2_">
+				
+					<rect x="38.4" y="386" transform="matrix(-1 -4.490731e-11 4.490731e-11 -1 112.8196 845.2625)" fill="#3B4767" width="36" height="73.4"/>
+				
+					<rect x="60" y="392.4" transform="matrix(-1 -4.484647e-11 4.484647e-11 -1 127.6186 792.2509)" fill="#42598A" width="7.5" height="7.5"/>
+				
+					<rect x="45.2" y="392.4" transform="matrix(-1 -4.484647e-11 4.484647e-11 -1 98.0206 792.2509)" fill="#42598A" width="7.5" height="7.5"/>
+				
+					<rect x="60" y="406.6" transform="matrix(-1 -4.436419e-11 4.436419e-11 -1 127.6186 827.0049)" fill="#42598A" width="7.5" height="13.7"/>
+				
+					<rect x="45.2" y="406.6" transform="matrix(-1 -4.436419e-11 4.436419e-11 -1 98.0206 827.0049)" fill="#42598A" width="7.5" height="13.7"/>
+				<rect x="45.2" y="445.3" fill="#42598A" width="7.5" height="7.5"/>
+				<rect x="60" y="445.3" fill="#42598A" width="7.5" height="7.5"/>
+				<rect x="45.2" y="424.9" fill="#42598A" width="7.5" height="13.7"/>
+				<rect x="60" y="424.9" fill="#42598A" width="7.5" height="13.7"/>
+			</g>
+			<g id="doorWindow_x5F_L_2_">
+				
+					<rect x="82.9" y="393.6" transform="matrix(-1 -4.506407e-11 4.506407e-11 -1 172.2769 823.9703)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="6.4" height="36.7"/>
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="86.1" y1="393.6" x2="86.1" y2="430.3"/>
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="89.3" y1="401.3" x2="82.9" y2="401.3"/>
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="89.3" y1="412" x2="82.9" y2="412"/>
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="89.3" y1="422.6" x2="82.9" y2="422.6"/>
+			</g>
+			<g id="doorWindow_x5F_R_2_">
+				
+					<rect x="23.3" y="393.6" transform="matrix(-1 -4.506407e-11 4.506407e-11 -1 53.0611 823.9703)" fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="6.4" height="36.7"/>
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="26.5" y1="393.6" x2="26.5" y2="430.3"/>
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="29.4" y1="401.3" x2="23" y2="401.3"/>
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="29.4" y1="412" x2="23" y2="412"/>
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="29.4" y1="422.6" x2="23" y2="422.6"/>
+			</g>
+		</g>
+		<g id="doorPillar_2_">
+			
+				<rect x="38.4" y="379.8" transform="matrix(-1 -4.498281e-11 4.498281e-11 -1 112.9212 765.6896)" fill="#BAB9B6" width="36.1" height="6"/>
+			
+				<rect x="74.4" y="379.6" transform="matrix(-1 -4.493795e-11 4.493795e-11 -1 155.6696 838.208)" fill="#A09F9F" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="6.9" height="79.1"/>
+			
+				<rect x="75" y="380.2" transform="matrix(-1 -4.436019e-11 4.436019e-11 -1 155.6684 763.3998)" fill="#BAB9B6" width="5.7" height="3"/>
+			
+				<rect x="31.5" y="379.6" transform="matrix(-1 -4.493795e-11 4.493795e-11 -1 69.9696 838.2948)" fill="#A09F9F" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="6.9" height="79.1"/>
+			
+				<rect x="32.2" y="380.2" transform="matrix(-1 -4.500323e-11 4.500323e-11 -1 69.9696 763.3998)" fill="#BAB9B6" width="5.7" height="3"/>
+		</g>
+	</g>
+	<g id="doorWindow_2_">
+		<line fill="#BAB9B6" x1="90.9" y1="379.7" x2="21.9" y2="379.7"/>
+		<path fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M21.9,379.4c0-19,15.4-34.5,34.5-34.5
+			s34.5,15.4,34.5,34.5H21.9z"/>
+		<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M65.3,379.7c0-4.3-3.7-7.7-8.3-7.7
+			s-8.3,3.5-8.3,7.7"/>
+		<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M56.9,371.9v-22.8c0,0,0.3-3.8,5.2-3.1
+			c4.9,0.6,4.2,4.7,4.2,4.7l-7.1,21.5"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="54.8" y1="372.7" x2="50.8" y2="360.8"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="52.6" y1="373.4" x2="45.6" y2="363.4"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="50.6" y1="375.1" x2="41.1" y2="367.9"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="49.5" y1="377.2" x2="38.5" y2="373.6"/>
+		<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M61.2,373.4l13-18.5c0,0,1.9-3.2-2-5.5
+			c-2.4-1.4-4.4-0.6-5.9,1.3"/>
+		<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M63.2,375.1l17.8-13.4c0,0,2.7-3,0-6
+			c-2.7-3-5.9-2.2-6.7-0.9"/>
+		<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M64.8,377.1l20.4-6.8c0,0,3.8-2,1.1-6.9
+			c-1.7-3.1-5.4-1.6-5.4-1.6"/>
+		<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M56.9,371.9v-22.8c0,0-0.3-3.8-5.2-3.1
+			c-4.9,0.6-4.2,4.7-4.2,4.7l7.1,21.5"/>
+		<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M52.2,372.8l-12.6-17.9c0,0-2.4-3.5,1.5-5.8
+			c2.4-1.4,5-0.3,6.4,1.7"/>
+		<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M50.6,375.1l-17.8-13.4c0,0-3-3.7-0.3-6.7
+			c2.7-3,6.2-1.5,7-0.2"/>
+		<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M49,377.1l-20.4-6.8c0,0-4.5-2.3-1.8-7.3
+			c1.7-3.1,6.1-1.2,6.1-1.2"/>
+		<path fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M85.3,370.2c0,0,4.3,0.3,4.7,3.7
+			c0.4,3.6-0.9,5.2-3,5.4"/>
+		<path fill="#ADC6E5" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M28.6,370.2c0,0-5.1,0-5.7,3.6
+			c-0.6,3.5,1.9,5.3,4,5.5"/>
+	</g>
+</g>
+<g id="balcony">
+	<g id="_x33_">
+		<rect x="190.2" y="301.7" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="52.2" height="32"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="197.3" y1="301.9" x2="197.3" y2="333.7"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="201" y1="301.7" x2="201" y2="333.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="205.7" y1="301.9" x2="205.7" y2="333.7"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="211" y1="301.7" x2="211" y2="333.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="216.3" y1="301.9" x2="216.3" y2="333.7"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="222.3" y1="302" x2="222.3" y2="333.5"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="226.7" y1="301.2" x2="226.7" y2="333.1"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="231.3" y1="301.7" x2="231.3" y2="333.3"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="236" y1="301.9" x2="236" y2="333.7"/>
+		<g>
+			<circle cx="197.3" cy="306.3" r="2.2"/>
+			<circle fill="#E35C5F" cx="197.3" cy="306.3" r="1.6"/>
+		</g>
+		<g>
+			<circle cx="205.7" cy="306.3" r="2.2"/>
+			<circle fill="#ADC6E5" cx="205.7" cy="306.3" r="1.6"/>
+		</g>
+		<g>
+			<circle cx="216.3" cy="306.3" r="2.2"/>
+			<circle fill="#ADC6E5" cx="216.3" cy="306.3" r="1.6"/>
+		</g>
+		<g>
+			<circle cx="226.7" cy="306.3" r="2.2"/>
+			<circle fill="#ADC6E5" cx="226.7" cy="306.3" r="1.6"/>
+		</g>
+		<g>
+			<circle cx="236" cy="306.3" r="2.2"/>
+			<circle fill="#FFFFFF" cx="236" cy="306.3" r="1.6"/>
+		</g>
+		<g>
+			<circle cx="197.2" cy="329.4" r="2.2"/>
+			<circle fill="#FFFFFF" cx="197.2" cy="329.4" r="1.6"/>
+		</g>
+		<g>
+			<circle cx="205.6" cy="329.4" r="2.2"/>
+			<circle fill="#FFFFFF" cx="205.6" cy="329.4" r="1.6"/>
+		</g>
+		<g>
+			<circle cx="216.3" cy="329.4" r="2.2"/>
+			<circle fill="#FFFFFF" cx="216.3" cy="329.4" r="1.6"/>
+		</g>
+		<g>
+			<circle cx="226.6" cy="329.4" r="2.2"/>
+			<circle fill="#FFFFFF" cx="226.6" cy="329.4" r="1.6"/>
+		</g>
+		<g>
+			<circle cx="235.9" cy="329.4" r="2.2"/>
+			<circle fill="#FFFFFF" cx="235.9" cy="329.4" r="1.6"/>
+		</g>
+		<path fill="#E35C5F" d="M236.4,304.7v3.1c0,0,1.2-0.2,1.2-1.5C237.6,304.9,236.4,304.7,236.4,304.7"/>
+		<path fill="#FFFFFF" d="M197.7,304.7v3.1c0,0,1.2-0.2,1.2-1.5C198.9,304.9,197.7,304.7,197.7,304.7"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="236" y1="304.1" x2="236" y2="308.5"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="197.3" y1="304.1" x2="197.3" y2="308.5"/>
+	</g>
+	<g id="_x32_">
+		<g>
+			<rect x="109.4" y="301.7" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="52.2" height="32"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="115.6" y1="301.9" x2="115.6" y2="333.7"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="120.2" y1="301.7" x2="120.2" y2="333.3"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="124.9" y1="301.9" x2="124.9" y2="333.7"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="130.2" y1="301.7" x2="130.2" y2="333.3"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="135.5" y1="301.9" x2="135.5" y2="333.7"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="141.5" y1="302.1" x2="141.5" y2="333.7"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="145.9" y1="301.2" x2="145.9" y2="333.1"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="150.6" y1="301.7" x2="150.6" y2="333.3"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="155.2" y1="301.9" x2="155.2" y2="333.7"/>
+			<g>
+				<circle cx="115.6" cy="306.3" r="2.2"/>
+				<circle fill="#E35C5F" cx="115.6" cy="306.3" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="124.9" cy="306.3" r="2.2"/>
+				<circle fill="#ADC6E5" cx="124.9" cy="306.3" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="135.5" cy="306.3" r="2.2"/>
+				<circle fill="#ADC6E5" cx="135.5" cy="306.3" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="145.9" cy="306.3" r="2.2"/>
+				<circle fill="#ADC6E5" cx="145.9" cy="306.3" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="155.2" cy="306.3" r="2.2"/>
+				<circle fill="#FFFFFF" cx="155.2" cy="306.3" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="115.5" cy="329.4" r="2.2"/>
+				<circle fill="#FFFFFF" cx="115.5" cy="329.4" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="124.9" cy="329.4" r="2.2"/>
+				<circle fill="#FFFFFF" cx="124.9" cy="329.4" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="135.5" cy="329.4" r="2.2"/>
+				<circle fill="#FFFFFF" cx="135.5" cy="329.4" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="145.8" cy="329.4" r="2.2"/>
+				<circle fill="#FFFFFF" cx="145.8" cy="329.4" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="155.2" cy="329.4" r="2.2"/>
+				<circle fill="#FFFFFF" cx="155.2" cy="329.4" r="1.6"/>
+			</g>
+		</g>
+		<path fill="#E35C5F" d="M155.6,304.7v3.1c0,0,1.2-0.2,1.2-1.5C156.8,304.9,155.6,304.7,155.6,304.7"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="155.2" y1="304.1" x2="155.2" y2="308.5"/>
+	</g>
+	<g id="_x31_">
+		<g>
+			<rect x="30.5" y="301.7" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="52.2" height="32"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="36.6" y1="301.9" x2="36.6" y2="333.7"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="41.3" y1="301.7" x2="41.3" y2="333.3"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="46" y1="301.9" x2="46" y2="333.7"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="51.6" y1="302.1" x2="51.6" y2="333.6"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="56.6" y1="301.9" x2="56.6" y2="333.7"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="62.7" y1="301.6" x2="62.7" y2="333.1"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="66.9" y1="301.2" x2="66.9" y2="333.1"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="71.6" y1="301.7" x2="71.6" y2="333.3"/>
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="76.3" y1="301.9" x2="76.3" y2="333.7"/>
+			<g>
+				<circle cx="36.6" cy="306.3" r="2.2"/>
+				<circle fill="#E35C5F" cx="36.6" cy="306.3" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="46" cy="306.3" r="2.2"/>
+				<circle fill="#ADC6E5" cx="46" cy="306.3" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="56.6" cy="306.3" r="2.2"/>
+				<circle fill="#ADC6E5" cx="56.6" cy="306.3" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="66.9" cy="306.3" r="2.2"/>
+				<circle fill="#ADC6E5" cx="66.9" cy="306.3" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="76.3" cy="306.3" r="2.2"/>
+				<circle fill="#FFFFFF" cx="76.3" cy="306.3" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="36.5" cy="329.4" r="2.2"/>
+				<circle fill="#FFFFFF" cx="36.5" cy="329.4" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="45.9" cy="329.4" r="2.2"/>
+				<circle fill="#FFFFFF" cx="45.9" cy="329.4" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="56.5" cy="329.4" r="2.2"/>
+				<circle fill="#FFFFFF" cx="56.5" cy="329.4" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="66.8" cy="329.4" r="2.2"/>
+				<circle fill="#FFFFFF" cx="66.8" cy="329.4" r="1.6"/>
+			</g>
+			<g>
+				<circle cx="76.2" cy="329.4" r="2.2"/>
+				<circle fill="#FFFFFF" cx="76.2" cy="329.4" r="1.6"/>
+			</g>
+		</g>
+		<path fill="#E35C5F" d="M76.7,304.7v3.1c0,0,1.2-0.2,1.2-1.5C77.9,304.9,76.7,304.7,76.7,304.7"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="76.3" y1="304.1" x2="76.3" y2="308.5"/>
+	</g>
+	<g id="_x31__1_">
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="32" y1="172" x2="81.2" y2="172"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="32" y1="181.8" x2="81.2" y2="181.8"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="56.6" y1="162.2" x2="56.6" y2="191.6"/>
+		<rect x="32" y="162.2" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="49.2" height="29.4"/>
+		<ellipse cx="56.6" cy="160.7" rx="2.1" ry="2.1"/>
+	</g>
+	<g id="_x32__1_">
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="110.9" y1="172" x2="160.2" y2="172"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="110.9" y1="181.8" x2="160.2" y2="181.8"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="135.5" y1="162.2" x2="135.5" y2="191.6"/>
+		<rect x="110.9" y="162.2" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="49.2" height="29.4"/>
+		<ellipse cx="135.5" cy="160.7" rx="2.1" ry="2.1"/>
+	</g>
+	<g id="_x33__1_">
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="191.1" y1="172" x2="240.3" y2="172"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="191.1" y1="181.8" x2="240.3" y2="181.8"/>
+		<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="215.7" y1="162.2" x2="215.7" y2="191.6"/>
+		<rect x="191.1" y="162.2" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="49.2" height="29.4"/>
+		<ellipse cx="215.7" cy="160.7" rx="2.1" ry="2.1"/>
+	</g>
+</g>
+</svg>
