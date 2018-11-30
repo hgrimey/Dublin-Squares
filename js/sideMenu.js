@@ -139,6 +139,7 @@ function loadArchitecturalFeaturesContainer(features) {
     return html;
 }
 
+//nav bar terrace 
 function generateMerrionSideMenuHTML(buttonArray) {
     var html = '';
     html += '<div>'
