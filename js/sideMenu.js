@@ -89,6 +89,7 @@ function createMerrionArchitecturalFeaturesSection() {
     $('#mapViewport').html(architecturalFeaturesMerrionHTML());
 }
 
+//chapter headings in the About section
 function aboutMerrionHTML() {
     var html = '';
     html += '<div id="aboutMenu">';
