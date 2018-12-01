@@ -1,70 +1,70 @@
 function aboutMerrionSection() {
 
 
-    //debugger;
-    //addToHistory(aboutMerrionSection);
-    var viewport = '<div id="viewport"></div>';
-    $('#mapViewport').html(viewport);
-    //$('#menuwrapper').hide();
-    //$('#viewport').show();
-
-    getSectionsForScollingJSON(function (sections) {
-
-        console.log(sections);
-
-        var sectionIndex = 0;
-        var progress = 0;
-        var progressAddition = 100 / sections.length;
-
-        var html = '<div id="superContainer" class="scrollContainer"><div>';
-
-        for (var x = 0; x < sections.length; x++) {
-            var currentSection = sections[x];
-            console.log(currentSection);
-            html += createSection(currentSection);
-        }
-        html += '</div></div>';
-
-        $('#viewport').append(html);
-
-        setTimeout(function () {
-            //return;
-            var controller = new ScrollMagic.Controller({
-                globalSceneOptions: {
-                    triggerHook: 'onLeave',
-                }
-            });
-
-            var myScroll = new IScroll('#superContainer', {
-                scrollX: false,
-                scrollY: true,
-                scrollbars: true,
-                useTransform: false,
-                useTransition: false,
-                probeType: 3,
-                click: true
-            })
-
-            controller.scrollPos(function () {
-                return -myScroll.y;
-            });
-            myScroll.on('scroll', function () {
-                console.log('scroll detected')
-                controller.update();
-            });
-
+    //    //debugger;
+    //    //addToHistory(aboutMerrionSection);
+        var viewport = '<div id="viewport"></div>';
+        $('#mapViewport').html(viewport);
+    //    //$('#menuwrapper').hide();
+    //    //$('#viewport').show();
+    //
+        getSectionsForScollingJSON(function (sections) {
+    
+            console.log(sections);
+    
+            var sectionIndex = 0;
+            var progress = 0;
+            var progressAddition = 100 / sections.length;
+    
+            var html = '<div id="superContainer" class="scrollContainer"><div>';
+    
             for (var x = 0; x < sections.length; x++) {
                 var currentSection = sections[x];
-
-                progress += progressAddition;
-                //console.log(addSectionSM(currentSection, controller, progress));
-
-                addSectionSM(currentSection, controller, sections.length)
+                console.log(currentSection);
+                html += createSection(currentSection);
             }
+            html += '</div></div>';
+    
+            $('#viewport').append(html);
+    
+            setTimeout(function () {
+    //            //return;
+                var controller = new ScrollMagic.Controller({
+                    globalSceneOptions: {
+                        triggerHook: 'onLeave',
+                    }
+                });
+    //
+                var myScroll = new IScroll('#superContainer', {
+                    scrollX: false,
+                    scrollY: true,
+                    scrollbars: true,
+                    useTransform: false,
+                    useTransition: false,
+                    probeType: 3,
+                    click: true
+                })
+    //
+                controller.scrollPos(function () {
+                    return -myScroll.y;
+                });
+                myScroll.on('scroll', function () {
+                    console.log('scroll detected')
+                    controller.update();
+                });
+    //
+                for (var x = 0; x < sections.length; x++) {
+                    var currentSection = sections[x];
 
-        }, 500);
+                    progress += progressAddition;
+                    //console.log(addSectionSM(currentSection, controller, progress));
 
-    })
+                    addSectionSM(currentSection, controller, sections.length)
+                }
+
+                }, 500);
+
+                })
 }
 
 function addSectionSM(section, controller, length) {
@@ -146,9 +146,10 @@ function architecturalFeaturesMerrionHTML(features) {
     var html = '';
     html += '<div id="architecture">';
     html += '<div id="" class="georgianTitle"><h3>Georgian Dublin</h3></div>'
-    html += '<div><button class="intExt" class="" data-features="5">Exterior</button></div>\r\n'
+    html += '<div><p id="architecturalIntro">Tap the exterior or interior button below, then tap on the hotspots found on the image to view information about a feature.</p></div>'
+    html += '<div id="architecturalBtn"><button class="intExt" class="" data-features="5">Exterior</button>\r\n'
     //    html += '<div id="intExt" class="" data-features="' + features.ID + '">Interior</div>\r\n'
-    html += '<div><button class="intExt" class="" data-features="17">Interior</button></div>\r\n'
+    html += '<button class="intExt" class="" data-features="17">Interior</button></div>\r\n'
     html += '</div>';
     html += '<div id="architectural_features"></div>';
     return html;
