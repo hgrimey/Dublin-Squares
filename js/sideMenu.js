@@ -74,7 +74,7 @@ function addSectionSM(section, controller, length) {
             triggerElement: '#' + section.pageId,
         })
         .addTo(controller)
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         //.setPin('#' + section.pageId) //everything added to scene needs to go before
         .on('update', function (event) {
             var p = event.target.controller().info('scrollPos');

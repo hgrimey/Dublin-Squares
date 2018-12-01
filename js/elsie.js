@@ -64,7 +64,7 @@ function setUpElsiePage() {
     var s1 = new ScrollMagic.Scene({
             triggerElement: "#sec1",
         })
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         //.setPin('#sec1') //everything added to scene needs to go before .addTo(controller);
         .on('enter', function (event) {
             $('.progress-bar').css('width', '20%');
@@ -114,7 +114,7 @@ function setUpElsiePage() {
     var s2 = new ScrollMagic.Scene({
             triggerElement: "#sec2",
         })
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         //.setPin('#sec2') //everything added to scene needs to go before .addTo(controller);
         .on('enter', function (event) {
             $('.progress-bar').css('width', '35%');
@@ -162,7 +162,7 @@ function setUpElsiePage() {
     var s3 = new ScrollMagic.Scene({
             triggerElement: "#sec3",
         })
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         //.setPin('#sec3') //everything added to scene needs to go before .addTo(controller);
         .on('enter', function (event) {
             $('.progress-bar').css('width', '45%');
@@ -209,7 +209,7 @@ function setUpElsiePage() {
     var s4 = new ScrollMagic.Scene({
             triggerElement: "#sec4",
         })
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         //.setPin('#sec4') //everything added to scene needs to go before .addTo(controller);
         .on('enter', function (event) {
             $('.progress-bar').css('width', '60%');
@@ -256,7 +256,7 @@ function setUpElsiePage() {
     var s5 = new ScrollMagic.Scene({
             triggerElement: "#sec5",
         })
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         //.setPin('#sec5') //everything added to scene needs to go before .addTo(controller);
         .on('enter', function (event) {
             $('.progress-bar').css('width', '75%');
@@ -303,7 +303,7 @@ function setUpElsiePage() {
     var s6 = new ScrollMagic.Scene({
             triggerElement: "#sec6",
         })
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         //.setPin('#sec6') //everything added to scene needs to go before .addTo(controller);
         .on('enter', function (event) {
             $('.progress-bar').css('width', '85%');
@@ -350,7 +350,7 @@ function setUpElsiePage() {
     var s7 = new ScrollMagic.Scene({
             triggerElement: "#sec7",
         })
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         //.setPin('#sec7') //everything added to scene needs to go before .addTo(controller);
         .on('enter', function (event) {
             $('.progress-bar').css('width', '100%');
