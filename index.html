@@ -890,6 +890,20 @@
         width: 100%;
     }
 
+    .activeHouse {
+        background-color: #F0F0F0;
+    }
+
+    .activeHouse a {
+        color: white;
+    }
+
+    p#flyOutText {
+        /*        color: lightgray;*/
+        width: 390px;
+        padding-right: 16px;
+    }
+
     /*
  @-webkit-keyframes circleBounce {
         0% {
@@ -949,10 +963,21 @@
     }
 */
 
+    div#sound {
+        background-color: orange;
+        position: absolute;
+        top: 658px;
+        left: 950px;
+        padding-left: 40px;
+        /*        width: 40vw;*/
+        height: 5vh;
+        z-index: 2;
+    }
+
 </style>
 
 <body>
-
+    <div id="sound"></div>
     <div id="mapViewport">
 
     </div>

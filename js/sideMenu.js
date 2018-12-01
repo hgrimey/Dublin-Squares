@@ -173,7 +173,7 @@ function generateMerrionSideMenuHTML(buttonArray) {
     html += '<li><a class="backButton" href="#"><img class="navIcons" src="img/back_icon.svg"/></a></li>\r\n'
     html += '<li><a href="#"><img class="navIcons" src="img/terrace_icon.svg"/></a>\r\n'
     html += '<ul>\r\n'
-    html += '<li id="container1">Terraces\r\n'
+    html += '<li id="container1"><p id="flyOutText">Tap on a button below to reveal the houses of your selected Terrace. Available houses are highligted grey.</p>\r\n'
     html += '<div class="btn-group">\r\n'
     html += '<button id="northBtn" class="terraceBtn" data-inline="true" data-terrace="N">North</button>'
     html += '<button id="southBtn" class="terraceBtn" data-inline="true" data-terrace="S">South</button>'
@@ -281,11 +281,11 @@ function architecturalSection(id, callback) {
 function renderHouseMenuItem(menuItems) {
     var html = '';
     html = '<td';
-    /*
-    if (menuItems.available) {
-        html += ' class="active"';
+
+    if (menuItems.available == 1) {
+        html += ' class="activeHouse"';
     }
-    */
+
     html += '><a class="tableBtn" href="#" data-destination="' + menuItems.destination + '" data-house="' + menuItems.houseNumber + '">' + menuItems.houseNumber + '</a></td>';
     console.log(html);
     return html;
