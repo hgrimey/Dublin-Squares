@@ -198,7 +198,7 @@ function buildHouseHTML(house) {
     html += '<div class="content-text">\r\n'
     html += '<h1 class="top">' + house.houseTitle + '</h1>\r\n'
 
-//    html += '<div class="imgHouse" data-img-url="' + getImageUrl(house.houseImgURL) + '"></div>'
+    //    html += '<div class="imgHouse" data-img-url="' + getImageUrl(house.houseImgURL) + '"></div>'
     //    var timeline = house.houseTimeline;
     var images = house.houseImages;
 
@@ -212,7 +212,8 @@ function buildHouseHTML(house) {
         console.log(getImageUrl(titleImage.houseImageURL));
         //<img class="titleImage" src="' + getImageUrl(titleImage.houseImageURL) + '"/></div><div id="callToAction"></div>\r\n'
     }
-
+    //html += '<img id="scrollUp" style="margin-top:-120px" src="img/scrollUp2.gif"/>'
+    //html += '<h4 id="placeHolderScroll">Scroll Up</h4>'
     html += '<h2 id="91one"></h2>\r\n'
     html += '<div class="houseInfo">' + house.houseInfo + '</div>\r\n'
     //html += '<h2 id="' + '91two' + '"></h2>\r\n'
