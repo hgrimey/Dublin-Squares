@@ -153,12 +153,12 @@ function merrionModal() {
     html += '<div class="modal fade" id="MerrionModalCenter" tabindex="-1" role="dialog" aria-labelledby="MerrionModalCenterTitle" aria-hidden="true">';
     html += '<div class="modal-dialog modal-dialog-centered" style="max-width: 1000px; max-height: 1000px" role="document">';
     html += '<div class="modal-content" >';
-    html += '<div class="modal-header">';
-    html += '<h3 class="modal-title" id="MerrionModalCenterTitle" >Welcome to Merrion Square</h3>';
+    html += '<div class="merrion-modal-header">';
+//    html += '<h3 class="modal-title" id="MerrionModalCenterTitle" ></h3>';
     html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close">';
     html += '<span aria-hidden="true">&times;</span></button></div>';
-    //    html += '<div class="modal-body"><img id="merrionOnboarding" src="img/useCase1.gif"/></div>';
-    html += '<div class="modal-body">Tap any of the statues or features of the Square to reveal more information. <br> You can zoom in and out, and even move around the illustrated map of Merrion Square by using a dragging motion. <br> To navigate to a terrace, tap on a row of houses found at the top, bottom, left and right of the screen. </div>';
+    html += '<div class="merrion-modal-body"><img id="merrionOnboarding" style="width: 100%; height: 300%;" src="img/onboardingMS.gif"/></div>';
+    html += '<div class="merrion-modal-body"></div>';
     html += '</div></div>';
 
     return html;
