@@ -28,7 +28,7 @@ function aboutMerrionSection() {
         $('#viewport').append(html);
 
         setTimeout(function () {
-
+            //return;
             var controller = new ScrollMagic.Controller({
                 globalSceneOptions: {
                     triggerHook: 'onLeave',
@@ -69,13 +69,13 @@ function aboutMerrionSection() {
 
 function addSectionSM(section, controller, length) {
     //alert('hello!!! ' + section.pageId);
-
+    //return;
     var sectionScrollMagic = new ScrollMagic.Scene({
             triggerElement: '#' + section.pageId,
         })
         .addTo(controller)
         .addIndicators() // add indicators (requires plugin)
-        .setPin('#' + section.pageId) //everything added to scene needs to go before
+        //.setPin('#' + section.pageId) //everything added to scene needs to go before
         .on('update', function (event) {
             var p = event.target.controller().info('scrollPos');
             var size = event.target.controller().info('size');
@@ -259,13 +259,15 @@ function architecturalSection(id, callback) {
                     //console.log(currentItem);
 
                     (function (currentItem) {
+                        console.log(currentItem.SVGelementId);
                         d3.select('#' + currentItem.SVGelementId)
                             .on("click", function (d, i) {
 
 
-                                // alert(currentItem.SVGelementId)
+                                alert(currentItem.SVGelementId);
                                 $('#archText').html(currentItem.modalText);
-                                //$('g#' + currentItem.SVGelementId).html('what');  -------------- Take note!!
+                                $('#hotspots g circle').css('fill', '#729AA1');
+                                $('g#' + currentItem.SVGelementId + ' g circle').css('fill', '#bb00bb');
                             })
                     })(currentItem)
                     //anonymous self executing function / closure
@@ -309,6 +311,27 @@ function elsieLetterPage() {
     setUpElsiePage();
 }
 
+function loadingMenuButtons(directionTerrace) {
+    loadMenuButtons(function (buttons) {
+        var filtered = _.filter(buttons, function (button) {
+            return button.terrace == directionTerrace
+        });
+        var html = '';
+        html += '<table><tr>';
+
+        for (var x = 0; x < filtered.length; x++) {
+            if (x % 7 == 0 && x > 0) {
+                html += '</tr><tr>';
+            }
+            html += renderHouseMenuItem(filtered[x]);
+        }
+        html += '</tr></table>';
+
+        $('#menuButtons').html(html);
+        return html;
+    });
+}
+
 
 function initializeSideMenu() {
 
@@ -331,141 +354,16 @@ function initializeSideMenu() {
 
     });
 
-    $('#menuwrapper').on('click', '#westBtn', function (e) {
-        e.preventDefault();
-
-        $('#menuwrapper ul li ul li button#westBtn').addClass('active');
-        $('#menuwrapper ul li ul li button#northBtn').removeClass('active');
-        $('#menuwrapper ul li ul li button#southBtn').removeClass('active');
-        $('#menuwrapper ul li ul li button#eastBtn').removeClass('active');
-        //$('#menuwrapper ul li ul li button').css('class', 'active');
-
-        console.log('west button clicked');
+    $('#menuwrapper').on('click', '.terraceBtn', function (e) {
         var terrace = $(this).data('terrace');
         console.log(terrace);
-        var html = '';
-        html += '<table><tr>';
-
-        loadMenuButtons(function (buttons) {
-
-            for (var x = 0; x < buttons.length; x++) {
-
-                if (terrace == buttons[x].terrace) {
-                    console.log('west');
-
-                    if (x % 6 == 5 && x < buttons.length) {
-                        html += '</tr><tr>';
-                    }
-                    var currentItem = buttons[x];
-                    var itemHTML = renderHouseMenuItem(currentItem);
-                    html += itemHTML;
-
-                    console.log(html);
-                }
-            }
-            html += '</tr></table>';
-            $('#menuButtons').html(html);
-        })
+        $('.terraceBtn').removeClass('active');
+        var thisBtn = $(this);
+        thisBtn.addClass('active');
+        loadingMenuButtons(terrace);
     });
-    $('#menuwrapper').on('click', '#eastBtn', function (e) {
-        e.preventDefault();
-        $('#menuwrapper ul li ul li button#eastBtn').addClass('active');
-        $('#menuwrapper ul li ul li button#northBtn').removeClass('active');
-        $('#menuwrapper ul li ul li button#southBtn').removeClass('active');
-        $('#menuwrapper ul li ul li button#westBtn').removeClass('active');
-        console.log('east button clicked');
-        var terrace = $(this).data('terrace');
-        console.log(terrace);
-        var html = '';
-        html += '<table><tr>';
 
-        loadMenuButtons(function (buttons) {
 
-            for (var x = 0; x < buttons.length; x++) {
-
-                if (terrace == buttons[x].terrace) {
-                    console.log('east');
-
-                    if (x % 6 == 5 && x < buttons.length) {
-                        html += '</tr><tr>';
-                    }
-                    var currentItem = buttons[x];
-                    var itemHTML = renderHouseMenuItem(currentItem);
-                    html += itemHTML;
-
-                    console.log(html);
-                }
-            }
-            html += '</tr></table>';
-            $('#menuButtons').html(html);
-        })
-    });
-    $('#menuwrapper').on('click', '#southBtn', function (e) {
-        e.preventDefault();
-        $('#menuwrapper ul li ul li button#southBtn').addClass('active');
-        $('#menuwrapper ul li ul li button#northBtn').removeClass('active');
-        $('#menuwrapper ul li ul li button#westBtn').removeClass('active');
-        $('#menuwrapper ul li ul li button#eastBtn').removeClass('active');
-        console.log('south button clicked');
-        var terrace = $(this).data('terrace');
-        console.log(terrace);
-        var html = '';
-        html += '<table><tr>';
-
-        loadMenuButtons(function (buttons) {
-
-            for (var x = 0; x < buttons.length; x++) {
-
-                if (terrace == buttons[x].terrace) {
-                    console.log('south');
-
-                    if (x % 6 == 5 && x < buttons.length) {
-                        html += '</tr><tr>';
-                    }
-                    var currentItem = buttons[x];
-                    var itemHTML = renderHouseMenuItem(currentItem);
-                    html += itemHTML;
-
-                    console.log(html);
-                }
-            }
-            html += '</tr></table>';
-            $('#menuButtons').html(html);
-        })
-    });
-    $('#menuwrapper').on('click', '#northBtn', function (e) {
-        e.preventDefault();
-        $('#menuwrapper ul li ul li button#northBtn').addClass('active');
-        $('#menuwrapper ul li ul li button#westBtn').removeClass('active');
-        $('#menuwrapper ul li ul li button#southBtn').removeClass('active');
-        $('#menuwrapper ul li ul li button#eastBtn').removeClass('active');
-        console.log('north button clicked');
-        var terrace = $(this).data('terrace');
-        console.log(terrace);
-        var html = '';
-        html += '<table><tr>';
-
-        loadMenuButtons(function (buttons) {
-
-            for (var x = 0; x < buttons.length; x++) {
-
-                if (terrace == buttons[x].terrace) {
-                    console.log('north');
-
-                    if (x % 6 == 5 && x < buttons.length) {
-                        html += '</tr><tr>';
-                    }
-                    var currentItem = buttons[x];
-                    var itemHTML = renderHouseMenuItem(currentItem);
-                    html += itemHTML;
-
-                    console.log(html);
-                }
-            }
-            html += '</tr></table>';
-            $('#menuButtons').html(html);
-        })
-    });
 
     $('#menuwrapper').on('click', '.tableBtn', function (e) {
         e.preventDefault();

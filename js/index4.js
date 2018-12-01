@@ -164,7 +164,9 @@ function merrionModal() {
     return html;
 }
 
-var merrionModalOnce = _.once(merrionModal);
+
+
+//var merrionModalOnce = _.once(merrionModal); //underscore.js
 
 //house page html
 function findImage(imageArray, imageLocation) {

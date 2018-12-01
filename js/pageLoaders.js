@@ -158,6 +158,8 @@ function loadLandingPage() {
 
 }
 
+var modalShown = false;
+
 function loadMapAndMiniMapPage(id) {
 
     initializeSideMenu();
@@ -178,11 +180,14 @@ function loadMapAndMiniMapPage(id) {
         //        console.log(merrionModal());
         //        $('#mapViewport').append(merrionModal(););
 
-        $('#mapViewport').append(merrionModalOnce());
+        $('#mapViewport').append(merrionModal());
 
-        $('#MerrionModalCenter').modal({
-            show: true
-        })
+        if (modalShown == false) {
+            $('#MerrionModalCenter').modal({
+                show: true
+            })
+            modalShown = true;
+        }
 
         d3.xml(map.imageURL).mimeType("image/svg+xml").get(function (error, xml) {
 

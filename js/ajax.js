@@ -6,6 +6,11 @@ var hostingURL = 'http://dublinsquares.codeprimer.net/php/'
 
 var newHostingURL = 'http://d1519085-109992.blacknighthosting.com/php/';
 
+var hostingImgURL = 'http://d1519085-109992.blacknighthosting.com/';
+
+var localImgURL = 'http://localhost:8000/'
+//localImgURL for testing images locally
+
 
 //var baseURL = hostingURL;
 
@@ -14,7 +19,7 @@ baseURL = newHostingURL;
 
 
 function getImageUrl(path) {
-    return path;
+    return hostingImgURL + path;
 }
 
 /*
