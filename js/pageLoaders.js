@@ -425,7 +425,7 @@ function loadMapPage(id, shouldAddToHistory) {
                     //console.log(currentMapItem);
                     (function (currentMapItem) {
                         d3.select('#' + currentMapItem.mapSvgElementId).on("click", function (d, i) {
-                            alert(currentMapItem + 'clicked');
+                            //alert(currentMapItem + 'clicked');
 
                             if (currentMapItem.linkType == 'map' && currentMapItem.miniMap == 1) {
 
@@ -442,7 +442,22 @@ function loadMapPage(id, shouldAddToHistory) {
                                 loadHouse(currentMapItem.destination, function (house) {
                                     $('#mapViewport').html(buildHouseHTML(house));
                                     //d3 animation stuff here!
-                                    createHouseSVG();
+                                    //console.log(currentMapItem.destination.imagePlacement);
+                                    if (currentMapItem.destination == 4) {
+                                        createHouseSVG(18);
+                                    }
+                                    if (currentMapItem.destination == 2) {
+                                        createHouseSVG(19);
+                                    }
+                                    if (currentMapItem.destination == 6) {
+                                        createHouseSVG(20);
+                                    }
+                                    if (currentMapItem.destination == 7) {
+                                        createHouseSVG(21);
+                                    }
+                                    if (currentMapItem.destination == 8) {
+                                        createHouseSVG(22);
+                                    }
                                 });
 
                             }

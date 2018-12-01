@@ -264,10 +264,10 @@ function architecturalSection(id, callback) {
                             .on("click", function (d, i) {
 
 
-                                alert(currentItem.SVGelementId);
+                                //alert(currentItem.SVGelementId);
                                 $('#archText').html(currentItem.modalText);
                                 $('#hotspots g circle').css('fill', '#729AA1');
-                                $('g#' + currentItem.SVGelementId + ' g circle').css('fill', '#bb00bb');
+                                $('g#' + currentItem.SVGelementId + ' g circle').css('fill', '#F0F0F0');
                             })
                     })(currentItem)
                     //anonymous self executing function / closure
@@ -373,7 +373,21 @@ function initializeSideMenu() {
         console.log('Button destination ' + destination);
         loadHouse(destination, function (house) {
             $('#mapViewport').html(buildHouseHTML(house));
-            createHouseSVG();
+            if (destination == 4) {
+                createHouseSVG(18);
+            }
+            if (destination == 2) {
+                createHouseSVG(19);
+            }
+            if (destination == 6) {
+                createHouseSVG(20);
+            }
+            if (destination == 7) {
+                createHouseSVG(21);
+            }
+            if (destination == 8) {
+                createHouseSVG(22);
+            }
         });
     });
 

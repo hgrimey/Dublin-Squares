@@ -81,42 +81,6 @@ button#name.title-name:focus {
 }
 */
 
-#notableFigureContainer {
-    width: 100%;
-    height: 100%;
-}
-
-#notableFigureToggle {
-    width: 100%;
-    height: 100%;
-}
-
-img.sticky {
-    position: -webkit-sticky;
-    /*safari*/
-    position: fixed;
-    /*sticky*/
-    top: 1;
-    float: left;
-    padding-left: 200px;
-    padding-top: 35px;
-    width: 500px;
-    height: 700px;
-}
-
-.image {
-    float: left;
-    padding-top: 28px;
-    padding-right: 500px;
-}
-
-.text {
-    float: right;
-    padding-left: 80px;
-    padding-right: 110px;
-    padding-top: 70px;
-}
-
 .clearfix {
     clear: both;
 }
