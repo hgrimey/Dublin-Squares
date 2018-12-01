@@ -1,6 +1,6 @@
 console.log('HELLO')
 
-//var baseURL = 'http://localhost:8888/php1/';
+var mampURL = 'http://localhost:8888/php1/';
 
 var hostingURL = 'http://dublinsquares.codeprimer.net/php/'
 
@@ -131,8 +131,13 @@ function architecturalFeaturesJSON(callback) {
 }
 
 function loadMenuButtons(callback) {
-
     $.getJSON(baseURL + 'housesInMenu.php').then(function (buttons) {
         callback(buttons);
     })
+}
+
+function loadSVGImage(callback) {
+    $.getJSON(mampURL + 'svgImage.php', function (image) {
+        callback(image);
+    });
 }

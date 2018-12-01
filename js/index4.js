@@ -31,7 +31,7 @@ function createSection(section) {
 function loadHeadersHTML(notableFiguresParam) {
     // addToHistory(loadHeadersHTML);
     var html = '';
-    html += '<div class="buttonGroup">'
+    html += '<div class="buttonGroup" style="position:fixed; z-index:2;background-color:white;">'
     //html += '<div id="notableFiguresSection">'
     for (var x = 0; x < notableFiguresParam.length; x++) {
         var currentNotableFigure = notableFiguresParam[x];
@@ -154,7 +154,7 @@ function merrionModal() {
     html += '<div class="modal-dialog modal-dialog-centered" style="max-width: 1000px; max-height: 1000px" role="document">';
     html += '<div class="modal-content" >';
     html += '<div class="merrion-modal-header">';
-//    html += '<h3 class="modal-title" id="MerrionModalCenterTitle" ></h3>';
+    //    html += '<h3 class="modal-title" id="MerrionModalCenterTitle" ></h3>';
     html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close">';
     html += '<span aria-hidden="true">&times;</span></button></div>';
     html += '<div class="merrion-modal-body"><img id="merrionOnboarding" style="width: 100%; height: 300%;" src="img/onboardingMS.gif"/></div>';
@@ -179,17 +179,17 @@ function findImage(imageArray, imageLocation) {
     return null;
 }
 
-function buildTimeline(timelineArray) {
-    var html = '';
-    html += '<div class="timeline"><ul>\r\n'
-    for (var x = 0; x < timelineArray.length; x++) {
-        var timelineThing = timelineArray[x];
-        html += '<li><div><h2>' + timelineThing.houseTime + '</h2><br><p>' + timelineThing.timelineText + '</p></div></li>\r\n'
-    }
-    html += '</ul></div>'
-    console.log(html);
-    return html;
-}
+//function buildTimeline(timelineArray) {
+//    var html = '';
+//    html += '<div class="timeline"><ul>\r\n'
+//    for (var x = 0; x < timelineArray.length; x++) {
+//        var timelineThing = timelineArray[x];
+//        html += '<li><div><h2>' + timelineThing.houseTime + '</h2><br><p>' + timelineThing.timelineText + '</p></div></li>\r\n'
+//    }
+//    html += '</ul></div>'
+//    console.log(html);
+//    return html;
+//}
 
 
 function buildHouseHTML(house) {
@@ -198,20 +198,18 @@ function buildHouseHTML(house) {
     html += '<div class="content-text">\r\n'
     html += '<h1 class="top">' + house.houseTitle + '</h1>\r\n'
 
-    var timeline = house.houseTimeline;
+//    html += '<div class="imgHouse" data-img-url="' + getImageUrl(house.houseImgURL) + '"></div>'
+    //    var timeline = house.houseTimeline;
     var images = house.houseImages;
-    /*for (var x = 0; x < images.length; x++) {
-        var currentImage = images[x];
-        html += '<div class="imgHouse"><img src="' + currentImage.houseImageURL + '"/></div>\r\n'
-    }
-    if (images.length > 0) {
-        html += '<div class="imgHouse"><img src="' + images[0].houseImageURL + '"/></div>\r\n'
-    }*/
+
+
 
     var titleImage = findImage(images, 'titleImage');
 
     if (titleImage != null) {
         html += '<div class="imgHouse" data-img-url="' + getImageUrl(titleImage.houseImageURL) + '"></div>\r\n';
+
+        console.log(getImageUrl(titleImage.houseImageURL));
         //<img class="titleImage" src="' + getImageUrl(titleImage.houseImageURL) + '"/></div><div id="callToAction"></div>\r\n'
     }
 
@@ -226,7 +224,7 @@ function buildHouseHTML(house) {
     var secondImage = findImage(images, 'secondImage');
 
     if (secondImage != null) {
-        html += '<div class="imgHouse"><img src="' + getImageUrl(secondImage.houseImageURL) + '"/></div>\r\n'
+        html += '<div class="imgHouse"><img src="' + getImageUrl(secondImage.houseImageURL) + '" class="contentImg"/></div>\r\n'
     }
 
     html += '<div class="houseFamily">' + house.family + '</div>\r\n'
@@ -236,7 +234,7 @@ function buildHouseHTML(house) {
     var thirdImage = findImage(images, 'thirdImage');
 
     if (thirdImage != null) {
-        html += '<div class="imgHouse"><img src="' + getImageUrl(thirdImage.houseImageURL) + '"/></div>\r\n'
+        html += '<div class="imgHouse"><img src="' + getImageUrl(thirdImage.houseImageURL) + '" class="contentImg"/></div>\r\n'
     }
 
     /*if (images.length > 3) {
@@ -247,10 +245,10 @@ function buildHouseHTML(house) {
 
     var fourthImage = findImage(images, 'fourthImage');
     if (fourthImage != null) {
-        html += '<div class="imgHouse"><img src="' + getImageUrl(fourthImage.houseImageURL) + '"/></div>\r\n'
+        html += '<div class="imgHouse"><img src="' + getImageUrl(fourthImage.houseImageURL) + '" class="contentImg"/></div>\r\n'
     }
     //debugger;
-    html += buildTimeline(timeline);
+    //    html += buildTimeline(timeline);
 
     html += '</div>'
     console.log(html);
@@ -261,49 +259,51 @@ function loadHouse(id, callback) {
     getHouseById(id, function (housey) {
         console.log('this is my housey', housey);
         //var returnedHTML = buildHouseHTML(housey);
-        addToHistory(loadHouse, id);
+        addToHistory(loadMapAndMiniMapPage, 3);
         callback(housey);
         //$('#houseDetails').html(returnedHTML);
     });
 }
 
 //animated SVGs on each house page
-function createHouseSVG() {
+function createHouseSVG(id, callback) {
 
-    var url = $('#mapViewport .imgHouse').data('img-url');
-    console.log(url);
-    d3.xml(url).mimeType('image/svg+xml').get(function (error, xml) {
-        if (error) throw error;
+    loadMapPageJSON(id, function (features) {
+        var url = $('#mapViewport .imgHouse').data('img-url');
+        console.log(url);
+        d3.xml(features.imageURL).mimeType('image/svg+xml').get(function (error, xml) {
+            if (error) throw error;
 
-        //$('#mapViewport .imgHouse').html( )
-        document.querySelector('#mapViewport .imgHouse').appendChild(xml.documentElement.cloneNode(true));
+            //$('#mapViewport .imgHouse').html( )
+            document.querySelector('#mapViewport .imgHouse').appendChild(xml.documentElement.cloneNode(true));
 
-        //svg is attached to DOM
+            //svg is attached to DOM
 
-        var houseSVG = $('.imgHouse svg')
+            var houseSVG = $('.imgHouse svg')
 
-        var windowContainer = houseSVG.find('#windows');
+            var windowContainer = houseSVG.find('#windows');
 
-        var windows = windowContainer.children();
+            var windows = windowContainer.children();
 
-        var random = _.random(0, windows.length - 1);
+            var random = _.random(0, windows.length - 1);
 
-        windows.each(function (index) {
-            if (index === random) {
+            windows.each(function (index) {
+                if (index === random) {
 
-                var window = $(this);
-                var toToggle = window.find('.lightOn');
-                //toToggle.toggleClass('lightsOn');
+                    var window = $(this);
+                    var toToggle = window.find('.lightOn');
+                    //toToggle.toggleClass('lightsOn');
 
-                setTimeout(function () {
-                    toToggle.css('fill', '#FFD052');
-                }, 1000);
+                    setTimeout(function () {
+                        toToggle.css('fill', '#FFD052');
+                    }, 1000);
 
-                //setInterval for on and off not working
+                    //setInterval for on and off not working
 
-            }
+                }
+            })
+
         })
-
     })
 }
 
