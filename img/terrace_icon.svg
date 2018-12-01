@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="80px" viewBox="0 0 78 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>terrace_icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="terrace_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10" transform="translate(5.000000, 4.000000)">
+            <polygon id="Fill-1" fill="#7299A0" points="9 22.2807489 9 72 61 72 61 22.2807489 35.3566363 4"></polygon>
+            <polygon id="Stroke-2" stroke="#546F72" stroke-width="2" points="9 72 9 22.2807489 35.3566363 4 61 22.2807489 61 72"></polygon>
+            <polygon id="Fill-4" fill="#546F72" points="35 0 0 26.005357 2.18686664 29 34.7608431 4.79756115 32.3348196 2.99464298"></polygon>
+            <polygon id="Fill-5" fill="#546F72" points="34.6516431 0 32 2.99464298 34.413701 4.79756115 66.8242411 29 69 26.005357 34.6556761 0"></polygon>
+            <polygon id="Fill-6" fill="#546F72" points="16 42 30 42 30 28 16 28"></polygon>
+            <polygon id="Fill-7" fill="#546F72" points="40 42 54 42 54 28 40 28"></polygon>
+            <polygon id="Fill-8" fill="#546F72" points="40 66 54 66 54 52 40 52"></polygon>
+            <polygon id="Fill-9" fill="#546F72" points="18 72 29 72 29 54 18 54"></polygon>
+        </g>
+    </g>
+</svg>

@@ -880,13 +880,17 @@
         height: 80vh;
     }
 
+    img.navIcons {
+        width: 30px;
+    }
 
     .scrollContainer {
         overflow-y: scroll;
         overflow-x: hidden;
         width: 100%;
+    }
 
-        /*
+    /*
  @-webkit-keyframes circleBounce {
         0% {
             -webkit-transform: scale(0.9);
@@ -1057,7 +1061,7 @@
             //click event for buttons in notable figure section
             $('html').on('click', '#name', function(e) {
                 e.preventDefault();
-                alert('Name clicked');
+                //alert('Name clicked');
                 var containerID = $(this).data("container");
                 console.log(containerID);
                 loadNotableFiguresJSON(containerID, function(thing) {

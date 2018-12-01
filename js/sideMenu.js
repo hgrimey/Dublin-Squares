@@ -170,8 +170,8 @@ function generateMerrionSideMenuHTML(buttonArray) {
     var html = '';
     html += '<div>'
     html += '<ul id="sidemenu">\r\n'
-    html += '<li><a class="backButton" href="#"><img src="img/back_icon.svg"/></a></li>\r\n'
-    html += '<li><a href="#">Terrace</a>\r\n'
+    html += '<li><a class="backButton" href="#"><img class="navIcons" src="img/back_icon.svg"/></a></li>\r\n'
+    html += '<li><a href="#"><img class="navIcons" src="img/terrace_icon.svg"/></a>\r\n'
     html += '<ul>\r\n'
     html += '<li id="container1">Terraces\r\n'
     html += '<div class="btn-group">\r\n'
@@ -181,11 +181,11 @@ function generateMerrionSideMenuHTML(buttonArray) {
     html += '<button id="westBtn" class="terraceBtn" data-inline="true" data-terrace="W">West</button>'
     html += '</div><div id="menuButtons"></div>'
     html += '</li></ul></li>\r\n'
-    html += '<li><a class="aboutMerrion" href="#"><img src="img/about_icon.svg"/></a>\r\n'
+    html += '<li><a class="aboutMerrion" href="#"><img class="navIcons" src="img/about_icon.svg"/></a>\r\n'
     html += '</li>\r\n'
-    html += '<li><a class="witnessLetter" href="#"><img src="img/letter_icon.svg"/></a>\r\n'
+    html += '<li><a class="witnessLetter" href="#"><img class="navIcons" src="img/letter_icon.svg"/></a>\r\n'
     html += '</li>\r\n'
-    html += '<li><a class="notableFigures" href="#"><img src="img/nf_icon.svg"/></a></li>\r\n'
+    html += '<li><a class="notableFigures" href="#"><img class="navIcons" src="img/nf_icon.svg"/></a></li>\r\n'
     html += '</ul>\r\n'
     html += '</div>'
     return html;
@@ -263,9 +263,9 @@ function architecturalSection(id, callback) {
                             .on("click", function (d, i) {
 
 
-                                alert(currentItem.SVGelementId)
+                                // alert(currentItem.SVGelementId)
                                 $('#archText').html(currentItem.modalText);
-                                //$('g#' + currentItem.SVGelementId).html('what');
+                                //$('g#' + currentItem.SVGelementId).html('what');  -------------- Take note!!
                             })
                     })(currentItem)
                     //anonymous self executing function / closure
