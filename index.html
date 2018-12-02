@@ -850,13 +850,12 @@
         text-align: left;
     }
 
-
-
     /* Single Houses */
 
     h1.top {
         margin-top: 30px;
-        padding-left: 150px;
+        /*        padding-left: 150px;*/
+        text-align: center;
     }
 
     .houseInfo {
@@ -1127,7 +1126,7 @@
                 e.preventDefault();
                 var features = $(this).data('features');
                 console.log(features);
-         
+
                 loadArchitecturalFeaturesContainer();
 
                 $('#architectural_features').html('<div id="hello" style="display:none">' + architecturalSection(features) + '</div>');
