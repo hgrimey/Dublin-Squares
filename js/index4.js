@@ -297,7 +297,7 @@ function createHouseSVG(id, callback) {
 
                     setTimeout(function () {
                         toToggle.css('fill', '#FFD052');
-                    }, 1000);
+                    }, 2500);
 
                     //setInterval for on and off not working
 

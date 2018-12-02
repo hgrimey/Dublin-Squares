@@ -1,71 +1,137 @@
-function aboutMerrionSection() {
+function aboutMerrionSection(id) {
+    var viewport = '<div id="viewport"></div>';
+    $('#mapViewport').html(viewport);
+    loadMapPageJSON(id, function (features) {
+        d3.xml(features.imageURL).mimeType("image/svg+xml").get(function (error, xml) {
+
+            if (error) throw error;
+            //loadArchitecturalFeaturesContainer(features);
+            //add the loaded svg 
+            document.querySelector('#viewport').appendChild(xml.documentElement.cloneNode(true));
+
+            let map = d3.select('#viewport').select('svg');
+
+            $('#exampleModalCenter').modal({
+                keyboard: false,
+                show: false //only show when click on the svg element
+            })
+
+            modalJSON(function (data) {
 
 
-    //    //debugger;
-    //    //addToHistory(aboutMerrionSection);
-        var viewport = '<div id="viewport"></div>';
-        $('#mapViewport').html(viewport);
-    //    //$('#menuwrapper').hide();
-    //    //$('#viewport').show();
-    //
-        getSectionsForScollingJSON(function (sections) {
-    
-            console.log(sections);
-    
-            var sectionIndex = 0;
-            var progress = 0;
-            var progressAddition = 100 / sections.length;
-    
-            var html = '<div id="superContainer" class="scrollContainer"><div>';
-    
-            for (var x = 0; x < sections.length; x++) {
-                var currentSection = sections[x];
-                console.log(currentSection);
-                html += createSection(currentSection);
-            }
-            html += '</div></div>';
-    
-            $('#viewport').append(html);
-    
-            setTimeout(function () {
-    //            //return;
-                var controller = new ScrollMagic.Controller({
-                    globalSceneOptions: {
-                        triggerHook: 'onLeave',
-                    }
-                });
-    //
-                var myScroll = new IScroll('#superContainer', {
-                    scrollX: false,
-                    scrollY: true,
-                    scrollbars: true,
-                    useTransform: false,
-                    useTransition: false,
-                    probeType: 3,
-                    click: true
-                })
-    //
-                controller.scrollPos(function () {
-                    return -myScroll.y;
-                });
-                myScroll.on('scroll', function () {
-                    console.log('scroll detected')
-                    controller.update();
-                });
-    //
-                for (var x = 0; x < sections.length; x++) {
-                    var currentSection = sections[x];
+                for (var x = 0; x < data.length; x++) {
+                    var currentItem = data[x];
+                    //console.log(currentItem);
 
-                    progress += progressAddition;
-                    //console.log(addSectionSM(currentSection, controller, progress));
+                    (function (currentItem) {
+                        //d3.select('#' + currentItem.SVGelementId)
+                        d3.select('#' + currentItem.SVGelementId)
+                            .on("click", function (d, i) {
 
-                    addSectionSM(currentSection, controller, sections.length)
+                                alert('#' + currentItem.SVGelementId + currentItem.modalTitle + currentItem.modalText);
+                                $('.modal-title').html(currentItem.modalTitle)
+                                $('.modal-body').html(currentItem.modalText)
+                                $('#exampleModalCenter').modal('show')
+                            })
+                    })(currentItem)
+                    //anonymous self executing function / closure
+                    //so you're not only getting the last element of the array
                 }
+            })
 
-                }, 500);
+            //            modalJSON(function (data) {
+            //                for (var x = 0; x < data.length; x++) {
+            //                    var currentItem = data[x];
+            //                    //console.log(currentItem);
+            //
+            //                    (function (currentItem) {
+            //                        console.log(currentItem.SVGelementId);
+            //                        d3.select('#' + currentItem.SVGelementId)
+            //                            .on("click", function (d, i) {
+            //
+            //
+            //                                //alert(currentItem.SVGelementId);
+            //                                $('#viewport').html(currentItem.modalText);
+            //                                $('#hotspots g circle').css('fill', '#729AA1');
+            //                                $('g#' + currentItem.SVGelementId + ' g circle').css('fill', '#F0F0F0');
+            //                            })
+            //                    })(currentItem)
+            //                    //anonymous self executing function / closure
+            //                    //so you're not only getting the last element of the array
+            //                }
+            //            })
+        });
 
-                })
+
+
+
+    });
 }
+
+
+
+
+//        var viewport = '<div id="viewport"></div>';
+//        $('#mapViewport').html(viewport);
+//
+//        getSectionsForScollingJSON(function (sections) {
+//    
+//            console.log(sections);
+//    
+//            var sectionIndex = 0;
+//            var progress = 0;
+//            var progressAddition = 100 / sections.length;
+//    
+//            var html = '<div id="superContainer" class="scrollContainer"><div>';
+//    
+//            for (var x = 0; x < sections.length; x++) {
+//                var currentSection = sections[x];
+//                console.log(currentSection);
+//                html += createSection(currentSection);
+//            }
+//            html += '</div></div>';
+//    
+//            $('#viewport').append(html);
+//    
+//            setTimeout(function () {
+//
+//                var controller = new ScrollMagic.Controller({
+//                    globalSceneOptions: {
+//                        triggerHook: 'onLeave',
+//                    }
+//                });
+//
+//                var myScroll = new IScroll('#superContainer', {
+//                    scrollX: false,
+//                    scrollY: true,
+//                    scrollbars: true,
+//                    useTransform: false,
+//                    useTransition: false,
+//                    probeType: 3,
+//                    click: true
+//                })
+//    //
+//                controller.scrollPos(function () {
+//                    return -myScroll.y;
+//                });
+//                myScroll.on('scroll', function () {
+//                    console.log('scroll detected')
+//                    controller.update();
+//                });
+//    //
+//                for (var x = 0; x < sections.length; x++) {
+//                    var currentSection = sections[x];
+//
+//                    progress += progressAddition;
+//                    //console.log(addSectionSM(currentSection, controller, progress));
+//
+//                    addSectionSM(currentSection, controller, sections.length)
+//                }
+//
+//                }, 500);
+//
+//                })
+
 
 function addSectionSM(section, controller, length) {
     //alert('hello!!! ' + section.pageId);
@@ -120,26 +186,10 @@ function aboutMerrionHTML() {
     html += '<div id="aboutMenu">';
     html += '<div id="architecturalFeatures" class="aboutMenuButton"><img src="img/about_georgian.jpg"/><div class="centeredText">Architectural Features</div></div>';
     html += '<div id="aboutMerrion" class="aboutMenuButton"><img src="img/about_history.jpg" /><div class="centeredText">About Merrion Square</div></div>';
-    html += '<div id="historyMerrion" class="aboutMenuButton"><img src="img/about_events.jpg" /><div class="centeredText">History of Merrion Square</div></div>';
+    html += '<div id="styleHistoryMerrion" class="aboutMenuButton"><img src="img/about_events.jpg" /><div class="centeredText">History of Merrion Square</div></div>';
     return html;
 }
 
-//image slider in the event section
-function historyOfMerrionSection() {
-    var html = '';
-    // html += '<div id="history">';
-    //html += '<div id="" class="" ><h3>MERRION SQUARE HISTORY</h3></div></div>';
-    html += '<div class="img-comp-container">';
-    html += '<div class="img-comp-img">';
-    html += '<img src="img/test/gpo.jpg" width="300" height="200">';
-    html += '</div>';
-    html += '<div class="img-comp-img img-comp-overlay">';
-    html += '<img src="img/test/Dublin.png" width="300" height="200">';
-    html += '</div>';
-    html += '</div>';
-
-    return html;
-}
 
 //georgian dublin - with architectural feature buttons
 function architecturalFeaturesMerrionHTML(features) {
@@ -234,26 +284,6 @@ function architecturalSection(id, callback) {
             console.log(hotspots);
 
 
-
-            //            for (var x = 0; x < hotspots.length; x++) {
-            //                var currentHotspot = hotspots[x];
-            //
-            //                console.log(currentHotspot);
-            //
-            //                var what = $('g currentHotspot');
-            //                console.log(what);
-            //
-            //                (function (currentHotspot) {
-            //                    d3.select(currentHotspot)
-            //                        .on("click", function (d, i) {
-            //
-            //                            alert('Current hotspot' + currentHotspot);
-            //                            //alert(currentItem.SVGelementId)
-            //
-            //                        })
-            //                })(currentHotspot)
-            //            }
-
             modalJSON(function (data) {
                 for (var x = 0; x < data.length; x++) {
                     var currentItem = data[x];
@@ -304,7 +334,6 @@ function loadMenu() {
 
 //Witness Account
 function elsieLetterPage() {
-
 
     //addToHistory(elsieLetterPage);
     $('#mapViewport').html('<div id="viewport"><section class="panel one"><img id="elsiePhoto" style="margin-top:70px" src="img/elsiePhoto.png"/><div class="introTextBlock "><p id="introText "> On Wednesday, 27th May 2015, Dublin City Council\'s Public Library Service took possession of a copy of a rare eye-witness account of the outbreak of the 1916 Easter Rising. The account was in the form of a letter written by Elsie McDermid, a popular opera singer of the era, to her mother in England on the occasion of Elsie\'s visit to Dublin. <br> <br> She was in Dublin to perform in Gilbert and Sullivan shows at Dublin’s Gaiety Theatre with the D\'Oyly Carte Opera Company. However, the performances were cancelled as a result of the dramatic outbreak of the Easter Rising on Monday 24th April 1916.</p><img id="scrollUp" style="margin-top:-120px" src="img/scrollAnimation.gif"/></div></section><section class="panel one" id="sec1"><div class="sectionTextBlock"><p id="sec1Text"></p></div></section><section class="panel two" id="sec2"><div class="sectionTextBlock"><p id="sec2Text"></p></div></section><section class="panel three" id="sec3"><div class="sectionTextBlock"><p id="sec3Text"></p></div></section><section class="panel four" id="sec4"><div class="sectionTextBlock"><p id="sec4Text"></p></div></section><section class="panel five" id="sec5"><div class="sectionTextBlock"><p id="sec5Text"></p></div></section><section class="panel six" id="sec6"><div class="sectionTextBlock"><p id="sec6Text"></p></div></section><section class="panel seven" id="sec7"><div class="sectionTextBlock"><p id="sec7Text"></p></div></section></div>');
@@ -399,17 +428,12 @@ function initializeSideMenu() {
         //alert('notable figs clicked');
 
         notableFigures();
+        loadNotableFiguresJSON(4, function (thing) {
+            $('#notableFigureToggle').html(loadNotableFiguresContainer(thing));
+            $().focus();
+        });
     });
-    //notable figures name click event - had to move from navbar as click event wasn't being recognised within function
-    //    $('#name').on('click', function (e) {
-    //        e.preventDefault();
-    //        alert('Name clicked');
-    //        var containerID = $(this).data("container");
-    //        console.log(containerID);
-    //        loadNotableFiguresJSON(containerID, function (thing) {
-    //            $('#notableFigureToggle').html(loadNotableFiguresContainer(thing));
-    //        });
-    //    });
+
 
     $('#menuwrapper').on('click', '.aboutMerrion', function (e) {
         e.preventDefault();
@@ -418,40 +442,4 @@ function initializeSideMenu() {
         createAboutMerrionSection();
     });
 
-    //    $('#menuwrapper').on('click', '#historyMerrion', function (e) {
-    //        e.preventDefault();
-    //        initComparisons();
-    //        createMerrionHistorySection();
-    //    });
-
-    //    $('#menuwrapper').on('click', '#architecturalFeatures', function (e) {
-    //        e.preventDefault();
-    //        architecturalFeaturesJSON(function (features) {
-    //            $('#mapViewport').html(architecturalFeaturesMerrionHTML(features));
-    //        })
-    //        //createMerrionArchitecturalFeaturesSection();
-    //    });
-    //
-    //    $('#menuwrapper').on('click', '.intExt', function (e) {
-    //        e.preventDefault();
-    //        var features = $(this).data('features');
-    //        console.log(features);
-    //        //$('#architectural_features').html(loadArchitecturalFeaturesContainer());
-    //
-    //        //        architecturalFeaturesJSON(id, function (features) {
-    //        //            console.log('IT WORKED');
-    //        //            $('#architectural_features').html(loadArchitecturalFeaturesContainer(features));
-    //        //        });
-    //        architecturalSection(features);
-    //        loadArchitecturalFeaturesContainer();
-    //
-    //        $('#architectural_features').html('<div id="hello">' + architecturalSection(features) + '</div>');
-    //        $('#architectural_features').append('<div id="archText"></div>');
-    //    });
-    //    $('#menuwrapper').on('click', '#aboutMerrion', function (e) {
-    //        e.preventDefault();
-    //        //////////////////////////$('.progress').show(); caused whole file to show errors in brackets/////////////
-    //        $('.progress').show();
-    //        aboutMerrionSection();
-    //    });
 }

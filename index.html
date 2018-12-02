@@ -263,12 +263,18 @@
         text-align: center;
     }
 
+    /* - - - - - - - - -    TABLE    - - - - - - - - - */
+
     table,
     td,
     th {
         border: 1px solid #ddd;
         text-align: center;
         background-color: white;
+        height: 5px;
+        padding: 0;
+        margin: 0;
+
     }
 
     table {
@@ -276,26 +282,23 @@
         width: 100%;
     }
 
-    tr,
-    td {
-        height: 2px;
+
+    th {
+        /*        height: 50px;*/
     }
 
-    th,
+    tr,
     td {
+        height: 5px;
         padding: 0;
         margin: 0;
     }
 
-    th,
     td.active {
-        padding: 5px;
         background-color: #ccc;
     }
 
-    a.tableBtn {
-        height: 100%;
-    }
+
 
 
     /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -394,7 +397,7 @@
         float: left;
     }
 
-    #historyMerrion {
+    #styleHistoryMerrion {
         height: 100vh;
         width: 33%;
         position: relative;
@@ -431,7 +434,7 @@
         float: left;
     }
 
-    #historyMerrion img {
+    #styleHistoryMerrion img {
         height: 100vh;
         width: 31.65vw;
         float: left;
@@ -918,43 +921,8 @@
 
     }
 
-    /* - - - - - - Comparsion Slider Window - - - - - - */
 
-    * {
-        box-sizing: border-box;
-    }
 
-    .img-comp-container {
-        position: relative;
-        height: 700px;
-        /*should be the same height as the images*/
-    }
-
-    .img-comp-img {
-        position: absolute;
-        width: auto;
-        height: auto;
-        overflow: hidden;
-    }
-
-    .img-comp-img img {
-        display: block;
-        vertical-align: middle;
-        max-width: none;
-    }
-
-    .img-comp-slider {
-
-        position: absolute;
-        z-index: 9;
-        cursor: ew-resize;
-        /*set the appearance of the slider:*/
-        width: 80px;
-        height: 80px;
-        background-color: #719AA1;
-        opacity: 0.7;
-        border-radius: 50%;
-    }
 
     /* - - - - - side button - the history of merrion square - - - -*/
 
@@ -1042,12 +1010,18 @@
     /*SVG house image*/
 
     .imgHouse svg {
-        height: 75vh;
-        width: 55vw;
-        padding-left: 175px;
+        height: 65vh;
+        width: 35vw;
+        /*        padding-left: 170px;*/
         padding-top: 40px;
-        padding-bottom: 2px;
+        /*        padding-bottom: 2px;*/
         position: absolute;
+    }
+
+    .imgHouse {
+        padding-left: 255px;
+        padding-top: 45px;
+        padding-bottom: 20px;
     }
 
     img#merrionOnboarding {
@@ -1078,64 +1052,9 @@
         padding-right: 16px;
     }
 
-    /*
- @-webkit-keyframes circleBounce {
-        0% {
-            -webkit-transform: scale(0.9);
-            opacity: 0;
-        }
-        25% {
-            opacity: 0.5;
-        }
-        50% {
-            opacity: 1;
-        }
-        75% {
-            opacity: 0.5;
-        }
-        100% {
-            -webkit-transform: scale(1.0);
-            opacity: 0;
-        }
-    }
-
-    .scrollAnimation {
-        position: relative;
-        top: 100px;
-        left: calc(50% - 3px);
-        width: 6px;
-        height: 6px;
-        border: 3px solid red;
-        border-top: none;
-        border-left: none;
 
 
-    }
 
-
-    #superContainer {
-        height: 100%;
-
-    .scrollAnimation:after {
-        content: "";
-        display: block;
-        position: absolute;
-        top: calc(50% - 23px);
-        //circle=1+50+1=52px/ left: calc(50% - 23px);
-        //arrow=3+3=6px/ width: 50px;
-        height: 50px;
-        border: 1px solid rgba(255, 255, 255, .8);
-        border: 1px solid red;
-        border-radius: 50%;
-
-        -webkit-animation: circleBounce 1.2s linear infinite;
-
-    }
-
-    .animateHotspot {
-        fill: magenta;
-    }
-*/
 
     div#sound {
         background-color: orange;
@@ -1172,91 +1091,6 @@
 
     <script>
         //About Section > Events
-        //Image Comparison
-        //w3 schools - https://www.w3schools.com/howto/howto_js_image_comparison.asp
-        function initComparisons() {
-            var x, i;
-            /*find all elements with an "overlay" class:*/
-            x = document.getElementsByClassName("img-comp-overlay");
-            for (i = 0; i < x.length; i++) {
-                /*once for each "overlay" element:
-                pass the "overlay" element as a parameter when executing the compareImages function:*/
-                compareImages(x[i]);
-            }
-
-            function compareImages(img) {
-                var slider, img, clicked = 0,
-                    w, h;
-                /*get the width and height of the img element*/
-                w = img.offsetWidth;
-                h = img.offsetHeight;
-                /*set the width of the img element to 50%:*/
-                img.style.width = (w / 2) + "px";
-                /*create slider:*/
-                slider = document.createElement("DIV");
-                slider.setAttribute("class", "img-comp-slider");
-                /*insert slider*/
-                img.parentElement.insertBefore(slider, img);
-                /*position the slider in the middle:*/
-                slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
-                slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
-                /*execute a function when the mouse button is pressed:*/
-                slider.addEventListener("mousedown", slideReady);
-                /*and another function when the mouse button is released:*/
-                window.addEventListener("mouseup", slideFinish);
-                /*or touched (for touch screens:*/
-                slider.addEventListener("touchstart", slideReady);
-                /*and released (for touch screens:*/
-                window.addEventListener("touchstop", slideFinish);
-
-                function slideReady(e) {
-                    /*prevent any other actions that may occur when moving over the image:*/
-                    e.preventDefault();
-                    /*the slider is now clicked and ready to move:*/
-                    clicked = 1;
-                    /*execute a function when the slider is moved:*/
-                    window.addEventListener("mousemove", slideMove);
-                    window.addEventListener("touchmove", slideMove);
-                }
-
-                function slideFinish() {
-                    /*the slider is no longer clicked:*/
-                    clicked = 0;
-                }
-
-                function slideMove(e) {
-                    var pos;
-                    /*if the slider is no longer clicked, exit this function:*/
-                    if (clicked == 0) return false;
-                    /*get the cursor's x position:*/
-                    pos = getCursorPos(e)
-                    /*prevent the slider from being positioned outside the image:*/
-                    if (pos < 0) pos = 0;
-                    if (pos > w) pos = w;
-                    /*execute a function that will resize the overlay image according to the cursor:*/
-                    slide(pos);
-                }
-
-                function getCursorPos(e) {
-                    var a, x = 0;
-                    e = e || window.event;
-                    /*get the x positions of the image:*/
-                    a = img.getBoundingClientRect();
-                    /*calculate the cursor's x coordinate, relative to the image:*/
-                    x = e.pageX - a.left;
-                    /*consider any page scrolling:*/
-                    x = x - window.pageXOffset;
-                    return x;
-                }
-
-                function slide(x) {
-                    /*resize the image:*/
-                    img.style.width = x + "px";
-                    /*position the slider:*/
-                    slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
-                }
-            }
-        }
 
         //loading the dublin city landing page map from the database
         $(document).ready(function() {
@@ -1277,9 +1111,8 @@
             //click event for About Merrion Square section in the About Merrion Square Menu 
             $('html').on('click', '#aboutMerrion', function(e) {
                 e.preventDefault();
-                //////////////////////////$('.progress').show(); caused whole file to show errors in brackets/////////////
                 $('.progress').show();
-                aboutMerrionSection();
+                aboutMerrionSection(23);
             });
 
             $('html').on('click', '#architecturalFeatures', function(e) {
@@ -1294,13 +1127,7 @@
                 e.preventDefault();
                 var features = $(this).data('features');
                 console.log(features);
-                //$('#architectural_features').html(loadArchitecturalFeaturesContainer());
-
-                //        architecturalFeaturesJSON(id, function (features) {
-                //            console.log('IT WORKED');
-                //            $('#architectural_features').html(loadArchitecturalFeaturesContainer(features));
-                //        });
-                //architecturalSection(features);
+         
                 loadArchitecturalFeaturesContainer();
 
                 $('#architectural_features').html('<div id="hello" style="display:none">' + architecturalSection(features) + '</div>');
@@ -1309,7 +1136,6 @@
 
             $('html').on('click', '#historyMerrion', function(e) {
                 e.preventDefault();
-                initComparisons();
                 createMerrionHistorySection();
             });
 
