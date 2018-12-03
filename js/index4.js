@@ -130,7 +130,7 @@ function merrionModal() {
     //    html += '<h3 class="modal-title" id="MerrionModalCenterTitle" ></h3>';
     html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close">';
     html += '<span aria-hidden="true">&times;</span></button></div>';
-    html += '<div class="merrion-modal-body"><img id="merrionOnboarding" style="width: 100%; height: 300%;" src="img/onboardingMS.gif"/></div>';
+    html += '<div class="merrion-modal-body"><img id="merrionOnboarding" style="width: 100%; height: 300%;" src="img/onboardingMS.png"/></div>';
     html += '<div class="merrion-modal-body"></div>';
     html += '</div></div>';
 
